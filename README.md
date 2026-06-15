@@ -121,11 +121,12 @@ Traditionally, developers manage system instructions for AI agents in a fragment
 
 ## 🎮 Controls & Commands
 
-Use the **keyboard arrow keys (↑/↓/←/→)** to navigate the skills grid and action menu, press **[Space] or [Enter]** to toggle skill activation, and select bottom menu actions to run dependency scans or create skills manually.
+Use the **keyboard arrow keys (↑/↓/←/→)** to navigate the skills grid and action menu, press **[Space] or [Enter]** to toggle skill activation, press **[d] or [Delete]** to permanently delete a custom skill from your catalog (requires confirmation), and select bottom menu actions to run dependency scans or create skills manually.
 
 If you prefer using direct CLI commands instead of the visual interface:
 *   **Activate a skill**: `npx skilltree add <skill-id>` (or `node .skilltree/bin/skill-add.cjs add <skill-id>`)
 *   **Deactivate a skill**: `npx skilltree remove <skill-id>`
+*   **Delete a skill**: `npx skilltree delete <skill-id>`
 *   **Run Automated Scan**: `npx skilltree scan`
 
 ---
