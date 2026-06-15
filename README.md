@@ -67,7 +67,7 @@ Traditionally, developers manage system instructions for AI agents in a fragment
 
 ```text
 .skilltree/
-├── .bin/
+├── bin/
 │   └── skill-add.cjs            # The universal CLI tool (CommonJS)
 ├── tree/                        # Core catalog categorized by stack and scope
 │   ├── backend/
@@ -91,9 +91,9 @@ Traditionally, developers manage system instructions for AI agents in a fragment
    ```
 2. **Run the Dashboard** using Node.js:
    ```bash
-   node .skilltree/.bin/skill-add.cjs
+   node .skilltree/bin/skill-add.cjs
    ```
-3. Use the **keyboard arrow keys (↑/↓/←/→)** to navigate the skills grid and action menu, press **[Space] or [Enter]** to toggle skill activation, and select bottom menu actions to run dependency scans or create skills manually. You can also run direct CLI commands, e.g., `node .skilltree/.bin/skill-add.cjs add <skill-id>`.
+3. Use the **keyboard arrow keys (↑/↓/←/→)** to navigate the skills grid and action menu, press **[Space] or [Enter]** to toggle skill activation, and select bottom menu actions to run dependency scans or create skills manually. You can also run direct CLI commands, e.g., `node .skilltree/bin/skill-add.cjs add <skill-id>`.
 
 ---
 

@@ -65,7 +65,7 @@ O `.skilltree` suporta múltiplos idiomas nativamente, permitindo que desenvolve
 
 ```text
 .skilltree/
-├── .bin/
+├── bin/
 │   └── skill-add.cjs            # Utilitário CLI universal (CommonJS)
 ├── tree/                        # Catálogo de habilidades locais por categoria
 │   ├── backend/
@@ -89,9 +89,9 @@ O `.skilltree` suporta múltiplos idiomas nativamente, permitindo que desenvolve
    ```
 2. **Execute a CLI** usando Node.js para abrir o painel:
    ```bash
-   node .skilltree/.bin/skill-add.cjs
+   node .skilltree/bin/skill-add.cjs
    ```
-3. Use as **setas do teclado (↑/↓/←/→)** para navegar pela grade de habilidades e o menu de ações, pressione **[Espaço] ou [Enter]** para ativar/desativar habilidades locais, e selecione as opções do menu inferior para executar varreduras, criar habilidades ou gerenciar o idioma. Você também pode rodar comandos diretamente, ex: `node .skilltree/.bin/skill-add.cjs add <id-habilidade>`.
+3. Use as **setas do teclado (↑/↓/←/→)** para navegar pela grade de habilidades e o menu de ações, pressione **[Espaço] ou [Enter]** para ativar/desativar habilidades locais, e selecione as opções do menu inferior para executar varreduras, criar habilidades ou gerenciar o idioma. Você também pode rodar comandos diretamente, ex: `node .skilltree/bin/skill-add.cjs add <id-habilidade>`.
 
 ---
 

@@ -9,7 +9,7 @@ Este documento descreve o modelo de segurança do `.skilltree`, como os prompts 
 Como o `.skilltree` compila diretrizes de prompt diretamente em arquivos consumidos por agentes de IA na sua IDE e terminal, a segurança é nossa prioridade máxima. Agentes de IA possuem capacidades de execução; logo, prompts injetados ou configurações não autorizadas no workspace podem representar riscos de segurança.
 
 ### 1. Compilação de Regras Segura
-O script do compilador (`.bin/skill-add.cjs`) opera de forma estritamente local:
+O script do compilador (`bin/skill-add.cjs`) opera de forma estritamente local:
 * **Sem Chamadas de Rede:** Não envia código ou metadados para servidores externos. Todo o escaneamento do workspace e a compilação das regras ocorrem inteiramente na sua máquina local.
 * **Mesclagem Não Destrutiva:** O compilador utiliza marcadores de segurança (`### 🌲 --- SKILLTREE SECTION START ---`) para garantir que apenas sua própria seção gerada seja alterada, preservando todas as demais regras customizadas do usuário.
 

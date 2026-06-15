@@ -54,7 +54,7 @@ A melhor forma de criar um novo nó de habilidade é usando a própria CLI do fr
 
 1.  **Execute o criador de habilidades** na raiz da sua pasta `skilltree`:
     ```bash
-    node .bin/skill-add.cjs create
+    node bin/skill-add.cjs create
     ```
 2.  **Informe os dados solicitados**:
     *   **Nome da Habilidade**: O nome descritivo (ex: `Docker Hardening Specialist`).

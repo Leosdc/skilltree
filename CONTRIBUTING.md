@@ -54,7 +54,7 @@ The best way to build a new skill node is using the framework's CLI to ensure th
 
 1.  **Run the node creator** at your `skilltree` repository root:
     ```bash
-    node .bin/skill-add.cjs create
+    node bin/skill-add.cjs create
     ```
 2.  **Provide the requested metadata**:
     *   **Skill Name**: A descriptive name (e.g., `Docker Hardening Specialist`).

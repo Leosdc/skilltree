@@ -19,7 +19,7 @@ git clone https://github.com/Leosdc/skilltree.git .skilltree
 ### Step 2: Run the compiler CLI
 Launch the interactive dashboard to manage rule nodes or use command-line parameters directly:
 ```bash
-node .skilltree/.bin/skill-add.cjs
+node .skilltree/bin/skill-add.cjs
 ```
 This script detects it is running inside a `.skilltree` subfolder and automatically updates the rules in your **parent project root** (e.g., creating `.cursorrules` and `.clauderules` in the parent directory).
 
@@ -33,7 +33,7 @@ The Skill Tree utility offers two full interaction modes:
 Opens an interactive CLI dashboard directly in your terminal with dynamic keyboard navigation, displaying the original giant robot mascot and the skills organized in horizontal columns.
 *   **How to open**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs
+    node .skilltree/bin/skill-add.cjs
     # Or if you set up the alias:
     skill-add
     ```
@@ -46,29 +46,29 @@ Opens an interactive CLI dashboard directly in your terminal with dynamic keyboa
 For developers who prefer command-line speed or want to automate rule compiling inside automation scripts and CI/CD pipelines.
 *   **Initialize workspace structure**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs init
+    node .skilltree/bin/skill-add.cjs init
     ```
 *   **List registered skills and their active status**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs list
+    node .skilltree/bin/skill-add.cjs list
     ```
 *   **Activate a specific skill node by its ID**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs add <skill-id>
-    # Example: node .skilltree/.bin/skill-add.cjs add postgres-expert
+    node .skilltree/bin/skill-add.cjs add <skill-id>
+    # Example: node .skilltree/bin/skill-add.cjs add postgres-expert
     ```
 *   **Deactivate a specific skill node by its ID**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs remove <skill-id>
-    # Example: node .skilltree/.bin/skill-add.cjs remove postgres-expert
+    node .skilltree/bin/skill-add.cjs remove <skill-id>
+    # Example: node .skilltree/bin/skill-add.cjs remove postgres-expert
     ```
 *   **Create a custom skill via text prompts**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs create
+    node .skilltree/bin/skill-add.cjs create
     ```
 *   **Run the automated codebase dependency/extension scanner**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs scan
+    node .skilltree/bin/skill-add.cjs scan
     ```
 
 ---
@@ -92,7 +92,7 @@ function skill-add {
 ### On macOS / Linux (Bash or Zsh)
 Add this to your `~/.bashrc` or `~/.zshrc`:
 ```bash
-alias skill-add="node .skilltree/.bin/skill-add.cjs"
+alias skill-add="node .skilltree/bin/skill-add.cjs"
 ```
 Now, in any project that contains the `.skilltree` folder, you can simply run:
 ```bash
@@ -125,7 +125,7 @@ You can easily expand the tree with custom instructions tailored for your projec
 
 1. In the terminal, run the creation CLI:
    ```bash
-   node .skilltree/.bin/skill-add.cjs create
+   node .skilltree/bin/skill-add.cjs create
    ```
 2. Enter the skill name (e.g., `redis-caching`) and category (e.g., `backend`).
 3. The tool generates:

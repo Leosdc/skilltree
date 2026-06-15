@@ -17,7 +17,7 @@ git clone https://github.com/Leosdc/skilltree.git .skilltree
 ### Passo 2: Executar o compilador
 Abra o painel interativo de gerenciamento de habilidades ou utilize a linha de comando para começar.
 ```bash
-node .skilltree/.bin/skill-add.cjs
+node .skilltree/bin/skill-add.cjs
 ```
 O utilitário detecta automaticamente que está sob a pasta `.skilltree` e passará a ler/escrever os arquivos de regras (como `.cursorrules` e `.clauderules`) **um nível acima, na raiz do seu projeto hospedeiro**.
 
@@ -31,7 +31,7 @@ O utilitário do Skill Tree oferece duas formas completas de gerenciamento:
 Abre uma interface interativa diretamente no seu terminal com navegação dinâmica via teclado, exibindo o mascote original e a árvore de habilidades em colunas horizontais.
 *   **Como abrir**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs
+    node .skilltree/bin/skill-add.cjs
     # Ou se você configurou o alias:
     skill-add
     ```
@@ -44,29 +44,29 @@ Abre uma interface interativa diretamente no seu terminal com navegação dinâm
 Para quem prefere a agilidade da linha de comando tradicional ou deseja automatizar a ativação de regras em scripts do sistema e pipelines de CI/CD.
 *   **Inicializar a estrutura do workspace**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs init
+    node .skilltree/bin/skill-add.cjs init
     ```
 *   **Listar habilidades cadastradas e seus status**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs list
+    node .skilltree/bin/skill-add.cjs list
     ```
 *   **Ativar uma habilidade específica**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs add <id-da-habilidade>
-    # Exemplo: node .skilltree/.bin/skill-add.cjs add postgres-expert
+    node .skilltree/bin/skill-add.cjs add <id-da-habilidade>
+    # Exemplo: node .skilltree/bin/skill-add.cjs add postgres-expert
     ```
 *   **Desativar uma habilidade específica**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs remove <id-da-habilidade>
-    # Exemplo: node .skilltree/.bin/skill-add.cjs remove postgres-expert
+    node .skilltree/bin/skill-add.cjs remove <id-da-habilidade>
+    # Exemplo: node .skilltree/bin/skill-add.cjs remove postgres-expert
     ```
 *   **Criar nova habilidade local (assistente de texto)**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs create
+    node .skilltree/bin/skill-add.cjs create
     ```
 *   **Executar varredura automática do código**:
     ```bash
-    node .skilltree/.bin/skill-add.cjs scan
+    node .skilltree/bin/skill-add.cjs scan
     ```
 
 ---
@@ -90,7 +90,7 @@ function skill-add {
 ### No macOS / Linux (Bash ou Zsh)
 Adicione esta linha no final do seu `~/.bashrc` ou `~/.zshrc`:
 ```bash
-alias skill-add="node .skilltree/.bin/skill-add.cjs"
+alias skill-add="node .skilltree/bin/skill-add.cjs"
 ```
 Com isso, em qualquer projeto que possua a pasta `.skilltree`, basta digitar:
 ```bash
@@ -123,7 +123,7 @@ Você pode adicionar suas próprias diretrizes de código à Skill Tree.
 
 1. No terminal do projeto, execute o criador de nós:
    ```bash
-   node .skilltree/.bin/skill-add.cjs create
+   node .skilltree/bin/skill-add.cjs create
    ```
 2. Forneça o nome da habilidade (ex: `redis-caching`) e a categoria (ex: `backend`).
 3. O CLI criará automaticamente:

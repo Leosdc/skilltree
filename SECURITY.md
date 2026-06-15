@@ -9,7 +9,7 @@ This document outlines the security model of `.skilltree`, how custom skill prom
 Because `.skilltree` compiles prompt instructions directly into files loaded by AI agents in your IDE and terminal, security is a core priority. AI agents possess execution capabilities; therefore, injected prompts or unauthorized workspace configurations pose a security risk.
 
 ### 1. Safe Rule Compilation
-The compiler script (`.bin/skill-add.cjs`) operates strictly locally.
+The compiler script (`bin/skill-add.cjs`) operates strictly locally.
 * **No Network Calls:** It does not send code or metadata to external servers. All workspace scanning and rule compilation happen entirely on your machine.
 * **Non-destructive Merging:** The compiler uses safety markers (`### 🌲 --- SKILLTREE SECTION START ---`) to ensure it only overwrites its own generated rules, preserving any custom user rules.
 
