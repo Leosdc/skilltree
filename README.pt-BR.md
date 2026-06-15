@@ -83,6 +83,19 @@ O `.skilltree` suporta múltiplos idiomas nativamente, permitindo que desenvolve
 
 ## 🏁 Início Rápido
 
+### Opção 1: Via NPM (Recomendado)
+
+1. Instale o pacote no seu projeto:
+   ```bash
+   npm i @leosdc/skilltree
+   ```
+2. Abra o painel interativo:
+   ```bash
+   npx skilltree
+   ```
+
+### Opção 2: Via Clone do Git (Local)
+
 1. **Clone** o repositório como uma pasta oculta `.skilltree` na raiz do seu projeto ativo:
    ```bash
    git clone https://github.com/Leosdc/skilltree.git .skilltree
@@ -91,7 +104,17 @@ O `.skilltree` suporta múltiplos idiomas nativamente, permitindo que desenvolve
    ```bash
    node .skilltree/bin/skill-add.cjs
    ```
-3. Use as **setas do teclado (↑/↓/←/→)** para navegar pela grade de habilidades e o menu de ações, pressione **[Espaço] ou [Enter]** para ativar/desativar habilidades locais, e selecione as opções do menu inferior para executar varreduras, criar habilidades ou gerenciar o idioma. Você também pode rodar comandos diretamente, ex: `node .skilltree/bin/skill-add.cjs add <id-habilidade>`.
+
+---
+
+## 🎮 Controles e Comandos
+
+Use as **setas do teclado (↑/↓/←/→)** para navegar pela grade de habilidades e o menu de ações, pressione **[Espaço] ou [Enter]** para ativar/desativar habilidades locais, e selecione as opções do menu inferior para executar varreduras, criar habilidades ou gerenciar o idioma.
+
+Se preferir a linha de comando direta sem interface visual:
+*   **Ativar habilidade**: `npx skilltree add <id-habilidade>` (ou `node .skilltree/bin/skill-add.cjs add <id-habilidade>`)
+*   **Desativar habilidade**: `npx skilltree remove <id-habilidade>`
+*   **Executar Varredura**: `npx skilltree scan`
 
 ---
 

@@ -85,6 +85,19 @@ Traditionally, developers manage system instructions for AI agents in a fragment
 
 ## 🏁 Quick Start
 
+### Option 1: Via NPM (Recommended)
+
+1. Install the package in your project:
+   ```bash
+   npm i @leosdc/skilltree
+   ```
+2. Open the interactive dashboard:
+   ```bash
+   npx skilltree
+   ```
+
+### Option 2: Via Git Clone (Local)
+
 1. **Clone** the repository as a `.skilltree` folder inside your project workspace:
    ```bash
    git clone https://github.com/Leosdc/skilltree.git .skilltree
@@ -93,7 +106,17 @@ Traditionally, developers manage system instructions for AI agents in a fragment
    ```bash
    node .skilltree/bin/skill-add.cjs
    ```
-3. Use the **keyboard arrow keys (↑/↓/←/→)** to navigate the skills grid and action menu, press **[Space] or [Enter]** to toggle skill activation, and select bottom menu actions to run dependency scans or create skills manually. You can also run direct CLI commands, e.g., `node .skilltree/bin/skill-add.cjs add <skill-id>`.
+
+---
+
+## 🎮 Controls & Commands
+
+Use the **keyboard arrow keys (↑/↓/←/→)** to navigate the skills grid and action menu, press **[Space] or [Enter]** to toggle skill activation, and select bottom menu actions to run dependency scans or create skills manually.
+
+If you prefer using direct CLI commands instead of the visual interface:
+*   **Activate a skill**: `npx skilltree add <skill-id>` (or `node .skilltree/bin/skill-add.cjs add <skill-id>`)
+*   **Deactivate a skill**: `npx skilltree remove <skill-id>`
+*   **Run Automated Scan**: `npx skilltree scan`
 
 ---
 

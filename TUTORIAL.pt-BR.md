@@ -6,20 +6,31 @@ Este tutorial guia você no processo de instalação, configuração de atalhos 
 
 ## 📦 Como Integrar nos seus Projetos
 
-O `.skilltree` foi projetado para ser clonado como uma pasta oculta chamada `.skilltree` dentro do repositório de qualquer projeto. Isso permite salvar e versionar as regras do time de desenvolvimento de forma isolada por projeto.
+O `.skilltree` oferece duas formas de integração: via pacote NPM (recomendada) ou clone do Git.
 
-### Passo 1: Clonar no projeto
-Abra seu terminal na raiz do projeto onde deseja habilitar a Skill Tree e execute:
+### Opção A: Instalação via NPM (Recomendado)
+
+Abra seu terminal na raiz do projeto hospedeiro e instale a dependência de desenvolvimento:
+```bash
+npm i @leosdc/skilltree
+```
+Depois de instalado, inicialize a estrutura e abra o painel interativo:
+```bash
+npx skilltree
+```
+A CLI detectará o ambiente automaticamente e passará a ler e escrever as regras diretamente na raiz do seu workspace.
+
+### Opção B: Clone Manual do Git (Local)
+
+Se preferir versionar a CLI junto com suas regras locais em formato Git, clone-a como uma subpasta oculta na raiz do seu projeto:
 ```bash
 git clone https://github.com/Leosdc/skilltree.git .skilltree
 ```
-
-### Passo 2: Executar o compilador
-Abra o painel interativo de gerenciamento de habilidades ou utilize a linha de comando para começar.
+Em seguida, execute a CLI diretamente via Node:
 ```bash
 node .skilltree/bin/skill-add.cjs
 ```
-O utilitário detecta automaticamente que está sob a pasta `.skilltree` e passará a ler/escrever os arquivos de regras (como `.cursorrules` e `.clauderules`) **um nível acima, na raiz do seu projeto hospedeiro**.
+O utilitário detecta automaticamente que está sob a subpasta `.skilltree` e passará a ler/escrever os arquivos de regras (como `.cursorrules` e `.clauderules`) **um nível acima, na raiz do seu projeto hospedeiro**.
 
 ---
 

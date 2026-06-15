@@ -8,16 +8,27 @@ This tutorial guides you through installing, running, and customizing `.skilltre
 
 ## 📦 How to Integrate into Your Projects
 
-`.skilltree` is designed to be cloned directly inside your active project workspaces as a subdirectory named `.skilltree`. This allows you to track and version active skills on a per-project basis.
+`.skilltree` offers two integration methods: via NPM package (recommended) or manual Git cloning.
 
-### Step 1: Clone into the project
-Open your terminal in the root directory of the project you want to enhance, and run:
+### Option A: Install via NPM (Recommended)
+
+Open your terminal in the root directory of your host project and install it as a development dependency:
+```bash
+npm i @leosdc/skilltree
+```
+Once installed, initialize and open the interactive CLI dashboard:
+```bash
+npx skilltree
+```
+The CLI will automatically detect your project's context and write rules directly in your workspace root.
+
+### Option B: Manual Git Clone (Local)
+
+If you prefer versioning the compiler scripts together with your custom workspace prompts, clone the repository as a hidden subdirectory:
 ```bash
 git clone https://github.com/Leosdc/skilltree.git .skilltree
 ```
-
-### Step 2: Run the compiler CLI
-Launch the interactive dashboard to manage rule nodes or use command-line parameters directly:
+Then, execute the CLI compiler directly using Node:
 ```bash
 node .skilltree/bin/skill-add.cjs
 ```
