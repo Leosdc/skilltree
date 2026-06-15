@@ -51,6 +51,7 @@ Opens an interactive CLI dashboard directly in your terminal with dynamic keyboa
 *   **Controls**:
     *   **Arrow keys (↑ / ↓ / ← / →)**: Navigate the grid of available skills and the actions menu at the bottom.
     *   **Space / Enter (on a skill)**: Toggle the activation status (check/uncheck) of the selected workspace skill.
+    *   **d / Delete (on a skill)**: Permanently delete the selected custom skill from your catalog (asks for confirmation).
     *   **Enter (on an action)**: Instantly execute commands (such as running the automated scanner, creating manual skills, changing languages, or displaying JSON state).
 
 ### 2. Direct CLI Commands (Automation / No UI)
@@ -72,6 +73,11 @@ For developers who prefer command-line speed or want to automate rule compiling 
     ```bash
     node .skilltree/bin/skill-add.cjs remove <skill-id>
     # Example: node .skilltree/bin/skill-add.cjs remove postgres-expert
+    ```
+*   **Delete a specific skill node by its ID**:
+    ```bash
+    node .skilltree/bin/skill-add.cjs delete <skill-id>
+    # Example: node .skilltree/bin/skill-add.cjs delete postgres-expert
     ```
 *   **Create a custom skill via text prompts**:
     ```bash
