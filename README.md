@@ -1,5 +1,8 @@
 # 🌲 .skilltree
 
+[![npm version](https://img.shields.io/npm/v/@leosdc/skilltree.svg)](https://www.npmjs.com/package/@leosdc/skilltree)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![Skill Tree Flow](skill_tree_flow.png)
 
 > The universal, community-driven skill tree repository for AI Agents.
@@ -87,7 +90,7 @@ Traditionally, developers manage system instructions for AI agents in a fragment
 
 ### Option 1: Via NPM (Recommended)
 
-1. Install the package in your project:
+1. Install the package [@leosdc/skilltree](https://www.npmjs.com/package/@leosdc/skilltree) in your project:
    ```bash
    npm i @leosdc/skilltree
    ```

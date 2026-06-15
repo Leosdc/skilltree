@@ -1,5 +1,8 @@
 # 🌲 .skilltree
 
+[![npm version](https://img.shields.io/npm/v/@leosdc/skilltree.svg)](https://www.npmjs.com/package/@leosdc/skilltree)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![Fluxo do Skill Tree](skill_tree_flow.png)
 
 > O repositório universal de árvore de habilidades para Agentes de IA.
@@ -85,7 +88,7 @@ O `.skilltree` suporta múltiplos idiomas nativamente, permitindo que desenvolve
 
 ### Opção 1: Via NPM (Recomendado)
 
-1. Instale o pacote no seu projeto:
+1. Instale o pacote [@leosdc/skilltree](https://www.npmjs.com/package/@leosdc/skilltree) no seu projeto:
    ```bash
    npm i @leosdc/skilltree
    ```
