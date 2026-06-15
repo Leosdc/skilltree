@@ -1,12 +1,16 @@
 # 🌲 .skilltree
 
-[![npm version](https://img.shields.io/npm/v/@leosdc/skilltree.svg)](https://www.npmjs.com/package/@leosdc/skilltree)
-[![npm downloads](https://img.shields.io/npm/dm/@leosdc/skilltree.svg)](https://www.npmjs.com/package/@leosdc/skilltree)
-[![GitHub stars](https://img.shields.io/github/stars/Leosdc/skilltree.svg)](https://github.com/Leosdc/skilltree/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/Leosdc/skilltree.svg)](https://github.com/Leosdc/skilltree/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+  <img src="skill_tree_flow.png" alt="Skill Tree Flow" width="800">
+</p>
 
-![Skill Tree Flow](skill_tree_flow.png)
+<p align="center">
+  <a href="https://www.npmjs.com/package/@leosdc/skilltree"><img src="https://img.shields.io/npm/v/@leosdc/skilltree.svg" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/@leosdc/skilltree"><img src="https://img.shields.io/npm/dm/@leosdc/skilltree.svg" alt="npm downloads"></a>
+  <a href="https://github.com/Leosdc/skilltree/stargazers"><img src="https://img.shields.io/github/stars/Leosdc/skilltree.svg" alt="GitHub stars"></a>
+  <a href="https://github.com/Leosdc/skilltree/issues"><img src="https://img.shields.io/github/issues/Leosdc/skilltree.svg" alt="GitHub issues"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
 
 > The universal, community-driven skill tree repository for AI Agents.
 
