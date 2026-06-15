@@ -1,5 +1,5 @@
 {
-  "name": "skilltree",
+  "name": "@leosdc/skilltree",
   "version": "1.0.0",
   "description": "Modular skill tree compiler and AI rules manager for developer workspaces. Integrates dynamically with Cursor, VS Code, Windsurf, Claude Code, and Antigravity.",
   "main": "./.bin/skill-add.cjs",
@@ -34,5 +34,23 @@
   "homepage": "https://github.com/Leosdc/skilltree#readme",
   "engines": {
     "node": ">=16.0.0"
+  },
+  "files": [
+    ".bin/",
+    "tree/",
+    "README.md",
+    "README.pt-BR.md",
+    "TUTORIAL.md",
+    "TUTORIAL.pt-BR.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "CONTRIBUTING.pt-BR.md",
+    "SECURITY.md",
+    "SECURITY.pt-BR.md",
+    "ascii-art.txt",
+    "skill_tree_flow.png"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
