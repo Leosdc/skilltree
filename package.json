@@ -1,0 +1,38 @@
+{
+  "name": "skilltree",
+  "version": "1.0.0",
+  "description": "Modular skill tree compiler and AI rules manager for developer workspaces. Integrates dynamically with Cursor, VS Code, Windsurf, Claude Code, and Antigravity.",
+  "main": "./.bin/skill-add.cjs",
+  "bin": {
+    "skilltree": "./.bin/skill-add.cjs"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node ./.bin/skill-add.cjs"
+  },
+  "keywords": [
+    "skilltree",
+    "ai",
+    "cursorrules",
+    "copilot",
+    "claude",
+    "windsurf",
+    "gemini",
+    "rules",
+    "prompt-engineering",
+    "developer-tools"
+  ],
+  "author": "Leosdc",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leosdc/skilltree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leosdc/skilltree/issues"
+  },
+  "homepage": "https://github.com/Leosdc/skilltree#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

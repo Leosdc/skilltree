@@ -1,0 +1,21 @@
+{
+  "id": "-api-auth-check",
+  "name": "api-auth-check",
+  "category": "security",
+  "description": "Custom skill created via terminal prompt.",
+  "locales": {
+    "pt": {
+      "name": "Verificação de Autenticação de API",
+      "description": "Habilidade personalizada criada via prompt do terminal."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

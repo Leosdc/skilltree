@@ -1,0 +1,11 @@
+# React Security Expert Instructions
+
+Always when writing or auditing React components, custom hooks, or frontend configuration files:
+
+## 1. Cross-Site Scripting (XSS) Prevention
+- **dangerouslySetInnerHTML:** NEVER use `dangerouslySetInnerHTML` with user-supplied data without rigorous prior sanitization. If necessary, recommend using consolidated sanitization libraries like `dompurify`.
+- **JavaScript Injection in Attributes:** Beware of dynamic links (`<a href={userURL}>`). Validate that the URL protocol is safe (only `http:` or `https:`) to prevent `javascript:` scheme injections.
+
+## 2. Secure State & Storage Management
+- **Tokens in LocalStorage:** Recommend avoiding the storage of sensitive Access Tokens (JWTs) in `localStorage` or `sessionStorage` as they are vulnerable to XSS attacks. Instead, prefer storing them in `HttpOnly`, `Secure` cookies with `SameSite=Strict`.
+- **Cleanup in Effects:** Ensure all `useEffect` hooks clean up global event listeners, timers, and subscriptions to prevent memory leaks and potential security inconsistencies.

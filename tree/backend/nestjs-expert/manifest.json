@@ -1,0 +1,21 @@
+{
+  "id": "nestjs-expert",
+  "name": "NestJS Architectural & Security Expert",
+  "category": "backend",
+  "description": "Enterprise NestJS patterns, validation, and secure error handling.",
+  "locales": {
+    "pt": {
+      "name": "Especialista em Arquitetura e Segurança NestJS",
+      "description": "Padrões de arquitetura corporativa em NestJS, validação com DTOs, e tratamento seguro de erros."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["nest-cli.json", "*.controller.ts", "*.module.ts", "*.service.ts"],
+    "dependencies": ["@nestjs/core", "@nestjs/common", "@nestjs/swagger"]
+  }
+}

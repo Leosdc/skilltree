@@ -1,0 +1,21 @@
+{
+  "id": "react-security",
+  "name": "React Security Expert",
+  "category": "frontend",
+  "description": "Frontend security practices to avoid XSS, state leakage, and unsafe DOM manipulation in React.",
+  "locales": {
+    "pt": {
+      "name": "Especialista em Segurança React",
+      "description": "Práticas de segurança no front-end para evitar XSS, vazamento de estado e manipulação insegura de DOM no React."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["App.jsx", "App.tsx", "index.tsx", "main.tsx", "package.json"],
+    "dependencies": ["react", "react-dom", "next", "vite"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "owasp-audit",
+  "name": "OWASP Security Audit Specialist",
+  "category": "security",
+  "description": "Static vulnerability analysis and implementation of defenses based on the OWASP Top 10.",
+  "locales": {
+    "pt": {
+      "name": "Especialista em Auditoria de Segurança OWASP",
+      "description": "Análise estática de vulnerabilidades e implementação de defesas baseadas no OWASP Top 10."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["auth.js", "auth.ts", "middleware.js", "middleware.ts", "login.*", "api/*.js", "api/*.ts"],
+    "dependencies": ["jsonwebtoken", "bcrypt", "passport", "helmet", "cors", "express-rate-limit"]
+  }
+}

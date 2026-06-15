@@ -1,0 +1,21 @@
+{
+  "id": "docker-hardening",
+  "name": "Docker & K8s Hardening Specialist",
+  "category": "DevOps",
+  "description": "Strict security guidelines for Dockerfiles, Docker Compose, and Kubernetes manifests.",
+  "locales": {
+    "pt": {
+      "name": "Especialista em Endurecimento Docker & K8s",
+      "description": "Boas práticas rígidas de segurança para arquivos Dockerfile, Docker Compose e manifestos Kubernetes."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["Dockerfile", "docker-compose.yml", "docker-compose.yaml", "pod.yaml", "deployment.yaml", "k8s/*.yaml"],
+    "dependencies": []
+  }
+}

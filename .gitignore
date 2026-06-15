@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Configurações locais e estado pessoal do usuário
+config.json
+active-tree.json
+
+# Arquivos de regras compilados localmente (gerados pela CLI)
+.cursorrules
+.clauderules
+.windsurfrules
+.clawnrules
+.copilot-instructions.md
+.cursor/rules/
+
+# IDEs e logs
+.vscode/
+.idea/
+*.log
+.DS_Store

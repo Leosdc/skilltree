@@ -1,0 +1,21 @@
+{
+  "id": "postgres-expert",
+  "name": "Postgres Optimization Expert",
+  "category": "backend",
+  "description": "Advanced guidelines for SQL query optimization, database design, and PostgreSQL performance tuning.",
+  "locales": {
+    "pt": {
+      "name": "Especialista em Otimização PostgreSQL",
+      "description": "Diretrizes avançadas para otimização de consultas SQL, indexação inteligente e performance em PostgreSQL."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["*.sql", "schema.db", "prisma.schema", "knexfile.js", "datasource.ts", "ormconfig.json"],
+    "dependencies": ["pg", "pg-promise", "sequelize", "typeorm", "prisma", "knex", "pg-query-stream"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "python-expert",
+  "name": "Python Security & Optimization Expert",
+  "category": "backend",
+  "description": "Secure Python development, command injection prevention, SQL parameterization, and memory optimization.",
+  "locales": {
+    "pt": {
+      "name": "Especialista em Otimização e Segurança Python",
+      "description": "Desenvolvimento seguro em Python, prevenção de Command Injection, parametrização SQL e otimização de memória."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["requirements.txt", "Pipfile", "pyproject.toml", "poetry.lock", "setup.py", "main.py"],
+    "dependencies": ["django", "flask", "fastapi", "sqlalchemy", "requests", "numpy", "pandas"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ci-cd-hardening",
+  "name": "CI/CD & GitHub Actions Hardening",
+  "category": "DevOps",
+  "description": "Advanced security practices for CI/CD pipelines, secret safety, and execution isolation in GitHub Actions.",
+  "locales": {
+    "pt": {
+      "name": "Endurecimento de CI/CD e GitHub Actions",
+      "description": "Práticas de segurança avançadas para pipelines CI/CD, segurança de segredos e isolamento no GitHub Actions."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": ["*.yml", "*.yaml", "cloudbuild.yaml", "gitlab-ci.yml"],
+    "dependencies": []
+  }
+}
