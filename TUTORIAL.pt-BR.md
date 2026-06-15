@@ -49,6 +49,7 @@ Abre uma interface interativa diretamente no seu terminal com navegação dinâm
 *   **Controles**:
     *   **Setas (↑ / ↓ / ← / →)**: Navegar pela grade de habilidades e lista de ações inferiores.
     *   **Espaço / Enter (sobre uma habilidade)**: Alternar o status de ativação (marcar/desmarcar) da habilidade selecionada no workspace.
+    *   **d / Delete (sobre uma habilidade)**: Excluir permanentemente do catálogo a habilidade personalizada selecionada (requer confirmação).
     *   **Enter (sobre uma ação)**: Executa ações imediatas (como executar a varredura automática, criar novas habilidades manuais, mudar idioma ou visualizar as regras em JSON).
 
 ### 2. Comandos CLI Diretos (Automação / Sem Interface)
@@ -70,6 +71,11 @@ Para quem prefere a agilidade da linha de comando tradicional ou deseja automati
     ```bash
     node .skilltree/bin/skill-add.cjs remove <id-da-habilidade>
     # Exemplo: node .skilltree/bin/skill-add.cjs remove postgres-expert
+    ```
+*   **Apagar uma habilidade específica**:
+    ```bash
+    node .skilltree/bin/skill-add.cjs delete <id-da-habilidade>
+    # Exemplo: node .skilltree/bin/skill-add.cjs delete postgres-expert
     ```
 *   **Criar nova habilidade local (assistente de texto)**:
     ```bash
