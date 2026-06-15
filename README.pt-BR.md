@@ -119,11 +119,12 @@ O `.skilltree` suporta múltiplos idiomas nativamente, permitindo que desenvolve
 
 ## 🎮 Controles e Comandos
 
-Use as **setas do teclado (↑/↓/←/→)** para navegar pela grade de habilidades e o menu de ações, pressione **[Espaço] ou [Enter]** para ativar/desativar habilidades locais, e selecione as opções do menu inferior para executar varreduras, criar habilidades ou gerenciar o idioma.
+Use as **setas do teclado (↑/↓/←/→)** para navegar pela grade de habilidades e o menu de ações, pressione **[Espaço] ou [Enter]** para ativar/desativar habilidades locais, pressione **[d] ou [Delete]** para excluir permanentemente uma habilidade personalizada do catálogo (requer confirmação), e selecione as opções do menu inferior para executar varreduras, criar habilidades ou gerenciar o idioma.
 
 Se preferir a linha de comando direta sem interface visual:
 *   **Ativar habilidade**: `npx skilltree add <id-habilidade>` (ou `node .skilltree/bin/skill-add.cjs add <id-habilidade>`)
 *   **Desativar habilidade**: `npx skilltree remove <id-habilidade>`
+*   **Apagar habilidade**: `npx skilltree delete <id-habilidade>`
 *   **Executar Varredura**: `npx skilltree scan`
 
 ---
