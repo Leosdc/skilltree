@@ -31,7 +31,7 @@ let currentLang = 'en'; // Padrão
 // Dicionário i18n para suporte multi-idiomas
 const TRANSLATIONS = {
   en: {
-    panelTitle: "Workspace Skill Panel (Navigate ↑/↓, select/deselect with [Space] or [Enter]):",
+    panelTitle: "Workspace Skill Panel (Navigate ↑/↓/←/→, select/deselect with [Space] or [Enter], delete with [d] or [Delete]):",
     actionsTitle: "AVAILABLE ACTIONS",
     actionScan: "🔍  Run Code Scan (Scan)",
     actionCreate: "🛠️  Create New Skill (Manual)",
@@ -83,10 +83,17 @@ const TRANSLATIONS = {
     removeAlreadyInactive: "ℹ Skill '{id}' was already inactive.",
     scanReasonExtension: "Found file with extension {ext}",
     scanReasonConfig: "Found configuration file {file}",
-    scanReasonDependency: "Detected dependency '{dep}' in package.json"
+    scanReasonDependency: "Detected dependency '{dep}' in package.json",
+    deleteErrId: "Error: Provide the skill ID. E.g.: node .bin/skill-add.cjs delete postgres-expert",
+    deleteErrNotExist: "Error: skill '{id}' does not exist in the tree/ catalog.",
+    deleteConfirm: "Are you sure you want to delete the skill '{id}'? (y/N): ",
+    deleteSuccess: "✔ Skill '{id}' deleted successfully from the catalog!",
+    deleteCancelled: "Deletion cancelled.",
+    deleteConfirmTitle: "Delete Skill (Confirmation)",
+    deleteErr: "Error deleting skill: {error}"
   },
   pt: {
-    panelTitle: "Painel de Habilidades do Workspace (Navegue com ↑/↓, marque/desmarque com [Espaço] ou [Enter]):",
+    panelTitle: "Painel de Habilidades do Workspace (Navegue com ↑/↓/←/→, marque/desmarque com [Espaço] ou [Enter], apague com [d] ou [Delete]):",
     actionsTitle: "AÇÕES DISPONÍVEIS",
     actionScan: "🔍  Executar Varredura de Código (Scan)",
     actionCreate: "🛠️  Criar Nova Habilidade (Manual)",
@@ -138,7 +145,14 @@ const TRANSLATIONS = {
     removeAlreadyInactive: "ℹ Habilidade '{id}' já estava inativa.",
     scanReasonExtension: "Encontrado arquivo com extensão {ext}",
     scanReasonConfig: "Encontrado arquivo de configuração {file}",
-    scanReasonDependency: "Detectada a dependência '{dep}' no package.json"
+    scanReasonDependency: "Detectada a dependência '{dep}' no package.json",
+    deleteErrId: "Erro: informe o ID da habilidade. Ex: node .bin/skill-add.cjs delete postgres-expert",
+    deleteErrNotExist: "Erro: habilidade '{id}' não existe no catálogo tree/.",
+    deleteConfirm: "Tem certeza de que deseja apagar a habilidade '{id}'? (s/N): ",
+    deleteSuccess: "✔ Habilidade '{id}' apagada com sucesso do catálogo!",
+    deleteCancelled: "Exclusão cancelada.",
+    deleteConfirmTitle: "Excluir Habilidade (Confirmação)",
+    deleteErr: "Erro ao apagar habilidade: {error}"
   }
 };
 
@@ -972,6 +986,109 @@ function chooseCategoryFlow(skillName) {
   process.stdin.on('keypress', handleCatKey);
 }
 
+// 6b. Excluir habilidade física do catálogo
+function deleteSkillFlow(skillId, isInteractive, callback) {
+  const skills = loadAvailableSkills();
+  const skill = skills.find(s => s.id === skillId);
+
+  if (!skill) {
+    const errorMsg = t('deleteErrNotExist', { id: skillId });
+    if (isInteractive) {
+      printHeader(false);
+      console.log(`${RED}${errorMsg}${RESET}`);
+      return backToMenu();
+    } else {
+      console.error(`${RED}${errorMsg}${RESET}`);
+      process.exit(1);
+    }
+  }
+
+  const promptText = t('deleteConfirm', { id: skillId });
+
+  if (isInteractive) {
+    printHeader(false);
+    console.log(`${RED}${BOLD}[DELETE]${RESET} ${t('deleteConfirmTitle')}\n`);
+    
+    const rlLocal = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+
+    rlLocal.question(`${BOLD}${promptText}${RESET}`, (answer) => {
+      rlLocal.close();
+      const answerCleaned = answer.trim().toLowerCase();
+      const confirmed = answerCleaned === 'y' || (currentLang === 'pt' && answerCleaned === 's');
+
+      if (confirmed) {
+        try {
+          fs.rmSync(skill.dirPath, { recursive: true, force: true });
+          
+          const mdcPath = path.join(PROJECT_ROOT, '.cursor', 'rules', `${skillId}.mdc`);
+          if (fs.existsSync(mdcPath)) {
+            try {
+              fs.unlinkSync(mdcPath);
+            } catch (e) {}
+          }
+          
+          let active = loadActiveIds();
+          if (active.includes(skillId)) {
+            active = active.filter(id => id !== skillId);
+            saveActiveSkills(active);
+          }
+          console.log(`\n${GREEN}${t('deleteSuccess', { id: skillId })}${RESET}`);
+        } catch (err) {
+          console.log(`\n${RED}${t('deleteErr', { error: err.message })}${RESET}`);
+        }
+      } else {
+        console.log(`\n${YELLOW}${t('deleteCancelled')}${RESET}`);
+      }
+      
+      if (callback) {
+        callback();
+      } else {
+        backToMenu();
+      }
+    });
+  } else {
+    // Modo não interativo (CLI direta)
+    const rlLocal = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+    rlLocal.question(`${BOLD}${promptText}${RESET}`, (answer) => {
+      rlLocal.close();
+      const answerCleaned = answer.trim().toLowerCase();
+      const confirmed = answerCleaned === 'y' || (currentLang === 'pt' && answerCleaned === 's');
+      if (confirmed) {
+        try {
+          fs.rmSync(skill.dirPath, { recursive: true, force: true });
+
+          const mdcPath = path.join(PROJECT_ROOT, '.cursor', 'rules', `${skillId}.mdc`);
+          if (fs.existsSync(mdcPath)) {
+            try {
+              fs.unlinkSync(mdcPath);
+            } catch (e) {}
+          }
+
+          let active = loadActiveIds();
+          if (active.includes(skillId)) {
+            active = active.filter(id => id !== skillId);
+            saveActiveSkills(active);
+          }
+          console.log(`${GREEN}${t('deleteSuccess', { id: skillId })}${RESET}`);
+          process.exit(0);
+        } catch (err) {
+          console.error(`${RED}${t('deleteErr', { error: err.message })}${RESET}`);
+          process.exit(1);
+        }
+      } else {
+        console.log(`${YELLOW}${t('deleteCancelled')}${RESET}`);
+        process.exit(0);
+      }
+    });
+  }
+}
+
 function backToMenu() {
   console.log(`\n${GRAY}${t('pressAnyKey')}${RESET}`);
   // Habilita temporariamente o raw mode para ler uma única tecla e voltar
@@ -1146,6 +1263,14 @@ function runInteractiveMenu() {
       if (currentItem.type === 'skill') {
         toggleSkill(currentItem.id);
       }
+    } else if (key.name === 'd' || key.name === 'delete') {
+      const currentItem = menuLines[selectedRow][selectedCol];
+      if (currentItem.type === 'skill') {
+        detachStdin();
+        deleteSkillFlow(currentItem.id, true, () => {
+          runInteractiveMenu();
+        });
+      }
     } else if (key.name === 'return') {
       const currentItem = menuLines[selectedRow][selectedCol];
       if (currentItem.type === 'skill') {
@@ -1271,6 +1396,13 @@ function runCLI() {
       console.log(`${YELLOW}${t('removeAlreadyInactive', { id: skillId })}${RESET}`);
     }
     process.exit(0);
+  } else if (command === 'delete') {
+    const skillId = args[1];
+    if (!skillId) {
+      console.log(`${RED}${t('deleteErrId')}${RESET}`);
+      process.exit(1);
+    }
+    deleteSkillFlow(skillId, false);
   } else {
     // Executa menu interativo por padrão
     runInteractiveMenu();
