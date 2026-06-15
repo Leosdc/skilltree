@@ -238,23 +238,29 @@ function checkLanguageAndRun(callback) {
 }
 
 // LÓGICA DE DETECÇÃO DO WORKSPACE HOST:
-// Detecta dinamicamente se o script está rodando como uma subpasta/submódulo de outro projeto
-// (aceita .skilltree, Skill Tree, skilltree, etc.) sem exigir renomeação pelo usuário.
-const folderNameName = path.basename(WORKSPACE_DIR).toLowerCase().replace(/[^a-z0-9]+/g, '');
-const isSkillTreeFolder = folderNameName === 'skilltree';
+// Resolve recursivamente o diretório raiz do projeto hospedeiro subindo a árvore de pastas
+// se o script estiver sendo executado dentro de node_modules ou de uma subpasta .skilltree.
+function resolveProjectRoot(workspaceDir) {
+  let current = workspaceDir;
+  while (true) {
+    const parent = path.dirname(current);
+    if (parent === current) break; // Chegou na raiz do sistema de arquivos
+    
+    const base = path.basename(current).toLowerCase();
+    const parentBase = path.basename(parent).toLowerCase();
+    
+    if (base === 'node_modules' || base === '.skilltree') {
+      return parent;
+    }
+    if (parentBase === 'node_modules' || parentBase === '.skilltree') {
+      return path.dirname(parent);
+    }
+    current = parent;
+  }
+  return workspaceDir;
+}
 
-const parentHasProjectFile = 
-  fs.existsSync(path.join(WORKSPACE_DIR, '..', 'package.json')) ||
-  fs.existsSync(path.join(WORKSPACE_DIR, '..', 'index.html')) ||
-  fs.existsSync(path.join(WORKSPACE_DIR, '..', 'requirements.txt')) ||
-  fs.existsSync(path.join(WORKSPACE_DIR, '..', 'pyproject.toml')) ||
-  fs.existsSync(path.join(WORKSPACE_DIR, '..', '.git'));
-
-const hasGitFolder = fs.existsSync(path.join(WORKSPACE_DIR, '.git'));
-const isDevelopment = hasGitFolder && path.basename(WORKSPACE_DIR) === 'Skill Tree' && !parentHasProjectFile;
-
-const isSubfolder = parentHasProjectFile || (isSkillTreeFolder && !isDevelopment);
-const PROJECT_ROOT = isSubfolder ? path.resolve(WORKSPACE_DIR, '..') : WORKSPACE_DIR;
+const PROJECT_ROOT = resolveProjectRoot(WORKSPACE_DIR);
 
 // Estado global para controlar exibição do mascote gigante
 let isFirstMenuPrint = true;
@@ -352,11 +358,20 @@ function printHeader(showMascot = true) {
   }
   
   const currentEnv = detectEnvironment();
+
+  // Trunca/Encurta o caminho do projeto para exibição caso seja muito longo (evitando quebras de layout)
+  let displayPath = PROJECT_ROOT;
+  if (displayPath.length > 40) {
+    const parts = displayPath.split(path.sep);
+    if (parts.length > 3) {
+      displayPath = '...' + path.sep + parts.slice(-2).join(path.sep);
+    }
+  }
   
   if (showMascot) {
     // Imprime a arte ASCII GIGANTE com coloração neon em degradê ciano e magenta
     for (let i = 0; i < MASCOT_ART_LINES.length; i++) {
-      const line = MASCOT_ART_LINES[i];
+      const line = MASCOT_ART_LINES[i].trimEnd();
       let color = CYAN;
 
       if (i >= 11 && i <= 19) color = MAGENTA;
@@ -373,7 +388,7 @@ function printHeader(showMascot = true) {
       } else if (i === 6) {
         console.log(color + line + BOLD + RESET + " Status: " + GREEN + t('statusOnline') + RESET);
       } else if (i === 7) {
-        console.log(color + line + BOLD + RESET + " " + t('targetProject') + " " + GRAY + PROJECT_ROOT + RESET);
+        console.log(color + line + BOLD + RESET + " " + t('targetProject') + " " + GRAY + displayPath + RESET);
       } else if (i === 8) {
         console.log(color + line + BOLD + RESET + " " + t('environment') + " " + MAGENTA + currentEnv + RESET);
       } else {
@@ -383,7 +398,7 @@ function printHeader(showMascot = true) {
     console.log(`${GRAY}════════════════════════════════════════════════════════════════════════════════════════════════════${RESET}\n`);
   } else {
     // Modo Compacto (Evita spam do mascote no terminal quando redesenhando o menu de navegação)
-    console.log(`🌲 ${BOLD}${CYAN}.skilltree${RESET} | ${t('targetProject')} ${GRAY}${PROJECT_ROOT}${RESET} | ${t('environment')} ${MAGENTA}${currentEnv}${RESET} | Status: ${GREEN}${t('statusOnline')}${RESET}`);
+    console.log(`🌲 ${BOLD}${CYAN}.skilltree${RESET} | ${t('targetProject')} ${GRAY}${displayPath}${RESET} | ${t('environment')} ${MAGENTA}${currentEnv}${RESET} | Status: ${GREEN}${t('statusOnline')}${RESET}`);
     console.log(`${GRAY}════════════════════════════════════════════════════════════════════════════════════════════════════${RESET}\n`);
   }
 }
