@@ -1,6 +1,9 @@
 # 🌲 .skilltree
 
 [![npm version](https://img.shields.io/npm/v/@leosdc/skilltree.svg)](https://www.npmjs.com/package/@leosdc/skilltree)
+[![npm downloads](https://img.shields.io/npm/dm/@leosdc/skilltree.svg)](https://www.npmjs.com/package/@leosdc/skilltree)
+[![GitHub stars](https://img.shields.io/github/stars/Leosdc/skilltree.svg)](https://github.com/Leosdc/skilltree/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Leosdc/skilltree.svg)](https://github.com/Leosdc/skilltree/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ![Fluxo do Skill Tree](skill_tree_flow.png)
