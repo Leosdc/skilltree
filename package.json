@@ -1,6 +1,6 @@
 {
   "name": "@leosdc/skilltree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Modular skill tree compiler and AI rules manager for developer workspaces. Integrates dynamically with Cursor, VS Code, Windsurf, Claude Code, and Antigravity.",
   "main": "./bin/skill-add.cjs",
   "bin": {

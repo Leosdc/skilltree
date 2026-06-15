@@ -379,23 +379,17 @@ function printHeader(showMascot = true) {
       else if (i >= 20 && i <= 23) color = CYAN;
       else if (i >= 28) color = i % 2 === 0 ? CYAN : MAGENTA;
 
-      if (i === 2) {
-        console.log(color + line + BOLD + MAGENTA + " 🌲 .skilltree CLI & IDE Plugin" + RESET);
-      } else if (i === 3) {
-        console.log(color + line + GRAY + (currentLang === 'pt' ? " Interface de Habilidades do Agente de IA" : " AI Agent Skill Interface") + RESET);
-      } else if (i === 4) {
-        console.log(color + line + CYAN + (currentLang === 'pt' ? " Paleta Mascote: Ciano & Magenta Neon" : " Mascot Palette: Neon Cyan & Neon Magenta") + RESET);
-      } else if (i === 6) {
-        console.log(color + line + BOLD + RESET + " Status: " + GREEN + t('statusOnline') + RESET);
-      } else if (i === 7) {
-        console.log(color + line + BOLD + RESET + " " + t('targetProject') + " " + GRAY + displayPath + RESET);
-      } else if (i === 8) {
-        console.log(color + line + BOLD + RESET + " " + t('environment') + " " + MAGENTA + currentEnv + RESET);
-      } else {
-        console.log(color + line + RESET);
-      }
+      console.log(color + line + RESET);
     }
-    console.log(`${GRAY}════════════════════════════════════════════════════════════════════════════════════════════════════${RESET}\n`);
+    
+    // Imprime as informações detalhadas de status e projeto abaixo do mascote
+    console.log(`\n 🌲 ${BOLD}${MAGENTA}.skilltree CLI & IDE Plugin${RESET}`);
+    console.log(`    ${GRAY}${currentLang === 'pt' ? "Interface de Habilidades do Agente de IA" : "AI Agent Skill Interface"}${RESET}`);
+    console.log(`    ${CYAN}${currentLang === 'pt' ? "Paleta Mascote: Ciano & Magenta Neon" : "Mascot Palette: Neon Cyan & Neon Magenta"}${RESET}\n`);
+    console.log(`    ${BOLD}Status:${RESET} ${GREEN}${t('statusOnline')}${RESET}`);
+    console.log(`    ${BOLD}${t('targetProject')}${RESET} ${GRAY}${displayPath}${RESET}`);
+    console.log(`    ${BOLD}${t('environment')}${RESET} ${MAGENTA}${currentEnv}${RESET}`);
+    console.log(`\n${GRAY}════════════════════════════════════════════════════════════════════════════════════════════════════${RESET}\n`);
   } else {
     // Modo Compacto (Evita spam do mascote no terminal quando redesenhando o menu de navegação)
     console.log(`🌲 ${BOLD}${CYAN}.skilltree${RESET} | ${t('targetProject')} ${GRAY}${displayPath}${RESET} | ${t('environment')} ${MAGENTA}${currentEnv}${RESET} | Status: ${GREEN}${t('statusOnline')}${RESET}`);
