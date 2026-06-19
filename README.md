@@ -30,7 +30,7 @@ Instead of managing fragmented configurations for different AI tools, you clone 
 git clone https://github.com/Leosdc/skilltree.git .skilltree
 ```
 
-Once embedded, the CLI compiler scans your workspace dependencies, compiles active skills into the exact local files your AI agents read (`.cursorrules`, `.clauderules`, `.windsurfrules`, `.copilot-instructions.md`, etc.), and **automatically synchronizes these rules with your global user-level AI configurations** (supporting Antigravity IDE, VS Code / Copilot, Cursor, and Windsurf global chats). This guarantees immediate adoption even by autonomous agentic workflows.
+Once embedded, the CLI compiler scans your workspace dependencies, compiles active skills into the exact local files your AI agents read (`.cursorrules`, `CLAUDE.md`, `.windsurfrules`, `.copilot-instructions.md`, etc.), and **automatically synchronizes these rules with your global user-level AI configurations** (supporting Antigravity IDE, VS Code / Copilot, Cursor, and Windsurf global chats). This guarantees immediate adoption even by autonomous agentic workflows.
 
 ---
 
@@ -40,7 +40,7 @@ Traditionally, developers manage system instructions for AI agents in a fragment
 
 | Feature | Traditional Method (Manual) | `.skilltree` Way |
 | :--- | :--- | :--- |
-| **Agent Fragmentation** | Developers must manually maintain separate rule files (`.cursorrules` for Cursor, `.clauderules` for Claude Code, `.windsurfrules` for Windsurf, `.github/copilot-instructions.md` for Copilot). | **Unified Rule Compilation:** The CLI compiler writes the consolidated prompt guidelines into all major rule vectors simultaneously. |
+| **Agent Fragmentation** | Developers must manually maintain separate rule files (`.cursorrules` for Cursor, `CLAUDE.md` for Claude Code, `.windsurfrules` for Windsurf, `.github/copilot-instructions.md` for Copilot). | **Unified Rule Compilation:** The CLI compiler writes the consolidated prompt guidelines into all major rule vectors simultaneously. |
 | **Monolithic Rules** | AI instructions are pasted into one giant, heavy file. This clutters the LLM's context window with unrelated rules (e.g. AWS rules in a frontend task). | **Atomic & Hot-Swappable Nodes:** Habilidades/Rules are organized as atomic directories. Toggle them on and off dynamically via the terminal. |
 | **Discovery** | Passive. Developers must remember to find and copy rule templates. New team members are unaware of project guidelines. | **Autonomous Scanner:** The CLI parses package dependencies (`package.json`) and project files to automatically recommend skills to activate. |
 | **Team Sync** | Rules are kept locally on each developer's machine, leading to outdated rules and lack of standardization. | **Git Versioned & Crowdsourced:** Lives inside the codebase as a subfolder. Prompt updates are synchronized across the team via Pull Requests. |
@@ -57,7 +57,7 @@ Traditionally, developers manage system instructions for AI agents in a fragment
 | **Antigravity IDE (Gemini)** | Global `user_rules.txt` & local `.cursorrules` | Dynamically synchronized on startup for autonomous agents to enforce project guidelines. |
 | **Cursor** | `.cursor/rules/*.mdc` (Scoped) & `.cursorrules` | Supports smart compilation of individual `.mdc` rule files with glob triggers (frontmatter). |
 | **VS Code (Copilot / Chat)** | Local `.copilot-instructions.md` & global `settings.json` | Injected into global chat custom instructions and GitHub Copilot workspace settings. |
-| **Claude Code / Cowork** | `.clauderules` | Loaded dynamically by Anthropic's CLI agent terminal. |
+| **Claude Code / Cowork** | `CLAUDE.md` | Loaded automatically by Anthropic's Claude Code CLI. |
 | **Windsurf** | Local `.windsurfrules` & global `settings.json` | Read automatically by the Windsurf AI assistant locally and globally. |
 | **OpenClawn / Custom** | `.clawnrules` & `active-tree.json` | Loaded by custom local terminal automation tools and orchestrators. |
 
