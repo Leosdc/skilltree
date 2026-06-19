@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2026-06-19
+
+### Added / Adicionado
+- **Claude Code Native Integration (`CLAUDE.md`) / Integração Nativa com Claude Code (`CLAUDE.md`):** Added native compilation support for `CLAUDE.md` in the project root, solving the audit issue where `.clauderules` was ignored by the Claude Code CLI. / *Adicionado suporte de compilação nativa para `CLAUDE.md` na raiz do projeto, corrigindo o problema de auditoria onde o arquivo `.clauderules` era ignorado pelo Claude Code.*
+
+### Changed / Alterado
+- **Documentation Overhaul / Atualização de Documentação:** Replaced primary references of `.clauderules` with `CLAUDE.md` across READMEs, Tutorials and contributing guidelines in both English and Portuguese. / *Substituição das referências principais de `.clauderules` por `CLAUDE.md` nos READMEs, Tutoriais e guias de contribuição em inglês e português.*
+
 ---
 
 ## [0.1.0] - 2026-06-14
