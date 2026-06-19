@@ -32,7 +32,7 @@ Then, execute the CLI compiler directly using Node:
 ```bash
 node .skilltree/bin/skill-add.cjs
 ```
-This script detects it is running inside a `.skilltree` subfolder and automatically updates the rules in your **parent project root** (e.g., creating `.cursorrules` and `.clauderules` in the parent directory).
+This script detects it is running inside a `.skilltree` subfolder and automatically updates the rules in your **parent project root** (e.g., creating `.cursorrules` and `CLAUDE.md` in the parent directory).
 
 ---
 
@@ -125,7 +125,7 @@ When you activate a skill node (via menu or CLI command), the compiler bundles t
 ### 📍 Locally (Workspace)
 Consolidated rules are written directly into workspace configuration files:
 1. **Cursor IDE:** Compiles smart individual `.mdc` files inside `.cursor/rules/` (using YAML frontmatter with scoped glob triggers), alongside the legacy `.cursorrules` in the project root.
-2. **Claude Code CLI:** Reads `.clauderules` in the folder root.
+2. **Claude Code CLI:** Reads `CLAUDE.md` in the folder root.
 3. **VS Code (GitHub Copilot):** Consumes directives from `.github/copilot-instructions.md` or `.copilot-instructions.md`.
 4. **Windsurf IDE:** Automatically parses `.windsurfrules`.
 
