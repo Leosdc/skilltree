@@ -81,6 +81,7 @@ Contains node metadata and detection triggers.
   }
 }
 ```
+*   `compatibility.claude`: When set to `true`, indicates compatibility with Claude Code (compiling rules into `CLAUDE.md` and `.clauderules`).
 *   `triggers.files`: Add typical configuration files for the stack (e.g., `*.sql`, `vite.config.js`).
 *   `triggers.dependencies`: Add NPM package names typical for this stack (e.g., `prisma`, `pg`, `express`).
 
