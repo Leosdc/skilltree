@@ -28,7 +28,7 @@ Em vez de configurar regras separadas para cada ferramenta de IA, você clona o 
 git clone https://github.com/Leosdc/skilltree.git .skilltree
 ```
 
-Uma vez inserido, o compilador CLI analisa as tecnologias do projeto hospedeiro, injeta as regras ativas nos arquivos de workspace locais (`.cursorrules`, `.clauderules`, `.windsurfrules`, `.copilot-instructions.md`, etc.) e **sincroniza de forma automática e transparente com as configurações globais de IA no seu sistema** (incluindo o Antigravity IDE, VS Code / Copilot, Cursor e Windsurf em nível de usuário), garantindo a injeção instantânea de diretrizes de governança em agentes de chat e assistentes autônomos.
+Uma vez inserido, o compilador CLI analisa as tecnologias do projeto hospedeiro, injeta as regras ativas nos arquivos de workspace locais (`.cursorrules`, `CLAUDE.md`, `.windsurfrules`, `.copilot-instructions.md`, etc.) e **sincroniza de forma automática e transparente com as configurações globais de IA no seu sistema** (incluindo o Antigravity IDE, VS Code / Copilot, Cursor e Windsurf em nível de usuário), garantindo a injeção instantânea de diretrizes de governança em agentes de chat e assistentes autônomos.
 
 ---
 
@@ -38,7 +38,7 @@ Tradicionalmente, os desenvolvedores gerenciam as diretrizes de prompt para agen
 
 | Aspecto | Abordagem Clássica (Manual) | O Paradigma `.skilltree` |
 | :--- | :--- | :--- |
-| **Fragmentação de Agentes** | O desenvolvedor precisa criar e atualizar manualmente arquivos separados (`.cursorrules`, `.clauderules`, `.windsurfrules`, `.github/copilot-instructions.md`). | **Compilação Unificada:** O compilador CLI escreve as diretrizes consolidadas em todos os principais arquivos de regras de forma simultânea. |
+| **Fragmentação de Agentes** | O desenvolvedor precisa criar e atualizar manualmente arquivos separados (`.cursorrules`, `CLAUDE.md`, `.windsurfrules`, `.github/copilot-instructions.md`). | **Compilação Unificada:** O compilador CLI escreve as diretrizes consolidadas em todos os principais arquivos de regras de forma simultânea. |
 | **Regras Monolíticas** | Instruções de IA são coladas em um único arquivo gigante, sobrecarregando a janela de contexto do LLM com regras não relacionadas à tarefa atual. | **Nós Atômicos e Hot-Swappable:** Habilidades são diretórios isolados. Ligue e desligue capacidades dinamicamente dependendo da tarefa do dia. |
 | **Descoberta Passiva** | O programador precisa lembrar quais regras aplicar. Membros novos do time desconhecem as diretrizes e padrões de segurança do projeto. | **Scanner Autônomo:** O CLI analisa as dependências (`package.json`) e os arquivos do projeto para recomendar proativamente as regras corretas. |
 | **Sincronização do Time** | Regras ficam isoladas na máquina de cada programador de forma manual, gerando prompts obsoletos e falta de padronização. | **Versionado no Git e Comunitário:** O repositório reside no workspace. Atualizações de prompts são compartilhadas com o time via Pull Requests. |
@@ -55,7 +55,7 @@ O `.skilltree` é agnóstico. Ele padroniza os manifestos e gera os vetores de i
 | **Antigravity IDE (Gemini)** | `user_rules.txt` global e `.cursorrules` local | Sincronizado dinamicamente na inicialização de agentes autônomos para leitura e aplicação obrigatória das regras locais. |
 | **Cursor** | `.cursor/rules/*.mdc` (Scoped) e `.cursorrules` | Suporta compilação inteligente para arquivos `.mdc` individuais com suporte a triggers glob (frontmatter). |
 | **VS Code (Copilot / Chat)** | `.copilot-instructions.md` local e `settings.json` global | Injetado nas instruções personalizadas do chat global e do Copilot. |
-| **Claude Code / Cowork** | `.clauderules` | Injetado dinamicamente no terminal do agente de CLI da Anthropic. |
+| **Claude Code / Cowork** | `CLAUDE.md` | Carregado automaticamente no início da sessão do Claude Code. |
 | **Windsurf** | `.windsurfrules` local e `settings.json` global | Lido automaticamente pelo assistente integrado da IDE Windsurf de forma local e global. |
 | **OpenClawn / Custom** | `.clawnrules` e `active-tree.json` | Carregado por agentes de terminal customizados e orquestradores locais. |
 
