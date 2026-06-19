@@ -542,7 +542,8 @@ function saveActiveSkills(activeIds) {
   // Mapeamento de múltiplos vetores de regras para suportar todos os agentes de IA
   const targetRuleFiles = [
     '.cursorrules',              // Cursor & VS Code (agente nativo do Cursor)
-    '.clauderules',              // Claude Code & Claude Cowork
+    '.clauderules',              // Claude Code & Claude Cowork (legado)
+    'CLAUDE.md',                 // Claude Code & Claude Cowork (mecanismo oficial)
     '.windsurfrules',            // Windsurf IDE
     '.copilot-instructions.md',   // GitHub Copilot (novas versões)
     '.github/copilot-instructions.md', // GitHub Copilot (padrão VS Code/GitHub)
