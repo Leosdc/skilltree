@@ -30,7 +30,7 @@ Em seguida, execute a CLI diretamente via Node:
 ```bash
 node .skilltree/bin/skill-add.cjs
 ```
-O utilitário detecta automaticamente que está sob a subpasta `.skilltree` e passará a ler/escrever os arquivos de regras (como `.cursorrules` e `.clauderules`) **um nível acima, na raiz do seu projeto hospedeiro**.
+O utilitário detecta automaticamente que está sob a subpasta `.skilltree` e passará a ler/escrever os arquivos de regras (como `.cursorrules` e `CLAUDE.md`) **um nível acima, na raiz do seu projeto hospedeiro**.
 
 ---
 
@@ -123,7 +123,7 @@ Ao ativar uma habilidade pelo painel ou por comando CLI, o compilador junta as i
 ### 📍 Localmente (Workspace)
 As regras consolidadas são escritas diretamente nos arquivos de configuração do projeto:
 1. **Cursor IDE:** Compila arquivos inteligentes `.mdc` individuais dentro do diretório `.cursor/rules/` (usando frontmatter YAML com triggers globais e locais), além do arquivo tradicional `.cursorrules` na raiz do workspace.
-2. **Claude Code CLI:** Lê o arquivo `.clauderules` na raiz da pasta.
+2. **Claude Code CLI:** Lê o arquivo `CLAUDE.md` na raiz da pasta.
 3. **VS Code (GitHub Copilot):** Consome as diretrizes de `.github/copilot-instructions.md` ou `.copilot-instructions.md`.
 4. **Windsurf IDE:** Lê as instruções de `.windsurfrules`.
 
