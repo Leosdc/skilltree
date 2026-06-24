@@ -1,0 +1,21 @@
+{
+  "id": "especialista-claude-code",
+  "name": "especialista-claude-code",
+  "category": "codigo-automacao",
+  "description": "Uso avançado do Claude Code: criação de skills customizadas, subagentes paralelos, worktrees para features isoladas, gestão de contexto e configurações avançadas de CLAUDE.md para máxima produtividade.",
+  "locales": {
+    "pt": {
+      "name": "especialista-claude-code",
+      "description": "Uso avançado do Claude Code: criação de skills customizadas, subagentes paralelos, worktrees para features isoladas, gestão de contexto e configurações avançadas de CLAUDE.md para máxima produtividade."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

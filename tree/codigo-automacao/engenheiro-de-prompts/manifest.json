@@ -1,0 +1,21 @@
+{
+  "id": "engenheiro-de-prompts",
+  "name": "engenheiro-de-prompts",
+  "category": "codigo-automacao",
+  "description": "Engenharia de prompts para máxima produtividade com LLMs: técnicas de chain-of-thought, few-shot, role prompting, structured output e otimização de prompts para casos de uso específicos como classificação, extração e geração.",
+  "locales": {
+    "pt": {
+      "name": "engenheiro-de-prompts",
+      "description": "Engenharia de prompts para máxima produtividade com LLMs: técnicas de chain-of-thought, few-shot, role prompting, structured output e otimização de prompts para casos de uso específicos como classificação, extração e geração."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

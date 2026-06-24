@@ -1,0 +1,21 @@
+{
+  "id": "docker-compose",
+  "name": "docker-compose",
+  "category": "codigo-automacao",
+  "description": "Containerização com Docker e Docker Compose: configuração para desenvolvimento com hot reload, produção com health checks, multi-stage builds, Docker networks e gestão de secrets e variáveis de ambiente.",
+  "locales": {
+    "pt": {
+      "name": "docker-compose",
+      "description": "Containerização com Docker e Docker Compose: configuração para desenvolvimento com hot reload, produção com health checks, multi-stage builds, Docker networks e gestão de secrets e variáveis de ambiente."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "integrador-de-webhooks",
+  "name": "integrador-de-webhooks",
+  "category": "codigo-automacao",
+  "description": "Integração via webhooks, eventos e filas de mensagens: implementação de recebimento e envio de webhooks, idempotência, retry com backoff exponencial, filas com Redis/SQS/RabbitMQ e event-driven architecture.",
+  "locales": {
+    "pt": {
+      "name": "integrador-de-webhooks",
+      "description": "Integração via webhooks, eventos e filas de mensagens: implementação de recebimento e envio de webhooks, idempotência, retry com backoff exponencial, filas com Redis/SQS/RabbitMQ e event-driven architecture."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

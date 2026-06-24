@@ -1,0 +1,21 @@
+{
+  "id": "construtor-de-api",
+  "name": "construtor-de-api",
+  "category": "codigo-automacao",
+  "description": "Construção e documentação de APIs REST e GraphQL: design de endpoints, versionamento, autenticação, tratamento de erros, documentação OpenAPI 3.0 e boas práticas de segurança e performance.",
+  "locales": {
+    "pt": {
+      "name": "construtor-de-api",
+      "description": "Construção e documentação de APIs REST e GraphQL: design de endpoints, versionamento, autenticação, tratamento de erros, documentação OpenAPI 3.0 e boas práticas de segurança e performance."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

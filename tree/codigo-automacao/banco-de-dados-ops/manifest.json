@@ -1,0 +1,21 @@
+{
+  "id": "banco-de-dados-ops",
+  "name": "banco-de-dados-ops",
+  "category": "codigo-automacao",
+  "description": "Operações de banco de dados: queries otimizadas, migrations versionadas, estratégia de indexação, modelagem relacional e NoSQL, backup e recovery. Foco em PostgreSQL e MySQL com contexto de dados brasileiros.",
+  "locales": {
+    "pt": {
+      "name": "banco-de-dados-ops",
+      "description": "Operações de banco de dados: queries otimizadas, migrations versionadas, estratégia de indexação, modelagem relacional e NoSQL, backup e recovery. Foco em PostgreSQL e MySQL com contexto de dados brasileiros."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

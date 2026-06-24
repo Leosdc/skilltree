@@ -1,0 +1,21 @@
+{
+  "id": "especialista-em-debug",
+  "name": "especialista-em-debug",
+  "category": "codigo-automacao",
+  "description": "Diagnóstico sistemático de bugs: análise de logs, stack traces, reprodução do problema e estratégia de fix. Framework step-by-step para encontrar e resolver qualquer tipo de bug em aplicações web, mobile ou backend.",
+  "locales": {
+    "pt": {
+      "name": "especialista-em-debug",
+      "description": "Diagnóstico sistemático de bugs: análise de logs, stack traces, reprodução do problema e estratégia de fix. Framework step-by-step para encontrar e resolver qualquer tipo de bug em aplicações web, mobile ou backend."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

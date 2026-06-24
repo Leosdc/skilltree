@@ -1,0 +1,21 @@
+{
+  "id": "codigo-automacao-hub",
+  "name": "codigo-automacao",
+  "category": "codigo-automacao",
+  "description": "Skills para desenvolvimento de software, debug, APIs, automações no-code e uso avançado de ferramentas de IA para desenvolvimento. Use quando precisar de diagnóstico de bugs, construção de APIs, containerização, testes automatizados, integrações ou engenharia de prompts.",
+  "locales": {
+    "pt": {
+      "name": "codigo-automacao",
+      "description": "Skills para desenvolvimento de software, debug, APIs, automações no-code e uso avançado de ferramentas de IA para desenvolvimento. Use quando precisar de diagnóstico de bugs, construção de APIs, containerização, testes automatizados, integrações ou engenharia de prompts."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "implementacao-de-auth",
+  "name": "implementacao-de-auth",
+  "category": "codigo-automacao",
+  "description": "Implementação de autenticação e autorização: JWT com refresh tokens, OAuth 2.0 (Google, GitHub), Supabase Auth, Firebase Auth e RBAC. Boas práticas de segurança, armazenamento seguro e LGPD compliance.",
+  "locales": {
+    "pt": {
+      "name": "implementacao-de-auth",
+      "description": "Implementação de autenticação e autorização: JWT com refresh tokens, OAuth 2.0 (Google, GitHub), Supabase Auth, Firebase Auth e RBAC. Boas práticas de segurança, armazenamento seguro e LGPD compliance."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
