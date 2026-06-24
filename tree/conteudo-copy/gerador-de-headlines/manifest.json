@@ -1,0 +1,21 @@
+{
+  "id": "gerador-de-headlines",
+  "name": "gerador-de-headlines",
+  "category": "conteudo-copy",
+  "description": "Gera headlines de alta conversão usando os frameworks AIDA, PAS, 4U e Curiosity Gap.\nEspecializado em headlines para landing pages, artigos, anúncios e redes sociais no\nmercado brasileiro, com variações para teste A/B e otimização por objetivo.",
+  "locales": {
+    "pt": {
+      "name": "gerador-de-headlines",
+      "description": "Gera headlines de alta conversão usando os frameworks AIDA, PAS, 4U e Curiosity Gap.\nEspecializado em headlines para landing pages, artigos, anúncios e redes sociais no\nmercado brasileiro, com variações para teste A/B e otimização por objetivo."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

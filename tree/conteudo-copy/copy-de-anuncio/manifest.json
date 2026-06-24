@@ -1,0 +1,21 @@
+{
+  "id": "copy-de-anuncio",
+  "name": "copy-de-anuncio",
+  "category": "conteudo-copy",
+  "description": "Cria copy de anúncios para Meta Ads, Google Ads e LinkedIn Ads com contexto\ndo mercado brasileiro. Produz headline, texto principal, CTA e variações para\nteste A/B respeitando os limites de caracteres de cada plataforma.",
+  "locales": {
+    "pt": {
+      "name": "copy-de-anuncio",
+      "description": "Cria copy de anúncios para Meta Ads, Google Ads e LinkedIn Ads com contexto\ndo mercado brasileiro. Produz headline, texto principal, CTA e variações para\nteste A/B respeitando os limites de caracteres de cada plataforma."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "escritor-de-artigos",
+  "name": "escritor-de-artigos",
+  "category": "conteudo-copy",
+  "description": "Escreve artigos de blog, conteúdo SEO, white papers e long-form em PT-BR.\nProduz conteúdo com estrutura jornalística, otimizado para mecanismos de busca\ne adaptado ao público e setor brasileiro, incluindo dados e fontes nacionais.",
+  "locales": {
+    "pt": {
+      "name": "escritor-de-artigos",
+      "description": "Escreve artigos de blog, conteúdo SEO, white papers e long-form em PT-BR.\nProduz conteúdo com estrutura jornalística, otimizado para mecanismos de busca\ne adaptado ao público e setor brasileiro, incluindo dados e fontes nacionais."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

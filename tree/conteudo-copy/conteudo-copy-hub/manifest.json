@@ -1,0 +1,21 @@
+{
+  "id": "conteudo-copy-hub",
+  "name": "conteudo-copy",
+  "category": "conteudo-copy",
+  "description": "Skills para criação de conteúdo escrito, copy persuasivo, headlines, emails e artigos\nem português BR. Cobre todos os formatos digitais com contexto cultural brasileiro:\ntom informal/formal, gírias regionais, plataformas locais e métricas de engajamento BR.",
+  "locales": {
+    "pt": {
+      "name": "conteudo-copy",
+      "description": "Skills para criação de conteúdo escrito, copy persuasivo, headlines, emails e artigos\nem português BR. Cobre todos os formatos digitais com contexto cultural brasileiro:\ntom informal/formal, gírias regionais, plataformas locais e métricas de engajamento BR."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

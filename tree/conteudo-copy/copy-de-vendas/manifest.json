@@ -1,0 +1,21 @@
+{
+  "id": "copy-de-vendas",
+  "name": "copy-de-vendas",
+  "category": "conteudo-copy",
+  "description": "Escreve copy de alto impacto para páginas de vendas, VSL (Video Sales Letter),\ndescrições de produto e flows de checkout. Domina copywriting de conversão com\ncontexto BR: parcelamento PIX, provas sociais, selos de segurança e urgência real.",
+  "locales": {
+    "pt": {
+      "name": "copy-de-vendas",
+      "description": "Escreve copy de alto impacto para páginas de vendas, VSL (Video Sales Letter),\ndescrições de produto e flows de checkout. Domina copywriting de conversão com\ncontexto BR: parcelamento PIX, provas sociais, selos de segurança e urgência real."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

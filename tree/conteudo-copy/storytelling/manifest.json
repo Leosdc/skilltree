@@ -1,0 +1,21 @@
+{
+  "id": "storytelling",
+  "name": "storytelling",
+  "category": "conteudo-copy",
+  "description": "Cria narrativas de marca, histórias pessoais e storytelling corporativo para o\nmercado brasileiro. Usa estruturas narrativas comprovadas (Jornada do Herói,\nABT, SparkLine) adaptadas ao contexto emocional e cultural brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "storytelling",
+      "description": "Cria narrativas de marca, histórias pessoais e storytelling corporativo para o\nmercado brasileiro. Usa estruturas narrativas comprovadas (Jornada do Herói,\nABT, SparkLine) adaptadas ao contexto emocional e cultural brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

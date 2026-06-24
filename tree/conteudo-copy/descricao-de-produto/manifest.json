@@ -1,0 +1,21 @@
+{
+  "id": "descricao-de-produto",
+  "name": "descricao-de-produto",
+  "category": "conteudo-copy",
+  "description": "Cria descrições de produto de alta conversão para e-commerce e marketplaces\nbrasileiros (Mercado Livre, Shopee, Amazon BR, VTEX). Inclui SEO de marketplace,\ntítulo otimizado, bullet benefits e ficha técnica estruturada.",
+  "locales": {
+    "pt": {
+      "name": "descricao-de-produto",
+      "description": "Cria descrições de produto de alta conversão para e-commerce e marketplaces\nbrasileiros (Mercado Livre, Shopee, Amazon BR, VTEX). Inclui SEO de marketplace,\ntítulo otimizado, bullet benefits e ficha técnica estruturada."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

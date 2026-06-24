@@ -1,0 +1,21 @@
+{
+  "id": "posts-sociais",
+  "name": "posts-sociais",
+  "category": "conteudo-copy",
+  "description": "Cria posts otimizados para Instagram, LinkedIn, Twitter/X e TikTok com\ncontexto do mercado brasileiro. Adapta tom, formato, comprimento e hashtags\npara cada plataforma, maximizando engajamento e alcance orgânico no Brasil.",
+  "locales": {
+    "pt": {
+      "name": "posts-sociais",
+      "description": "Cria posts otimizados para Instagram, LinkedIn, Twitter/X e TikTok com\ncontexto do mercado brasileiro. Adapta tom, formato, comprimento e hashtags\npara cada plataforma, maximizando engajamento e alcance orgânico no Brasil."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "escritor-de-emails",
+  "name": "escritor-de-emails",
+  "category": "conteudo-copy",
+  "description": "Cria sequências de email marketing, newsletters, cold email e automações para\no mercado brasileiro. Otimiza subject lines para taxas de abertura, estrutura\no corpo para engajamento e inclui CTAs para WhatsApp, checkout e landing pages.",
+  "locales": {
+    "pt": {
+      "name": "escritor-de-emails",
+      "description": "Cria sequências de email marketing, newsletters, cold email e automações para\no mercado brasileiro. Otimiza subject lines para taxas de abertura, estrutura\no corpo para engajamento e inclui CTAs para WhatsApp, checkout e landing pages."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

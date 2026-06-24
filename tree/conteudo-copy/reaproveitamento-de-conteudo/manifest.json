@@ -1,0 +1,21 @@
+{
+  "id": "reaproveitamento-de-conteudo",
+  "name": "reaproveitamento-de-conteudo",
+  "category": "conteudo-copy",
+  "description": "Reaproveita conteúdo entre formatos com máxima eficiência: vídeo → artigo → posts →\nthread → email → stories. Preserva a essência da mensagem original e adapta o tom\ne estrutura para cada plataforma do ecossistema digital brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "reaproveitamento-de-conteudo",
+      "description": "Reaproveita conteúdo entre formatos com máxima eficiência: vídeo → artigo → posts →\nthread → email → stories. Preserva a essência da mensagem original e adapta o tom\ne estrutura para cada plataforma do ecossistema digital brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

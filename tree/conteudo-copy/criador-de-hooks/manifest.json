@@ -1,0 +1,21 @@
+{
+  "id": "criador-de-hooks",
+  "name": "criador-de-hooks",
+  "category": "conteudo-copy",
+  "description": "Cria hooks magnéticos para posts, vídeos, threads e stories no mercado BR.\nFocado nos primeiros 3 segundos que determinam se o usuário continua assistindo\nou fazendo scroll. Cobre Instagram Reels, YouTube Shorts, TikTok e LinkedIn.",
+  "locales": {
+    "pt": {
+      "name": "criador-de-hooks",
+      "description": "Cria hooks magnéticos para posts, vídeos, threads e stories no mercado BR.\nFocado nos primeiros 3 segundos que determinam se o usuário continua assistindo\nou fazendo scroll. Cobre Instagram Reels, YouTube Shorts, TikTok e LinkedIn."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
