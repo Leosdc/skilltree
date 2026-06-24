@@ -1,0 +1,21 @@
+{
+  "id": "culture-architect",
+  "name": "culture-architect",
+  "category": "c-level-advisor",
+  "description": "Construa, meça e evolua a cultura da empresa como comportamento operacional — não como cartazes na parede. Abrange workshops de missão/visão/valores, tradução de valores em comportamentos, criação de código de cultura, avaliação de saúde cultural e rituais culturais por estágio. Use ao construir valores da empresa, avaliar saúde cultural, desenhar rituais culturais, criar códigos de cultura, lidar com choques de cultura ou quando o usuário mencionar cultura, valores, dívida cultural, cultura do fundador ou código de cultura.",
+  "locales": {
+    "pt": {
+      "name": "culture-architect",
+      "description": "Construa, meça e evolua a cultura da empresa como comportamento operacional — não como cartazes na parede. Abrange workshops de missão/visão/valores, tradução de valores em comportamentos, criação de código de cultura, avaliação de saúde cultural e rituais culturais por estágio. Use ao construir valores da empresa, avaliar saúde cultural, desenhar rituais culturais, criar códigos de cultura, lidar com choques de cultura ou quando o usuário mencionar cultura, valores, dívida cultural, cultura do fundador ou código de cultura."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

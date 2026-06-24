@@ -1,0 +1,21 @@
+{
+  "id": "board-deck-builder",
+  "name": "board-deck-builder",
+  "category": "c-level-advisor",
+  "description": "Monta apresentações abrangentes para conselhos e atualizações para investidores, reunindo perspectivas de todos os papéis do C-suite. Use ao preparar reuniões de conselho, atualizações para investidores, revisões trimestrais de negócios ou narrativas de captação. Cobre estrutura, framework narrativo, entrega de más notícias e erros comuns.",
+  "locales": {
+    "pt": {
+      "name": "board-deck-builder",
+      "description": "Monta apresentações abrangentes para conselhos e atualizações para investidores, reunindo perspectivas de todos os papéis do C-suite. Use ao preparar reuniões de conselho, atualizações para investidores, revisões trimestrais de negócios ou narrativas de captação. Cobre estrutura, framework narrativo, entrega de más notícias e erros comuns."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

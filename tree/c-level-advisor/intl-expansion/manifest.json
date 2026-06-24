@@ -1,0 +1,21 @@
+{
+  "id": "intl-expansion",
+  "name": "intl-expansion",
+  "category": "c-level-advisor",
+  "description": "Estratégia de expansão para mercados internacionais. Seleção de mercado, modos de entrada, localização, conformidade regulatória e go-to-market por região. Use ao expandir para novos países, avaliar mercados internacionais, planejar localização ou construir times regionais.",
+  "locales": {
+    "pt": {
+      "name": "intl-expansion",
+      "description": "Estratégia de expansão para mercados internacionais. Seleção de mercado, modos de entrada, localização, conformidade regulatória e go-to-market por região. Use ao expandir para novos países, avaliar mercados internacionais, planejar localização ou construir times regionais."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

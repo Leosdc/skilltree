@@ -1,0 +1,21 @@
+{
+  "id": "clo-advisor",
+  "name": "clo-advisor",
+  "category": "c-level-advisor",
+  "description": "Assessor de Chief Legal Officer (CLO) / General Counsel para estratégia jurídica corporativa, compliance BR, contratos, societário, M&A, disputas, privacidade (LGPD), trabalhista (CLT/PJ), tributário e relações com reguladores. Use ao estruturar departamento jurídico, avaliar riscos legais de decisões estratégicas, negociar termos de investimento, preparar IPO, gerenciar litígios relevantes ou quando o usuário mencionar CLO, General Counsel, jurídico, compliance, LGPD, CLT, societário, M&A ou disputas.",
+  "locales": {
+    "pt": {
+      "name": "clo-advisor",
+      "description": "Assessor de Chief Legal Officer (CLO) / General Counsel para estratégia jurídica corporativa, compliance BR, contratos, societário, M&A, disputas, privacidade (LGPD), trabalhista (CLT/PJ), tributário e relações com reguladores. Use ao estruturar departamento jurídico, avaliar riscos legais de decisões estratégicas, negociar termos de investimento, preparar IPO, gerenciar litígios relevantes ou quando o usuário mencionar CLO, General Counsel, jurídico, compliance, LGPD, CLT, societário, M&A ou disputas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

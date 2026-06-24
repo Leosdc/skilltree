@@ -1,0 +1,21 @@
+{
+  "id": "chief-of-staff",
+  "name": "chief-of-staff",
+  "category": "c-level-advisor",
+  "description": "Camada de orquestração do C-suite. Roteia perguntas do fundador para o(s) papel(is) de assessor correto(s), aciona reuniões de conselho com múltiplos papéis para decisões complexas, sintetiza saídas e rastreia decisões. Toda interação com o C-suite começa aqui. Carrega o contexto da empresa automaticamente.",
+  "locales": {
+    "pt": {
+      "name": "chief-of-staff",
+      "description": "Camada de orquestração do C-suite. Roteia perguntas do fundador para o(s) papel(is) de assessor correto(s), aciona reuniões de conselho com múltiplos papéis para decisões complexas, sintetiza saídas e rastreia decisões. Toda interação com o C-suite começa aqui. Carrega o contexto da empresa automaticamente."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

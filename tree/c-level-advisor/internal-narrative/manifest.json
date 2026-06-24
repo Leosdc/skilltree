@@ -1,0 +1,21 @@
+{
+  "id": "internal-narrative",
+  "name": "internal-narrative",
+  "category": "c-level-advisor",
+  "description": "Construa e mantenha uma narrativa coerente da empresa para todos os públicos — funcionários, investidores, clientes, candidatos e parceiros. Detecta contradições narrativas e garante que a mesma verdade seja enquadrada para as necessidades de cada público. Use ao preparar atualizações para investidores, apresentações de all-hands, comunicações do conselho, narrativas de recrutamento, comunicações de crise ou quando o usuário mencionar narrativa da empresa, consistência de mensagens, storytelling, all-hands, atualização para investidores ou comunicação de crise.",
+  "locales": {
+    "pt": {
+      "name": "internal-narrative",
+      "description": "Construa e mantenha uma narrativa coerente da empresa para todos os públicos — funcionários, investidores, clientes, candidatos e parceiros. Detecta contradições narrativas e garante que a mesma verdade seja enquadrada para as necessidades de cada público. Use ao preparar atualizações para investidores, apresentações de all-hands, comunicações do conselho, narrativas de recrutamento, comunicações de crise ou quando o usuário mencionar narrativa da empresa, consistência de mensagens, storytelling, all-hands, atualização para investidores ou comunicação de crise."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "agent-protocol",
+  "name": "agent-protocol",
+  "category": "c-level-advisor",
+  "description": "Protocolo de comunicação entre agentes para times de C-suite. Define sintaxe de invocação, prevenção de loops, regras de isolamento e formatos de resposta. Use quando agentes do C-suite precisam consultar uns aos outros, coordenar análises multifuncionais ou conduzir reuniões de conselho com múltiplos papéis.",
+  "locales": {
+    "pt": {
+      "name": "agent-protocol",
+      "description": "Protocolo de comunicação entre agentes para times de C-suite. Define sintaxe de invocação, prevenção de loops, regras de isolamento e formatos de resposta. Use quando agentes do C-suite precisam consultar uns aos outros, coordenar análises multifuncionais ou conduzir reuniões de conselho com múltiplos papéis."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

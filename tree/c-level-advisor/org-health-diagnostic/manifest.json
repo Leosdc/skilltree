@@ -1,0 +1,21 @@
+{
+  "id": "org-health-diagnostic",
+  "name": "org-health-diagnostic",
+  "category": "c-level-advisor",
+  "description": "Verificação de saúde organizacional interfuncional combinando sinais de todas as funções C-suite. Pontua 8 dimensões em uma escala de semáforo com recomendações detalhadas. Use ao avaliar a saúde geral da empresa, preparar revisões do conselho, identificar funções em risco ou quando o usuário mencionar saúde organizacional, verificação de saúde ou painel de saúde.",
+  "locales": {
+    "pt": {
+      "name": "org-health-diagnostic",
+      "description": "Verificação de saúde organizacional interfuncional combinando sinais de todas as funções C-suite. Pontua 8 dimensões em uma escala de semáforo com recomendações detalhadas. Use ao avaliar a saúde geral da empresa, preparar revisões do conselho, identificar funções em risco ou quando o usuário mencionar saúde organizacional, verificação de saúde ou painel de saúde."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

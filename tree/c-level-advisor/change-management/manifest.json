@@ -1,0 +1,21 @@
+{
+  "id": "change-management",
+  "name": "change-management",
+  "category": "c-level-advisor",
+  "description": "Framework para implementar mudanças organizacionais sem caos. Cobre o modelo ADKAR adaptado para startups, templates de comunicação, padrões de resistência e gestão de fadiga de mudança. Lida com mudanças de processo, reestruturações organizacionais, pivôs estratégicos e mudanças culturais. Use ao anunciar uma reorganização, trocar ferramentas, pivotar a estratégia, encerrar um produto, mudar lideranças ou quando o usuário mencionar gestão de mudanças, rollout de mudança, gestão de resistência, mudança organizacional, reorg ou comunicação de pivô.",
+  "locales": {
+    "pt": {
+      "name": "change-management",
+      "description": "Framework para implementar mudanças organizacionais sem caos. Cobre o modelo ADKAR adaptado para startups, templates de comunicação, padrões de resistência e gestão de fadiga de mudança. Lida com mudanças de processo, reestruturações organizacionais, pivôs estratégicos e mudanças culturais. Use ao anunciar uma reorganização, trocar ferramentas, pivotar a estratégia, encerrar um produto, mudar lideranças ou quando o usuário mencionar gestão de mudanças, rollout de mudança, gestão de resistência, mudança organizacional, reorg ou comunicação de pivô."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

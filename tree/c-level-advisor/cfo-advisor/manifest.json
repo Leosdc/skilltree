@@ -1,0 +1,21 @@
+{
+  "id": "cfo-advisor",
+  "name": "cfo-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança financeira para startups e empresas em escala. Modelagem financeira, unit economics, estratégia de captação, gestão de caixa e pacotes financeiros para o conselho. Use ao construir modelos financeiros, analisar unit economics, planejar captação, gerenciar runway de caixa, preparar materiais para o conselho ou quando o usuário mencionar CFO, burn rate, runway, captação, unit economics, LTV, CAC, term sheets ou estratégia financeira.",
+  "locales": {
+    "pt": {
+      "name": "cfo-advisor",
+      "description": "Liderança financeira para startups e empresas em escala. Modelagem financeira, unit economics, estratégia de captação, gestão de caixa e pacotes financeiros para o conselho. Use ao construir modelos financeiros, analisar unit economics, planejar captação, gerenciar runway de caixa, preparar materiais para o conselho ou quando o usuário mencionar CFO, burn rate, runway, captação, unit economics, LTV, CAC, term sheets ou estratégia financeira."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "c-level-advisor-hub",
+  "name": "c-level-advisor",
+  "category": "c-level-advisor",
+  "description": "10 skills de assessoria C-level e plugins para Claude Code. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Mentor Executivo. Reuniões de conselho com múltiplos papéis, roteamento estratégico e recomendações estruturadas. Para fundadores que precisam de suporte executivo para tomada de decisões.",
+  "locales": {
+    "pt": {
+      "name": "c-level-advisor",
+      "description": "10 skills de assessoria C-level e plugins para Claude Code. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Mentor Executivo. Reuniões de conselho com múltiplos papéis, roteamento estratégico e recomendações estruturadas. Para fundadores que precisam de suporte executivo para tomada de decisões."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

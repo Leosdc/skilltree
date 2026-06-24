@@ -1,0 +1,21 @@
+{
+  "id": "cro-advisor",
+  "name": "cro-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança de receita para empresas B2B SaaS. Previsão de receita, design do modelo de vendas, estratégia de precificação, retenção líquida de receita e escala do time de vendas. Use ao projetar o motor de receita, definir quotas, modelar NRR, avaliar precificação, construir previsões para o conselho ou quando o usuário mencionar CRO, diretor de receita, estratégia de receita, modelo de vendas, crescimento de ARR, NRR, receita de expansão, churn, estratégia de precificação ou capacidade de vendas.",
+  "locales": {
+    "pt": {
+      "name": "cro-advisor",
+      "description": "Liderança de receita para empresas B2B SaaS. Previsão de receita, design do modelo de vendas, estratégia de precificação, retenção líquida de receita e escala do time de vendas. Use ao projetar o motor de receita, definir quotas, modelar NRR, avaliar precificação, construir previsões para o conselho ou quando o usuário mencionar CRO, diretor de receita, estratégia de receita, modelo de vendas, crescimento de ARR, NRR, receita de expansão, churn, estratégia de precificação ou capacidade de vendas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

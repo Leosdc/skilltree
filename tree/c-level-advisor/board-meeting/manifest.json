@@ -1,0 +1,21 @@
+{
+  "id": "board-meeting",
+  "name": "board-meeting",
+  "category": "c-level-advisor",
+  "description": "Protocolo de reunião de conselho com múltiplos agentes para tomada de decisões. Executa uma deliberação estruturada em 6 fases: carregamento de contexto, contribuições independentes do C-suite (isoladas, sem contaminação cruzada), análise crítica, síntese, revisão do fundador e extração de decisão. Use quando o usuário invocar /cs:board, solicitar uma reunião de conselho ou querer deliberação executiva estruturada com múltiplas perspectivas sobre uma questão estratégica.",
+  "locales": {
+    "pt": {
+      "name": "board-meeting",
+      "description": "Protocolo de reunião de conselho com múltiplos agentes para tomada de decisões. Executa uma deliberação estruturada em 6 fases: carregamento de contexto, contribuições independentes do C-suite (isoladas, sem contaminação cruzada), análise crítica, síntese, revisão do fundador e extração de decisão. Use quando o usuário invocar /cs:board, solicitar uma reunião de conselho ou querer deliberação executiva estruturada com múltiplas perspectivas sobre uma questão estratégica."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

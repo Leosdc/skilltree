@@ -1,0 +1,21 @@
+{
+  "id": "chro-advisor",
+  "name": "chro-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança de pessoas para empresas em escala. Estratégia de contratação, design de remuneração, estrutura organizacional, cultura e retenção. Use ao construir planos de contratação, projetar frameworks de remuneração, reestruturar times, gerenciar desempenho, construir cultura ou quando o usuário mencionar CHRO, RH, estratégia de pessoas, talentos, headcount, remuneração, design organizacional, retenção ou gestão de desempenho.",
+  "locales": {
+    "pt": {
+      "name": "chro-advisor",
+      "description": "Liderança de pessoas para empresas em escala. Estratégia de contratação, design de remuneração, estrutura organizacional, cultura e retenção. Use ao construir planos de contratação, projetar frameworks de remuneração, reestruturar times, gerenciar desempenho, construir cultura ou quando o usuário mencionar CHRO, RH, estratégia de pessoas, talentos, headcount, remuneração, design organizacional, retenção ou gestão de desempenho."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

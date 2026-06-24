@@ -1,0 +1,21 @@
+{
+  "id": "founder-coach",
+  "name": "founder-coach",
+  "category": "c-level-advisor",
+  "description": "Desenvolvimento de liderança pessoal para fundadores e CEOs de primeira viagem. Abrange identificação de arquétipo do fundador, frameworks de delegação, gestão de energia, auditorias de agenda do CEO, evolução do estilo de liderança, identificação de pontos cegos, síndrome do impostor, saúde mental do fundador e planejamento de sucessão. Use quando um fundador se sente como o gargalo, tem dificuldade em delegar, está em burnout, fazendo a transição de IC para executivo, gerenciando um conselho, ou quando o usuário mencionar founder mode, crescimento do CEO, desenvolvimento de liderança, delegação, burnout ou síndrome do impostor.",
+  "locales": {
+    "pt": {
+      "name": "founder-coach",
+      "description": "Desenvolvimento de liderança pessoal para fundadores e CEOs de primeira viagem. Abrange identificação de arquétipo do fundador, frameworks de delegação, gestão de energia, auditorias de agenda do CEO, evolução do estilo de liderança, identificação de pontos cegos, síndrome do impostor, saúde mental do fundador e planejamento de sucessão. Use quando um fundador se sente como o gargalo, tem dificuldade em delegar, está em burnout, fazendo a transição de IC para executivo, gerenciando um conselho, ou quando o usuário mencionar founder mode, crescimento do CEO, desenvolvimento de liderança, delegação, burnout ou síndrome do impostor."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

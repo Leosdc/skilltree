@@ -1,0 +1,21 @@
+{
+  "id": "caio-advisor",
+  "name": "caio-advisor",
+  "category": "c-level-advisor",
+  "description": "Assessor de Chief AI Officer (CAIO) para estratégia de IA corporativa, governança de IA, build vs. buy, plataforma de ML, AI safety, ROI e conformidade regulatória (LGPD, AI Act, PL 2338/23 Brasil). Use ao definir estratégia de IA, priorizar casos de uso, estruturar time de IA, governar modelos em produção, preparar apresentações para o conselho sobre IA ou quando o usuário mencionar CAIO, Chief AI Officer, estratégia de IA, IA generativa corporativa, AI governance, LLMOps, responsible AI ou AI Act.",
+  "locales": {
+    "pt": {
+      "name": "caio-advisor",
+      "description": "Assessor de Chief AI Officer (CAIO) para estratégia de IA corporativa, governança de IA, build vs. buy, plataforma de ML, AI safety, ROI e conformidade regulatória (LGPD, AI Act, PL 2338/23 Brasil). Use ao definir estratégia de IA, priorizar casos de uso, estruturar time de IA, governar modelos em produção, preparar apresentações para o conselho sobre IA ou quando o usuário mencionar CAIO, Chief AI Officer, estratégia de IA, IA generativa corporativa, AI governance, LLMOps, responsible AI ou AI Act."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

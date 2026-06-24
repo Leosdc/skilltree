@@ -1,0 +1,21 @@
+{
+  "id": "ceo-advisor",
+  "name": "ceo-advisor",
+  "category": "c-level-advisor",
+  "description": "Orientação de liderança executiva para tomada de decisões estratégicas, desenvolvimento organizacional e gestão de partes interessadas. Use ao planejar estratégia, preparar apresentações para o conselho, gerenciar investidores, desenvolver cultura organizacional, tomar decisões executivas, captar recursos ou quando o usuário mencionar CEO, planejamento estratégico, reuniões de conselho, atualizações para investidores, liderança organizacional ou estratégia executiva.",
+  "locales": {
+    "pt": {
+      "name": "ceo-advisor",
+      "description": "Orientação de liderança executiva para tomada de decisões estratégicas, desenvolvimento organizacional e gestão de partes interessadas. Use ao planejar estratégia, preparar apresentações para o conselho, gerenciar investidores, desenvolver cultura organizacional, tomar decisões executivas, captar recursos ou quando o usuário mencionar CEO, planejamento estratégico, reuniões de conselho, atualizações para investidores, liderança organizacional ou estratégia executiva."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "scenario-war-room",
+  "name": "scenario-war-room",
+  "category": "c-level-advisor",
+  "description": "Modelagem interfuncional de cenários hipotéticos com efeitos cascata e múltiplas variáveis. Ao contrário do teste de estresse de premissa única, este modela adversidade composta em todas as funções do negócio simultaneamente. Use ao enfrentar cenários de risco complexos, decisões estratégicas com grande desvantagem ou quando o usuário perguntar 'e se X E Y acontecerem ao mesmo tempo?'",
+  "locales": {
+    "pt": {
+      "name": "scenario-war-room",
+      "description": "Modelagem interfuncional de cenários hipotéticos com efeitos cascata e múltiplas variáveis. Ao contrário do teste de estresse de premissa única, este modela adversidade composta em todas as funções do negócio simultaneamente. Use ao enfrentar cenários de risco complexos, decisões estratégicas com grande desvantagem ou quando o usuário perguntar 'e se X E Y acontecerem ao mesmo tempo?'"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

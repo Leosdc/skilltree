@@ -1,0 +1,21 @@
+{
+  "id": "decision-logger",
+  "name": "decision-logger",
+  "category": "c-level-advisor",
+  "description": "Arquitetura de memória em duas camadas para decisões de reuniões do conselho. Gerencia transcrições brutas (Camada 1) e decisões aprovadas (Camada 2). Use ao registrar decisões após uma reunião do conselho, revisar decisões passadas com /cs:decisions ou verificar itens de ação vencidos com /cs:review. Invocado automaticamente pela skill de reunião do conselho após aprovação do fundador na Fase 5.",
+  "locales": {
+    "pt": {
+      "name": "decision-logger",
+      "description": "Arquitetura de memória em duas camadas para decisões de reuniões do conselho. Gerencia transcrições brutas (Camada 1) e decisões aprovadas (Camada 2). Use ao registrar decisões após uma reunião do conselho, revisar decisões passadas com /cs:decisions ou verificar itens de ação vencidos com /cs:review. Invocado automaticamente pela skill de reunião do conselho após aprovação do fundador na Fase 5."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

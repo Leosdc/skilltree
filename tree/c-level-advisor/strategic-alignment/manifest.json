@@ -1,0 +1,21 @@
+{
+  "id": "strategic-alignment",
+  "name": "strategic-alignment",
+  "category": "c-level-advisor",
+  "description": "Cascateia a estratégia da diretoria até o colaborador individual. Detecta e corrige desalinhamentos entre metas da empresa e execução dos times. Abrange articulação de estratégia, mapeamento de cascata, detecção de metas órfãs, identificação de silos, análise de gaps de comunicação e protocolos de realinhamento. Use quando times estão puxando em direções diferentes, OKRs não se conectam, departamentos otimizam localmente à custa da empresa, ou quando o usuário mencionar alinhamento, cascata de estratégia, silo, OKRs conflitantes ou comunicação de estratégia.",
+  "locales": {
+    "pt": {
+      "name": "strategic-alignment",
+      "description": "Cascateia a estratégia da diretoria até o colaborador individual. Detecta e corrige desalinhamentos entre metas da empresa e execução dos times. Abrange articulação de estratégia, mapeamento de cascata, detecção de metas órfãs, identificação de silos, análise de gaps de comunicação e protocolos de realinhamento. Use quando times estão puxando em direções diferentes, OKRs não se conectam, departamentos otimizam localmente à custa da empresa, ou quando o usuário mencionar alinhamento, cascata de estratégia, silo, OKRs conflitantes ou comunicação de estratégia."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "context-engine",
+  "name": "context-engine",
+  "category": "c-level-advisor",
+  "description": "Carrega e gerencia o contexto da empresa para todos os skills de assessor do C-suite. Lê ~/.claude/company-context.md, detecta contexto desatualizado (>90 dias), enriquece o contexto durante conversas e aplica regras de privacidade/anonimização antes de chamadas externas de API.",
+  "locales": {
+    "pt": {
+      "name": "context-engine",
+      "description": "Carrega e gerencia o contexto da empresa para todos os skills de assessor do C-suite. Lê ~/.claude/company-context.md, detecta contexto desatualizado (>90 dias), enriquece o contexto durante conversas e aplica regras de privacidade/anonimização antes de chamadas externas de API."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

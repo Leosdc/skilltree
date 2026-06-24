@@ -1,0 +1,21 @@
+{
+  "id": "cs-onboard",
+  "name": "cs-onboard",
+  "category": "c-level-advisor",
+  "description": "Entrevista de integração do fundador que captura o contexto da empresa em 7 dimensões. Invoque com /cs:setup para a entrevista inicial ou /cs:update para a atualização trimestral. Gera ~/.claude/company-context.md utilizado por todas as skills de assessoria C-suite.",
+  "locales": {
+    "pt": {
+      "name": "cs-onboard",
+      "description": "Entrevista de integração do fundador que captura o contexto da empresa em 7 dimensões. Invoque com /cs:setup para a entrevista inicial ou /cs:update para a atualização trimestral. Gera ~/.claude/company-context.md utilizado por todas as skills de assessoria C-suite."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

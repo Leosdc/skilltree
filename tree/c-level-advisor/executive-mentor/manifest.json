@@ -1,0 +1,21 @@
+{
+  "id": "executive-mentor",
+  "name": "executive-mentor",
+  "category": "c-level-advisor",
+  "description": "Parceiro de pensamento adversarial para fundadores e executivos. Testa planos sob pressão, prepara para reuniões brutais do conselho, disseca decisões sem boas opções e força post-mortems honestos. Use quando precisar que alguém encontre os pontos fracos antes que o conselho encontre, para tomar uma decisão que você vem evitando, ou para entender o que realmente deu errado.",
+  "locales": {
+    "pt": {
+      "name": "executive-mentor",
+      "description": "Parceiro de pensamento adversarial para fundadores e executivos. Testa planos sob pressão, prepara para reuniões brutais do conselho, disseca decisões sem boas opções e força post-mortems honestos. Use quando precisar que alguém encontre os pontos fracos antes que o conselho encontre, para tomar uma decisão que você vem evitando, ou para entender o que realmente deu errado."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

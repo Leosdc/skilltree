@@ -1,0 +1,21 @@
+{
+  "id": "competitive-intel",
+  "name": "competitive-intel",
+  "category": "c-level-advisor",
+  "description": "Rastreamento sistemático de concorrentes que alimenta o posicionamento do CMO, battlecards do CRO e decisões de roadmap do CPO. Use ao analisar concorrentes, construir battlecards de vendas, rastrear movimentos de mercado, posicionar-se contra alternativas ou quando o usuário mencionar inteligência competitiva, análise competitiva, pesquisa de concorrentes, battlecards, win/loss ou posicionamento de mercado.",
+  "locales": {
+    "pt": {
+      "name": "competitive-intel",
+      "description": "Rastreamento sistemático de concorrentes que alimenta o posicionamento do CMO, battlecards do CRO e decisões de roadmap do CPO. Use ao analisar concorrentes, construir battlecards de vendas, rastrear movimentos de mercado, posicionar-se contra alternativas ou quando o usuário mencionar inteligência competitiva, análise competitiva, pesquisa de concorrentes, battlecards, win/loss ou posicionamento de mercado."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

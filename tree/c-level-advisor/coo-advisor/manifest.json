@@ -1,0 +1,21 @@
+{
+  "id": "coo-advisor",
+  "name": "coo-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança de operações para empresas em escala. Design de processos, execução de OKRs, cadência operacional e playbooks de escala. Use ao projetar operações, configurar OKRs, construir processos, escalar times, analisar gargalos, planejar cadência operacional ou quando o usuário mencionar COO, operações, melhoria de processos, OKRs, escala, eficiência operacional ou execução.",
+  "locales": {
+    "pt": {
+      "name": "coo-advisor",
+      "description": "Liderança de operações para empresas em escala. Design de processos, execução de OKRs, cadência operacional e playbooks de escala. Use ao projetar operações, configurar OKRs, construir processos, escalar times, analisar gargalos, planejar cadência operacional ou quando o usuário mencionar COO, operações, melhoria de processos, OKRs, escala, eficiência operacional ou execução."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

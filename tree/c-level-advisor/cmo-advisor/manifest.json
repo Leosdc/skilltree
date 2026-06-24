@@ -1,0 +1,21 @@
+{
+  "id": "cmo-advisor",
+  "name": "cmo-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança de marketing para empresas em escala. Posicionamento de marca, design do modelo de crescimento, alocação de orçamento de marketing e design da organização de marketing. Use ao projetar estratégia de marca, selecionar modelos de crescimento (PLG vs. liderado por vendas vs. liderado por comunidade), alocar orçamentos de marketing, construir times de marketing ou quando o usuário mencionar CMO, estratégia de marca, modelo de crescimento, CAC, LTV, mix de canais ou ROI de marketing.",
+  "locales": {
+    "pt": {
+      "name": "cmo-advisor",
+      "description": "Liderança de marketing para empresas em escala. Posicionamento de marca, design do modelo de crescimento, alocação de orçamento de marketing e design da organização de marketing. Use ao projetar estratégia de marca, selecionar modelos de crescimento (PLG vs. liderado por vendas vs. liderado por comunidade), alocar orçamentos de marketing, construir times de marketing ou quando o usuário mencionar CMO, estratégia de marca, modelo de crescimento, CAC, LTV, mix de canais ou ROI de marketing."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

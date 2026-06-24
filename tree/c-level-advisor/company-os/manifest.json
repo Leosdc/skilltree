@@ -1,0 +1,21 @@
+{
+  "id": "company-os",
+  "name": "company-os",
+  "category": "c-level-advisor",
+  "description": "O meta-framework de como uma empresa funciona — o tecido conjuntivo entre todos os papéis do C-suite. Cobre seleção do sistema operacional (EOS, Scaling Up, OKR-nativo, híbrido), gráficos de accountability, scorecards, ritmo de reuniões, resolução de problemas e rocks de 90 dias. Use ao configurar operações da empresa, selecionar um framework de gestão, projetar ritmos de reuniões, construir sistemas de accountability, implementar OKRs ou quando o usuário mencionar EOS, Scaling Up, sistema operacional, reuniões L10, rocks, scorecard, gráfico de accountability ou planejamento trimestral.",
+  "locales": {
+    "pt": {
+      "name": "company-os",
+      "description": "O meta-framework de como uma empresa funciona — o tecido conjuntivo entre todos os papéis do C-suite. Cobre seleção do sistema operacional (EOS, Scaling Up, OKR-nativo, híbrido), gráficos de accountability, scorecards, ritmo de reuniões, resolução de problemas e rocks de 90 dias. Use ao configurar operações da empresa, selecionar um framework de gestão, projetar ritmos de reuniões, construir sistemas de accountability, implementar OKRs ou quando o usuário mencionar EOS, Scaling Up, sistema operacional, reuniões L10, rocks, scorecard, gráfico de accountability ou planejamento trimestral."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

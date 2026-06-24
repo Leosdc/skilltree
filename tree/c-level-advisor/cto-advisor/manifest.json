@@ -1,0 +1,21 @@
+{
+  "id": "cto-advisor",
+  "name": "cto-advisor",
+  "category": "c-level-advisor",
+  "description": "Orientação de liderança técnica para times de engenharia, decisões de arquitetura e estratégia de tecnologia. Use ao avaliar dívida técnica, escalar times de engenharia, avaliar tecnologias, tomar decisões de arquitetura, estabelecer métricas de engenharia ou quando o usuário mencionar CTO, tech debt, dívida técnica, escalabilidade de times, decisões de arquitetura, avaliação de tecnologia, métricas de engenharia, métricas DORA ou estratégia de tecnologia.",
+  "locales": {
+    "pt": {
+      "name": "cto-advisor",
+      "description": "Orientação de liderança técnica para times de engenharia, decisões de arquitetura e estratégia de tecnologia. Use ao avaliar dívida técnica, escalar times de engenharia, avaliar tecnologias, tomar decisões de arquitetura, estabelecer métricas de engenharia ou quando o usuário mencionar CTO, tech debt, dívida técnica, escalabilidade de times, decisões de arquitetura, avaliação de tecnologia, métricas de engenharia, métricas DORA ou estratégia de tecnologia."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

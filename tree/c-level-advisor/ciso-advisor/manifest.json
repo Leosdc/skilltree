@@ -1,0 +1,21 @@
+{
+  "id": "ciso-advisor",
+  "name": "ciso-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança de segurança para empresas em estágio de crescimento. Quantificação de risco em reais, roadmap de compliance (SOC 2/ISO 27001/LGPD/ANVISA), estratégia de arquitetura de segurança, liderança de resposta a incidentes e reporte de segurança ao conselho. Use ao construir programas de segurança, justificar orçamento de segurança, selecionar frameworks de compliance, gerenciar incidentes, avaliar risco de fornecedores ou quando o usuário mencionar CISO, estratégia de segurança, roadmap de compliance, zero trust ou reporte de segurança ao conselho.",
+  "locales": {
+    "pt": {
+      "name": "ciso-advisor",
+      "description": "Liderança de segurança para empresas em estágio de crescimento. Quantificação de risco em reais, roadmap de compliance (SOC 2/ISO 27001/LGPD/ANVISA), estratégia de arquitetura de segurança, liderança de resposta a incidentes e reporte de segurança ao conselho. Use ao construir programas de segurança, justificar orçamento de segurança, selecionar frameworks de compliance, gerenciar incidentes, avaliar risco de fornecedores ou quando o usuário mencionar CISO, estratégia de segurança, roadmap de compliance, zero trust ou reporte de segurança ao conselho."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

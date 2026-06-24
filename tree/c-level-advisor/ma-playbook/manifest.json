@@ -1,0 +1,21 @@
+{
+  "id": "ma-playbook",
+  "name": "ma-playbook",
+  "category": "c-level-advisor",
+  "description": "Estratégia de M&A para adquirir empresas ou ser adquirido. Due diligence, avaliação, integração e estrutura de negócio. Use ao avaliar aquisições, preparar-se para ser adquirido, due diligence de M&A, planejamento de integração ou negociação de transações.",
+  "locales": {
+    "pt": {
+      "name": "ma-playbook",
+      "description": "Estratégia de M&A para adquirir empresas ou ser adquirido. Due diligence, avaliação, integração e estrutura de negócio. Use ao avaliar aquisições, preparar-se para ser adquirido, due diligence de M&A, planejamento de integração ou negociação de transações."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

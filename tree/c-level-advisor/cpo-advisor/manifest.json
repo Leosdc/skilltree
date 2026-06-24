@@ -1,0 +1,21 @@
+{
+  "id": "cpo-advisor",
+  "name": "cpo-advisor",
+  "category": "c-level-advisor",
+  "description": "Liderança de produto para empresas em escala. Visão de produto, estratégia de portfólio, product-market fit e design da organização de produto. Use ao definir visão de produto, gerenciar portfólio de produtos, medir PMF, projetar times de produto, priorizar no nível de portfólio, reportar ao conselho sobre produto ou quando o usuário mencionar CPO, estratégia de produto, product-market fit, organização de produto, priorização de portfólio ou estratégia de roadmap.",
+  "locales": {
+    "pt": {
+      "name": "cpo-advisor",
+      "description": "Liderança de produto para empresas em escala. Visão de produto, estratégia de portfólio, product-market fit e design da organização de produto. Use ao definir visão de produto, gerenciar portfólio de produtos, medir PMF, projetar times de produto, priorizar no nível de portfólio, reportar ao conselho sobre produto ou quando o usuário mencionar CPO, estratégia de produto, product-market fit, organização de produto, priorização de portfólio ou estratégia de roadmap."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
