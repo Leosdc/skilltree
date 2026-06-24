@@ -1,0 +1,21 @@
+{
+  "id": "roadmap-communicator",
+  "name": "roadmap-communicator",
+  "category": "product-team",
+  "description": "Use ao preparar narrativas de roadmap, notas de versão, changelogs ou atualizações para partes interessadas adaptadas para executivos, equipes de engenharia e clientes.",
+  "locales": {
+    "pt": {
+      "name": "roadmap-communicator",
+      "description": "Use ao preparar narrativas de roadmap, notas de versão, changelogs ou atualizações para partes interessadas adaptadas para executivos, equipes de engenharia e clientes."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

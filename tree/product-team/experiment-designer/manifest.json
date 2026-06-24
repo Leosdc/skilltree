@@ -1,0 +1,21 @@
+{
+  "id": "experiment-designer",
+  "name": "experiment-designer",
+  "category": "product-team",
+  "description": "Use ao planejar experimentos de produto, escrever hipóteses testáveis, estimar tamanho de amostra, priorizar testes ou interpretar resultados de A/B com rigor estatístico prático.",
+  "locales": {
+    "pt": {
+      "name": "experiment-designer",
+      "description": "Use ao planejar experimentos de produto, escrever hipóteses testáveis, estimar tamanho de amostra, priorizar testes ou interpretar resultados de A/B com rigor estatístico prático."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

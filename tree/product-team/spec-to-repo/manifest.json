@@ -1,0 +1,21 @@
+{
+  "id": "spec-to-repo",
+  "name": "spec-to-repo",
+  "category": "product-team",
+  "description": "Use quando o usuário diz 'crie um app para mim', 'crie um projeto a partir desta especificação', 'scaffolde um novo repo', 'gere um starter', 'transforme esta ideia em código', 'faça bootstrap de um projeto', 'tenho requisitos e preciso de uma base de código', ou fornece uma especificação de projeto em linguagem natural e espera um repositório completo e executável. Agnóstico de stack: Next.js, FastAPI, Rails, Go, Rust, Flutter e mais.",
+  "locales": {
+    "pt": {
+      "name": "spec-to-repo",
+      "description": "Use quando o usuário diz 'crie um app para mim', 'crie um projeto a partir desta especificação', 'scaffolde um novo repo', 'gere um starter', 'transforme esta ideia em código', 'faça bootstrap de um projeto', 'tenho requisitos e preciso de uma base de código', ou fornece uma especificação de projeto em linguagem natural e espera um repositório completo e executável. Agnóstico de stack: Next.js, FastAPI, Rails, Go, Rust, Flutter e mais."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

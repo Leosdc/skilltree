@@ -1,0 +1,21 @@
+{
+  "id": "research-summarizer",
+  "name": "research-summarizer",
+  "category": "product-team",
+  "description": "Skill de agente de sumarização de pesquisa estruturada para usuários não-dev. Lida com artigos acadêmicos, artigos web, relatórios e documentação. Extrai descobertas principais, gera análises comparativas e produz citações formatadas corretamente. Use quando: o usuário quer resumir um artigo de pesquisa, comparar múltiplas fontes, extrair citações de documentos ou criar briefings de pesquisa estruturados. Plugin para Claude Code.",
+  "locales": {
+    "pt": {
+      "name": "research-summarizer",
+      "description": "Skill de agente de sumarização de pesquisa estruturada para usuários não-dev. Lida com artigos acadêmicos, artigos web, relatórios e documentação. Extrai descobertas principais, gera análises comparativas e produz citações formatadas corretamente. Use quando: o usuário quer resumir um artigo de pesquisa, comparar múltiplas fontes, extrair citações de documentos ou criar briefings de pesquisa estruturados. Plugin para Claude Code."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

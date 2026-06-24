@@ -1,0 +1,21 @@
+{
+  "id": "product-analytics",
+  "name": "product-analytics",
+  "category": "product-team",
+  "description": "Use ao definir KPIs de produto, construir dashboards de métricas, executar análise de coorte ou retenção, ou interpretar tendências de adoção de funcionalidades em diferentes estágios de produto.",
+  "locales": {
+    "pt": {
+      "name": "product-analytics",
+      "description": "Use ao definir KPIs de produto, construir dashboards de métricas, executar análise de coorte ou retenção, ou interpretar tendências de adoção de funcionalidades em diferentes estágios de produto."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

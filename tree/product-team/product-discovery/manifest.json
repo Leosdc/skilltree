@@ -1,0 +1,21 @@
+{
+  "id": "product-discovery",
+  "name": "product-discovery",
+  "category": "product-team",
+  "description": "Use ao validar oportunidades de produto, mapear suposições, planejar sprints de descoberta ou testar o fit problema-solução antes de comprometer recursos de entrega.",
+  "locales": {
+    "pt": {
+      "name": "product-discovery",
+      "description": "Use ao validar oportunidades de produto, mapear suposições, planejar sprints de descoberta ou testar o fit problema-solução antes de comprometer recursos de entrega."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

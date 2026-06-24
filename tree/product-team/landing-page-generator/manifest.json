@@ -1,0 +1,21 @@
+{
+  "id": "landing-page-generator",
+  "name": "landing-page-generator",
+  "category": "product-team",
+  "description": "Gera landing pages de alta conversão como componentes Next.js/React (TSX) completos com Tailwind CSS. Cria seções hero, grids de funcionalidades, tabelas de preços, accordions de FAQ, blocos de depoimentos e seções CTA usando frameworks de copy comprovados (PAS, AIDA, BAB). Produz meta tags SEO, dados estruturados e código otimizado para desempenho visando Core Web Vitals (LCP < 1s, CLS < 0.1). Use quando o usuário pede para criar uma landing page, página de marketing, homepage, site de página única, página de captura de leads, página de campanha, página de promoção ou página web otimizada para conversão — ou quando quer testar variantes de landing page A/B ou substituir uma página estática por uma projetada para converter.",
+  "locales": {
+    "pt": {
+      "name": "landing-page-generator",
+      "description": "Gera landing pages de alta conversão como componentes Next.js/React (TSX) completos com Tailwind CSS. Cria seções hero, grids de funcionalidades, tabelas de preços, accordions de FAQ, blocos de depoimentos e seções CTA usando frameworks de copy comprovados (PAS, AIDA, BAB). Produz meta tags SEO, dados estruturados e código otimizado para desempenho visando Core Web Vitals (LCP < 1s, CLS < 0.1). Use quando o usuário pede para criar uma landing page, página de marketing, homepage, site de página única, página de captura de leads, página de campanha, página de promoção ou página web otimizada para conversão — ou quando quer testar variantes de landing page A/B ou substituir uma página estática por uma projetada para converter."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

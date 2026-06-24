@@ -1,0 +1,21 @@
+{
+  "id": "competitive-teardown",
+  "name": "competitive-teardown",
+  "category": "product-team",
+  "description": "Analisa produtos e empresas concorrentes sintetizando dados de páginas de preços, avaliações de app stores, ofertas de emprego, sinais de SEO e redes sociais em inteligência competitiva estruturada. Produz matrizes de comparação de funcionalidades pontuadas em 12 dimensões, análises SWOT, mapas de posicionamento, auditorias de UX, detalhamentos de modelos de precificação, roadmaps de itens de ação e templates de apresentação para partes interessadas. Use ao realizar análise de concorrentes, comparar produtos com competidores, pesquisar o cenário competitivo, criar battle cards para vendas, preparar uma sessão de estratégia ou roadmap de produto, responder a um novo recurso ou mudança de preço de um concorrente, ou realizar uma revisão competitiva trimestral.",
+  "locales": {
+    "pt": {
+      "name": "competitive-teardown",
+      "description": "Analisa produtos e empresas concorrentes sintetizando dados de páginas de preços, avaliações de app stores, ofertas de emprego, sinais de SEO e redes sociais em inteligência competitiva estruturada. Produz matrizes de comparação de funcionalidades pontuadas em 12 dimensões, análises SWOT, mapas de posicionamento, auditorias de UX, detalhamentos de modelos de precificação, roadmaps de itens de ação e templates de apresentação para partes interessadas. Use ao realizar análise de concorrentes, comparar produtos com competidores, pesquisar o cenário competitivo, criar battle cards para vendas, preparar uma sessão de estratégia ou roadmap de produto, responder a um novo recurso ou mudança de preço de um concorrente, ou realizar uma revisão competitiva trimestral."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "apple-hig-expert",
+  "name": "apple-hig-expert",
+  "category": "product-team",
+  "description": "Orientação especializada nas Diretrizes de Interface Humana (HIG) da Apple. Abrange iOS, macOS e visionOS com a estética Liquid Glass de 2026 e design com acessibilidade em primeiro lugar.",
+  "locales": {
+    "pt": {
+      "name": "apple-hig-expert",
+      "description": "Orientação especializada nas Diretrizes de Interface Humana (HIG) da Apple. Abrange iOS, macOS e visionOS com a estética Liquid Glass de 2026 e design com acessibilidade em primeiro lugar."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

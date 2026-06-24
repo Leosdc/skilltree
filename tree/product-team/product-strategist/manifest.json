@@ -1,0 +1,21 @@
+{
+  "id": "product-strategist",
+  "name": "product-strategist",
+  "category": "product-team",
+  "description": "Kit de ferramentas de liderança estratégica de produto para Head of Product cobrindo geração de cascata OKR, planejamento trimestral, análise do cenário competitivo, documentos de visão de produto e propostas de escalabilidade de equipe. Use ao criar documentos OKR trimestrais, definir metas ou KPIs de produto, construir roadmap de produto, executar análise competitiva, redigir estrutura de equipe ou planos de contratação, alinhar estratégia de produto entre engenharia e design, ou gerar hierarquias de metas em cascata do nível da empresa ao nível da equipe.",
+  "locales": {
+    "pt": {
+      "name": "product-strategist",
+      "description": "Kit de ferramentas de liderança estratégica de produto para Head of Product cobrindo geração de cascata OKR, planejamento trimestral, análise do cenário competitivo, documentos de visão de produto e propostas de escalabilidade de equipe. Use ao criar documentos OKR trimestrais, definir metas ou KPIs de produto, construir roadmap de produto, executar análise competitiva, redigir estrutura de equipe ou planos de contratação, alinhar estratégia de produto entre engenharia e design, ou gerar hierarquias de metas em cascata do nível da empresa ao nível da equipe."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

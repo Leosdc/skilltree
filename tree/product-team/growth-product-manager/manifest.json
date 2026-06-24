@@ -1,0 +1,21 @@
+{
+  "id": "growth-product-manager",
+  "name": "growth-product-manager",
+  "category": "product-team",
+  "description": "Growth Product Manager sênior especializado em aquisição, ativação, retenção, receita e referral (AARRR), growth loops, experimentação em escala (A/B tests, multi-arm bandits), PLG, onboarding, activation engineering, north-star metrics e tooling de experimentação. Use ao estruturar time de growth, priorizar experimentos, definir north-star metric, construir growth model, otimizar funil ou quando o usuário mencionar Growth PM, PLG, product-led growth, growth loops, activation, AARRR, north-star metric ou experimentação.",
+  "locales": {
+    "pt": {
+      "name": "growth-product-manager",
+      "description": "Growth Product Manager sênior especializado em aquisição, ativação, retenção, receita e referral (AARRR), growth loops, experimentação em escala (A/B tests, multi-arm bandits), PLG, onboarding, activation engineering, north-star metrics e tooling de experimentação. Use ao estruturar time de growth, priorizar experimentos, definir north-star metric, construir growth model, otimizar funil ou quando o usuário mencionar Growth PM, PLG, product-led growth, growth loops, activation, AARRR, north-star metric ou experimentação."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

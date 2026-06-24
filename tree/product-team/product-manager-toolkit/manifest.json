@@ -1,0 +1,21 @@
+{
+  "id": "product-manager-toolkit",
+  "name": "product-manager-toolkit",
+  "category": "product-team",
+  "description": "Kit de ferramentas abrangente para gerentes de produto incluindo priorização RICE, análise de entrevistas com clientes, templates de PRD, frameworks de descoberta e estratégias de go-to-market. Use para priorização de funcionalidades, síntese de pesquisa com usuários, documentação de requisitos e desenvolvimento de estratégia de produto.",
+  "locales": {
+    "pt": {
+      "name": "product-manager-toolkit",
+      "description": "Kit de ferramentas abrangente para gerentes de produto incluindo priorização RICE, análise de entrevistas com clientes, templates de PRD, frameworks de descoberta e estratégias de go-to-market. Use para priorização de funcionalidades, síntese de pesquisa com usuários, documentação de requisitos e desenvolvimento de estratégia de produto."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

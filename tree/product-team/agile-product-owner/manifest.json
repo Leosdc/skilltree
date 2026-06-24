@@ -1,0 +1,21 @@
+{
+  "id": "agile-product-owner",
+  "name": "agile-product-owner",
+  "category": "product-team",
+  "description": "Gestão ágil de produto para gerenciamento de backlog e execução de sprint. Cobre escrita de user stories, critérios de aceitação, planejamento de sprint e rastreamento de velocidade. Use para escrever user stories, criar critérios de aceitação, planejar sprints, estimar story points, desmembrar épicos ou priorizar o backlog.",
+  "locales": {
+    "pt": {
+      "name": "agile-product-owner",
+      "description": "Gestão ágil de produto para gerenciamento de backlog e execução de sprint. Cobre escrita de user stories, critérios de aceitação, planejamento de sprint e rastreamento de velocidade. Use para escrever user stories, criar critérios de aceitação, planejar sprints, estimar story points, desmembrar épicos ou priorizar o backlog."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

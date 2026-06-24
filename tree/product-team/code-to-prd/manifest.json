@@ -1,0 +1,21 @@
+{
+  "id": "code-to-prd",
+  "name": "code-to-prd",
+  "category": "product-team",
+  "description": "Faça engenharia reversa de qualquer base de código em um Documento de Requisitos de Produto (PRD) completo.\nAnalisa rotas, componentes, gerenciamento de estado, integrações de API e interações do usuário para produzir\ndocumentação legível para negócios, detalhada o suficiente para engenheiros ou agentes de IA reconstruírem\ncompletamente cada página e endpoint. Funciona com frameworks frontend (React, Vue, Angular, Svelte, Next.js, Nuxt),\nframeworks backend (NestJS, Django, Express, FastAPI) e aplicações fullstack.\n\nAcione quando os usuários mencionarem: gerar PRD, fazer engenharia reversa de requisitos, código para documentação,\nextrair especificações de produto do código, documentar lógica de página, analisar campos e interações de página,\ncriar inventário funcional, escrever requisitos de uma base de código existente, documentar endpoints de API\nou analisar rotas de backend.",
+  "locales": {
+    "pt": {
+      "name": "code-to-prd",
+      "description": "Faça engenharia reversa de qualquer base de código em um Documento de Requisitos de Produto (PRD) completo.\nAnalisa rotas, componentes, gerenciamento de estado, integrações de API e interações do usuário para produzir\ndocumentação legível para negócios, detalhada o suficiente para engenheiros ou agentes de IA reconstruírem\ncompletamente cada página e endpoint. Funciona com frameworks frontend (React, Vue, Angular, Svelte, Next.js, Nuxt),\nframeworks backend (NestJS, Django, Express, FastAPI) e aplicações fullstack.\n\nAcione quando os usuários mencionarem: gerar PRD, fazer engenharia reversa de requisitos, código para documentação,\nextrair especificações de produto do código, documentar lógica de página, analisar campos e interações de página,\ncriar inventário funcional, escrever requisitos de uma base de código existente, documentar endpoints de API\nou analisar rotas de backend."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

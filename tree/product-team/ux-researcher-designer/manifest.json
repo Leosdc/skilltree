@@ -1,0 +1,21 @@
+{
+  "id": "ux-researcher-designer",
+  "name": "ux-researcher-designer",
+  "category": "product-team",
+  "description": "Kit de ferramentas de pesquisa UX e design para Designer/Pesquisador UX Sênior incluindo geração de personas orientada por dados, mapeamento de jornada, frameworks de testes de usabilidade e síntese de pesquisa. Use para pesquisa com usuários, criação de personas, mapeamento de jornada e validação de design.",
+  "locales": {
+    "pt": {
+      "name": "ux-researcher-designer",
+      "description": "Kit de ferramentas de pesquisa UX e design para Designer/Pesquisador UX Sênior incluindo geração de personas orientada por dados, mapeamento de jornada, frameworks de testes de usabilidade e síntese de pesquisa. Use para pesquisa com usuários, criação de personas, mapeamento de jornada e validação de design."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

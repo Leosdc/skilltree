@@ -1,0 +1,21 @@
+{
+  "id": "ui-design-system",
+  "name": "ui-design-system",
+  "category": "product-team",
+  "description": "Kit de ferramentas de sistema de UI design para Designer UI Sênior incluindo geração de design tokens, documentação de componentes, cálculos de design responsivo e ferramentas de handoff para desenvolvedores. Use para criar sistemas de design, manter consistência visual e facilitar a colaboração design-dev.",
+  "locales": {
+    "pt": {
+      "name": "ui-design-system",
+      "description": "Kit de ferramentas de sistema de UI design para Designer UI Sênior incluindo geração de design tokens, documentação de componentes, cálculos de design responsivo e ferramentas de handoff para desenvolvedores. Use para criar sistemas de design, manter consistência visual e facilitar a colaboração design-dev."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
