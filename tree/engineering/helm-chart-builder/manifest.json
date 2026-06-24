@@ -1,0 +1,21 @@
+{
+  "id": "helm-chart-builder",
+  "name": "helm-chart-builder",
+  "category": "engineering",
+  "description": "Skill e plugin para desenvolvimento de Helm chart no Claude Code — scaffolding de chart, design de values, padrões de template, gerenciamento de dependências, hardening de segurança e testes de chart. Use quando: o usuário quiser criar ou melhorar Helm charts, projetar arquivos values.yaml, implementar template helpers, auditar segurança de chart (RBAC, network policies, pod security), gerenciar subcharts ou executar helm lint/test.",
+  "locales": {
+    "pt": {
+      "name": "helm-chart-builder",
+      "description": "Skill e plugin para desenvolvimento de Helm chart no Claude Code — scaffolding de chart, design de values, padrões de template, gerenciamento de dependências, hardening de segurança e testes de chart. Use quando: o usuário quiser criar ou melhorar Helm charts, projetar arquivos values.yaml, implementar template helpers, auditar segurança de chart (RBAC, network policies, pod security), gerenciar subcharts ou executar helm lint/test."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

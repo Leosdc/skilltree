@@ -1,0 +1,21 @@
+{
+  "id": "autoresearch-agent",
+  "name": "autoresearch-agent",
+  "category": "engineering",
+  "description": "Loop autônomo de experimentos que otimiza qualquer arquivo por uma métrica mensurável. Inspirado no autoresearch do Karpathy. O agente edita um arquivo alvo, executa uma avaliação fixa, mantém melhorias (git commit), descarta falhas (git reset) e faz loop indefinidamente. Use quando: o usuário quer otimizar velocidade de código, reduzir tamanho de bundle/imagem, melhorar taxa de aprovação em testes, otimizar prompts, melhorar qualidade de conteúdo (headlines, copy, CTR) ou executar qualquer loop de melhoria mensurável. Requer: um arquivo alvo, um comando de avaliação que gere uma métrica e um repositório git.",
+  "locales": {
+    "pt": {
+      "name": "autoresearch-agent",
+      "description": "Loop autônomo de experimentos que otimiza qualquer arquivo por uma métrica mensurável. Inspirado no autoresearch do Karpathy. O agente edita um arquivo alvo, executa uma avaliação fixa, mantém melhorias (git commit), descarta falhas (git reset) e faz loop indefinidamente. Use quando: o usuário quer otimizar velocidade de código, reduzir tamanho de bundle/imagem, melhorar taxa de aprovação em testes, otimizar prompts, melhorar qualidade de conteúdo (headlines, copy, CTR) ou executar qualquer loop de melhoria mensurável. Requer: um arquivo alvo, um comando de avaliação que gere uma métrica e um repositório git."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

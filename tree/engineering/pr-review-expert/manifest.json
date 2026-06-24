@@ -1,0 +1,21 @@
+{
+  "id": "pr-review-expert",
+  "name": "pr-review-expert",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para revisar pull requests, analisar mudanças de código, verificar questões de segurança em PRs, ou avaliar a qualidade do código de diffs.",
+  "locales": {
+    "pt": {
+      "name": "pr-review-expert",
+      "description": "Use quando o usuário pede para revisar pull requests, analisar mudanças de código, verificar questões de segurança em PRs, ou avaliar a qualidade do código de diffs."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

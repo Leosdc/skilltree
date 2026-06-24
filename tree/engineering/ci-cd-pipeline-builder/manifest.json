@@ -1,0 +1,21 @@
+{
+  "id": "ci-cd-pipeline-builder",
+  "name": "ci-cd-pipeline-builder",
+  "category": "engineering",
+  "description": "Construtor de Pipeline CI/CD — gera pipelines pragmáticos a partir de sinais detectados do stack do projeto, com estágios de lint, test, build e deploy, e suporte a GitHub Actions e GitLab CI.",
+  "locales": {
+    "pt": {
+      "name": "ci-cd-pipeline-builder",
+      "description": "Construtor de Pipeline CI/CD — gera pipelines pragmáticos a partir de sinais detectados do stack do projeto, com estágios de lint, test, build e deploy, e suporte a GitHub Actions e GitLab CI."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

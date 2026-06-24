@@ -1,0 +1,21 @@
+{
+  "id": "demo-video",
+  "name": "demo-video",
+  "category": "engineering",
+  "description": "Use quando o usuário pedir para criar um vídeo de demonstração, walkthrough de produto, showcase de funcionalidade, apresentação animada, vídeo de marketing ou GIF a partir de screenshots ou descrições de cenas. Orquestra playwright, ffmpeg e edge-tts MCPs para produzir conteúdo de vídeo polido.",
+  "locales": {
+    "pt": {
+      "name": "demo-video",
+      "description": "Use quando o usuário pedir para criar um vídeo de demonstração, walkthrough de produto, showcase de funcionalidade, apresentação animada, vídeo de marketing ou GIF a partir de screenshots ou descrições de cenas. Orquestra playwright, ffmpeg e edge-tts MCPs para produzir conteúdo de vídeo polido."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

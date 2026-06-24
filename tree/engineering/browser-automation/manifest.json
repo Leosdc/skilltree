@@ -1,0 +1,21 @@
+{
+  "id": "browser-automation",
+  "name": "browser-automation",
+  "category": "engineering",
+  "description": "Use quando o usuário pedir para automatizar tarefas no navegador, fazer scraping de sites, preencher formulários, capturar screenshots, extrair dados estruturados de páginas web ou construir workflows de automação web. NÃO para testes — use playwright-pro para isso.",
+  "locales": {
+    "pt": {
+      "name": "browser-automation",
+      "description": "Use quando o usuário pedir para automatizar tarefas no navegador, fazer scraping de sites, preencher formulários, capturar screenshots, extrair dados estruturados de páginas web ou construir workflows de automação web. NÃO para testes — use playwright-pro para isso."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

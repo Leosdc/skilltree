@@ -1,0 +1,21 @@
+{
+  "id": "tech-debt-tracker",
+  "name": "tech-debt-tracker",
+  "category": "engineering",
+  "description": "Escanear bases de código em busca de dívida técnica, pontuar severidade, rastrear tendências e gerar planos de remediação priorizados. Use quando os usuários mencionarem dívida técnica, qualidade de código, prioridade de refatoração, pontuação de dívida, sprints de limpeza ou avaliação de saúde do código. Também use para planejamento de modernização de código legado e estimativa de custo de manutenção.",
+  "locales": {
+    "pt": {
+      "name": "tech-debt-tracker",
+      "description": "Escanear bases de código em busca de dívida técnica, pontuar severidade, rastrear tendências e gerar planos de remediação priorizados. Use quando os usuários mencionarem dívida técnica, qualidade de código, prioridade de refatoração, pontuação de dívida, sprints de limpeza ou avaliação de saúde do código. Também use para planejamento de modernização de código legado e estimativa de custo de manutenção."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

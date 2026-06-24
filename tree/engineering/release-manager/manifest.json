@@ -1,0 +1,21 @@
+{
+  "id": "release-manager",
+  "name": "release-manager",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para planejar releases, gerenciar changelogs, coordenar implantações, criar branches de release ou automatizar versionamento.",
+  "locales": {
+    "pt": {
+      "name": "release-manager",
+      "description": "Use quando o usuário pede para planejar releases, gerenciar changelogs, coordenar implantações, criar branches de release ou automatizar versionamento."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

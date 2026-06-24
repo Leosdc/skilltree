@@ -1,0 +1,21 @@
+{
+  "id": "data-quality-auditor",
+  "name": "data-quality-auditor",
+  "category": "engineering",
+  "description": "Audite conjuntos de dados quanto à completude, consistência, precisão e validade. Perfil de distribuições de dados, detecção de anomalias e outliers, identificação de problemas estruturais e produção de um plano de remediação acionável.",
+  "locales": {
+    "pt": {
+      "name": "data-quality-auditor",
+      "description": "Audite conjuntos de dados quanto à completude, consistência, precisão e validade. Perfil de distribuições de dados, detecção de anomalias e outliers, identificação de problemas estruturais e produção de um plano de remediação acionável."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

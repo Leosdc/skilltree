@@ -1,0 +1,21 @@
+{
+  "id": "changelog-generator",
+  "name": "changelog-generator",
+  "category": "engineering",
+  "description": "Gerador de Changelog — produz notas de versão consistentes e auditáveis a partir de Conventional Commits, com detecção de bump semântico e renderização de seções Keep a Changelog.",
+  "locales": {
+    "pt": {
+      "name": "changelog-generator",
+      "description": "Gerador de Changelog — produz notas de versão consistentes e auditáveis a partir de Conventional Commits, com detecção de bump semântico e renderização de seções Keep a Changelog."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

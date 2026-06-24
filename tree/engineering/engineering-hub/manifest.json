@@ -1,0 +1,21 @@
+{
+  "id": "engineering-hub",
+  "name": "engineering-advanced-skills",
+  "category": "engineering",
+  "description": "25 skills e plugins avançados de engenharia para Claude Code. Design de agentes, RAG, servidores MCP, CI/CD, design de banco de dados, observabilidade, auditoria de segurança e gerenciamento de releases.",
+  "locales": {
+    "pt": {
+      "name": "engineering-advanced-skills",
+      "description": "25 skills e plugins avançados de engenharia para Claude Code. Design de agentes, RAG, servidores MCP, CI/CD, design de banco de dados, observabilidade, auditoria de segurança e gerenciamento de releases."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

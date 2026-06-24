@@ -1,0 +1,21 @@
+{
+  "id": "focused-fix",
+  "name": "focused-fix",
+  "category": "engineering",
+  "description": "Use quando o usuário pedir para corrigir, depurar ou fazer uma funcionalidade/módulo/área específica funcionar de ponta a ponta. Gatilhos: 'faça X funcionar', 'corrija a funcionalidade Y', 'o módulo Z está quebrado', 'foque em [área]'. Não para correções rápidas de bug único — isso é para reparo sistemático e profundo em todos os arquivos e dependências.",
+  "locales": {
+    "pt": {
+      "name": "focused-fix",
+      "description": "Use quando o usuário pedir para corrigir, depurar ou fazer uma funcionalidade/módulo/área específica funcionar de ponta a ponta. Gatilhos: 'faça X funcionar', 'corrija a funcionalidade Y', 'o módulo Z está quebrado', 'foque em [área]'. Não para correções rápidas de bug único — isso é para reparo sistemático e profundo em todos os arquivos e dependências."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

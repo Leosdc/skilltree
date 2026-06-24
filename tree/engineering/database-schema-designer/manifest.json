@@ -1,0 +1,21 @@
+{
+  "id": "database-schema-designer",
+  "name": "database-schema-designer",
+  "category": "engineering",
+  "description": "Use quando o usuário pedir para criar diagramas ERD, normalizar schemas de banco de dados, projetar relacionamentos de tabelas ou planejar migrações de schema.",
+  "locales": {
+    "pt": {
+      "name": "database-schema-designer",
+      "description": "Use quando o usuário pedir para criar diagramas ERD, normalizar schemas de banco de dados, projetar relacionamentos de tabelas ou planejar migrações de schema."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

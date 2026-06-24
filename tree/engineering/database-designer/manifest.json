@@ -1,0 +1,21 @@
+{
+  "id": "database-designer",
+  "name": "database-designer",
+  "category": "engineering",
+  "description": "Use quando o usuário pedir para projetar schemas de banco de dados, planejar migrações de dados, otimizar queries, escolher entre SQL e NoSQL, ou modelar relacionamentos de dados.",
+  "locales": {
+    "pt": {
+      "name": "database-designer",
+      "description": "Use quando o usuário pedir para projetar schemas de banco de dados, planejar migrações de dados, otimizar queries, escolher entre SQL e NoSQL, ou modelar relacionamentos de dados."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

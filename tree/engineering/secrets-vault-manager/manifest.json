@@ -1,0 +1,21 @@
+{
+  "id": "secrets-vault-manager",
+  "name": "secrets-vault-manager",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para configurar infraestrutura de gerenciamento de segredos, integrar o HashiCorp Vault, configurar armazenamentos de segredos em nuvem (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager), implementar rotação de segredos ou auditar padrões de acesso a segredos.",
+  "locales": {
+    "pt": {
+      "name": "secrets-vault-manager",
+      "description": "Use quando o usuário pede para configurar infraestrutura de gerenciamento de segredos, integrar o HashiCorp Vault, configurar armazenamentos de segredos em nuvem (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager), implementar rotação de segredos ou auditar padrões de acesso a segredos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

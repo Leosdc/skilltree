@@ -1,0 +1,21 @@
+{
+  "id": "statistical-analyst",
+  "name": "statistical-analyst",
+  "category": "engineering",
+  "description": "Execute testes de hipótese, analise resultados de experimentos A/B, calcule tamanhos de amostra e interprete significância estatística com tamanhos de efeito. Use quando precisar validar se diferenças observadas são reais, dimensionar um experimento corretamente antes do lançamento, ou interpretar resultados de testes com confiança.",
+  "locales": {
+    "pt": {
+      "name": "statistical-analyst",
+      "description": "Execute testes de hipótese, analise resultados de experimentos A/B, calcule tamanhos de amostra e interprete significância estatística com tamanhos de efeito. Use quando precisar validar se diferenças observadas são reais, dimensionar um experimento corretamente antes do lançamento, ou interpretar resultados de testes com confiança."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

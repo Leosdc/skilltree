@@ -1,0 +1,21 @@
+{
+  "id": "sdd-generator",
+  "name": "sdd-generator",
+  "category": "engineering",
+  "description": "Especialista em SDD (Software Design Document) — transforma um PRD completo numa estrutura de specs quebrada por pasta no formato .specs/NNN-nome/, com contextos isolados por feature, arquivo EXECUTAR-SPECS.md que dispara subagentes em paralelo, regras de nomenclatura e templates prontos para Claude Code. Use esta skill SEMPRE que o usuário enviar um PRD, documento de requisitos, lista de features, história de usuário detalhada, ou pedir para \"quebrar em specs\", \"gerar SDD\", \"criar estrutura de tasks\", \"preparar para Claude Code\", \"montar .specs\", \"estruturar subagentes\" ou qualquer variação. Trigger também quando o usuário mencionar \"executar specs\", \"subagentes paralelos\", \"specs por feature\", \"contexto isolado por task\" ou perguntar como organizar um projeto para agentes.",
+  "locales": {
+    "pt": {
+      "name": "sdd-generator",
+      "description": "Especialista em SDD (Software Design Document) — transforma um PRD completo numa estrutura de specs quebrada por pasta no formato .specs/NNN-nome/, com contextos isolados por feature, arquivo EXECUTAR-SPECS.md que dispara subagentes em paralelo, regras de nomenclatura e templates prontos para Claude Code. Use esta skill SEMPRE que o usuário enviar um PRD, documento de requisitos, lista de features, história de usuário detalhada, ou pedir para \"quebrar em specs\", \"gerar SDD\", \"criar estrutura de tasks\", \"preparar para Claude Code\", \"montar .specs\", \"estruturar subagentes\" ou qualquer variação. Trigger também quando o usuário mencionar \"executar specs\", \"subagentes paralelos\", \"specs por feature\", \"contexto isolado por task\" ou perguntar como organizar um projeto para agentes."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

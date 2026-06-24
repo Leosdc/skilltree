@@ -1,0 +1,21 @@
+{
+  "id": "karpathy-coder",
+  "name": "karpathy-coder",
+  "category": "engineering",
+  "description": "Use quando escrever, revisar ou commitar código para aplicar os 4 princípios de codificação de Karpathy — explicite suposições antes de codificar, mantenha simples, faça mudanças cirúrgicas, defina objetivos verificáveis. Gatilhos em \"revise meu diff\", \"verifique complexidade\", \"estou complicando demais?\", \"karpathy check\", \"antes de commitar\", ou qualquer preocupação de qualidade de código onde o LLM possa estar sobrecodificando.",
+  "locales": {
+    "pt": {
+      "name": "karpathy-coder",
+      "description": "Use quando escrever, revisar ou commitar código para aplicar os 4 princípios de codificação de Karpathy — explicite suposições antes de codificar, mantenha simples, faça mudanças cirúrgicas, defina objetivos verificáveis. Gatilhos em \"revise meu diff\", \"verifique complexidade\", \"estou complicando demais?\", \"karpathy check\", \"antes de commitar\", ou qualquer preocupação de qualidade de código onde o LLM possa estar sobrecodificando."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

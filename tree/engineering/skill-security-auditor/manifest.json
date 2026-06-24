@@ -1,0 +1,21 @@
+{
+  "id": "skill-security-auditor",
+  "name": "skill-security-auditor",
+  "category": "engineering",
+  "description": "Auditor de segurança e scanner de vulnerabilidades para skills de agentes de IA antes da instalação.\nUse quando: (1) avaliando uma skill de fonte não confiável, (2) auditando um diretório de skills ou\nURL de repositório git para código malicioso, (3) portão de segurança pré-instalação para plugins do\nClaude Code, (4) escaneando scripts Python em busca de padrões perigosos como os.system,\nsubprocess e exfiltração de rede, (5) detectando prompt injection em arquivos SKILL.md, (6) verificando\nriscos na cadeia de suprimentos de dependências, (7) verificando se o acesso ao sistema de arquivos\npermanece dentro dos limites da skill.\nGatilhos: \"auditar esta skill\", \"esta skill é segura\", \"escanear skill para segurança\",\n\"verificar skill antes de instalar\", \"verificação de segurança da skill\", \"scan de vulnerabilidade da skill\".",
+  "locales": {
+    "pt": {
+      "name": "skill-security-auditor",
+      "description": "Auditor de segurança e scanner de vulnerabilidades para skills de agentes de IA antes da instalação.\nUse quando: (1) avaliando uma skill de fonte não confiável, (2) auditando um diretório de skills ou\nURL de repositório git para código malicioso, (3) portão de segurança pré-instalação para plugins do\nClaude Code, (4) escaneando scripts Python em busca de padrões perigosos como os.system,\nsubprocess e exfiltração de rede, (5) detectando prompt injection em arquivos SKILL.md, (6) verificando\nriscos na cadeia de suprimentos de dependências, (7) verificando se o acesso ao sistema de arquivos\npermanece dentro dos limites da skill.\nGatilhos: \"auditar esta skill\", \"esta skill é segura\", \"escanear skill para segurança\",\n\"verificar skill antes de instalar\", \"verificação de segurança da skill\", \"scan de vulnerabilidade da skill\"."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

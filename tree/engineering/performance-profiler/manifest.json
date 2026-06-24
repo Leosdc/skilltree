@@ -1,0 +1,21 @@
+{
+  "id": "performance-profiler",
+  "name": "performance-profiler",
+  "category": "engineering",
+  "description": "Profiler de Desempenho. Profiling sistemático de desempenho para aplicações Node.js, Python e Go. Identifica gargalos de CPU, memória e I/O, gera flamegraphs, analisa tamanhos de bundle, otimiza consultas de banco de dados, detecta vazamentos de memória e executa testes de carga.",
+  "locales": {
+    "pt": {
+      "name": "performance-profiler",
+      "description": "Profiler de Desempenho. Profiling sistemático de desempenho para aplicações Node.js, Python e Go. Identifica gargalos de CPU, memória e I/O, gera flamegraphs, analisa tamanhos de bundle, otimiza consultas de banco de dados, detecta vazamentos de memória e executa testes de carga."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

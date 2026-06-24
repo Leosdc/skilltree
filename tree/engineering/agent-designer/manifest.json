@@ -1,0 +1,21 @@
+{
+  "id": "agent-designer",
+  "name": "agent-designer",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para projetar sistemas multi-agente, criar arquiteturas de agentes, definir padrões de comunicação entre agentes ou construir workflows de agentes autônomos.",
+  "locales": {
+    "pt": {
+      "name": "agent-designer",
+      "description": "Use quando o usuário pede para projetar sistemas multi-agente, criar arquiteturas de agentes, definir padrões de comunicação entre agentes ou construir workflows de agentes autônomos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

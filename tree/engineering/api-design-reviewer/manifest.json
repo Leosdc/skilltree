@@ -1,0 +1,21 @@
+{
+  "id": "api-design-reviewer",
+  "name": "api-design-reviewer",
+  "category": "engineering",
+  "description": "Revisão e análise completa de designs de API com foco em convenções REST, melhores práticas e padrões da indústria. Fornece linting automatizado, detecção de mudanças disruptivas e scorecards de design.",
+  "locales": {
+    "pt": {
+      "name": "api-design-reviewer",
+      "description": "Revisão e análise completa de designs de API com foco em convenções REST, melhores práticas e padrões da indústria. Fornece linting automatizado, detecção de mudanças disruptivas e scorecards de design."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

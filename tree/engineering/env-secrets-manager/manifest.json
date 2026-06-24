@@ -1,0 +1,21 @@
+{
+  "id": "env-secrets-manager",
+  "name": "env-secrets-manager",
+  "category": "engineering",
+  "description": "Gerenciador de Env e Secrets — gerencia higiene de variáveis de ambiente e segurança de secrets em workflows de desenvolvimento local e produção, com auditoria, detecção de vazamento e orientação de rotação.",
+  "locales": {
+    "pt": {
+      "name": "env-secrets-manager",
+      "description": "Gerenciador de Env e Secrets — gerencia higiene de variáveis de ambiente e segurança de secrets em workflows de desenvolvimento local e produção, com auditoria, detecção de vazamento e orientação de rotação."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

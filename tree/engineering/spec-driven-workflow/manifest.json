@@ -1,0 +1,21 @@
+{
+  "id": "spec-driven-workflow",
+  "name": "spec-driven-workflow",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para escrever specs antes do código, definir critérios de aceitação, planejar funcionalidades antes da implementação, gerar testes a partir de especificações, ou seguir práticas de desenvolvimento spec-first.",
+  "locales": {
+    "pt": {
+      "name": "spec-driven-workflow",
+      "description": "Use quando o usuário pede para escrever specs antes do código, definir critérios de aceitação, planejar funcionalidades antes da implementação, gerar testes a partir de especificações, ou seguir práticas de desenvolvimento spec-first."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

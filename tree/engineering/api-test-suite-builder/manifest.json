@@ -1,0 +1,21 @@
+{
+  "id": "api-test-suite-builder",
+  "name": "api-test-suite-builder",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para gerar testes de API, criar suites de testes de integração, testar endpoints REST ou construir testes de contrato.",
+  "locales": {
+    "pt": {
+      "name": "api-test-suite-builder",
+      "description": "Use quando o usuário pede para gerar testes de API, criar suites de testes de integração, testar endpoints REST ou construir testes de contrato."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

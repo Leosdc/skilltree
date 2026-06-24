@@ -1,0 +1,21 @@
+{
+  "id": "rag-architect",
+  "name": "rag-architect",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para projetar pipelines RAG, otimizar estratégias de recuperação, escolher modelos de embedding, implementar busca vetorial ou construir sistemas de recuperação de conhecimento.",
+  "locales": {
+    "pt": {
+      "name": "rag-architect",
+      "description": "Use quando o usuário pede para projetar pipelines RAG, otimizar estratégias de recuperação, escolher modelos de embedding, implementar busca vetorial ou construir sistemas de recuperação de conhecimento."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "agent-workflow-designer",
+  "name": "agent-workflow-designer",
+  "category": "engineering",
+  "description": "Projeta workflows multi-agente de nível produção com escolha clara de padrão, contratos de transferência, tratamento de falhas e controles de custo e contexto.",
+  "locales": {
+    "pt": {
+      "name": "agent-workflow-designer",
+      "description": "Projeta workflows multi-agente de nível produção com escolha clara de padrão, contratos de transferência, tratamento de falhas e controles de custo e contexto."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

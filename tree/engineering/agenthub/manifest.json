@@ -1,0 +1,21 @@
+{
+  "id": "agenthub",
+  "name": "agenthub",
+  "category": "engineering",
+  "description": "Plugin de colaboração multi-agente que lança N subagentes paralelos competindo na mesma tarefa via isolamento por git worktree. Os agentes trabalham de forma independente, os resultados são avaliados por métrica ou juiz LLM, e o melhor branch é mergeado. Use quando: o usuário quer múltiplas abordagens testadas em paralelo — otimização de código, variação de conteúdo, exploração de pesquisa ou qualquer tarefa que se beneficie de competição paralela. Requer: um repositório git.",
+  "locales": {
+    "pt": {
+      "name": "agenthub",
+      "description": "Plugin de colaboração multi-agente que lança N subagentes paralelos competindo na mesma tarefa via isolamento por git worktree. Os agentes trabalham de forma independente, os resultados são avaliados por métrica ou juiz LLM, e o melhor branch é mergeado. Use quando: o usuário quer múltiplas abordagens testadas em paralelo — otimização de código, variação de conteúdo, exploração de pesquisa ou qualquer tarefa que se beneficie de competição paralela. Requer: um repositório git."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

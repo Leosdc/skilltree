@@ -1,0 +1,21 @@
+{
+  "id": "runbook-generator",
+  "name": "runbook-generator",
+  "category": "engineering",
+  "description": "Gerador de Runbook. Gera runbooks operacionais rapidamente a partir do nome do serviço e personaliza para fluxos de trabalho de implantação, resposta a incidentes, manutenção e rollback.",
+  "locales": {
+    "pt": {
+      "name": "runbook-generator",
+      "description": "Gerador de Runbook. Gera runbooks operacionais rapidamente a partir do nome do serviço e personaliza para fluxos de trabalho de implantação, resposta a incidentes, manutenção e rollback."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

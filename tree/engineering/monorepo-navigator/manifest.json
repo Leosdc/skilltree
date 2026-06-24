@@ -1,0 +1,21 @@
+{
+  "id": "monorepo-navigator",
+  "name": "monorepo-navigator",
+  "category": "engineering",
+  "description": "Navegador de Monorepo. Navega, gerencia e otimiza monorepos com Turborepo, Nx, pnpm workspaces e Lerna. Análise de impacto entre pacotes, builds seletivos, cache remoto e visualização de grafo de dependências.",
+  "locales": {
+    "pt": {
+      "name": "monorepo-navigator",
+      "description": "Navegador de Monorepo. Navega, gerencia e otimiza monorepos com Turborepo, Nx, pnpm workspaces e Lerna. Análise de impacto entre pacotes, builds seletivos, cache remoto e visualização de grafo de dependências."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

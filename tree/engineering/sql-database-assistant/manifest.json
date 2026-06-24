@@ -1,0 +1,21 @@
+{
+  "id": "sql-database-assistant",
+  "name": "sql-database-assistant",
+  "category": "engineering",
+  "description": "Use quando o usuário pede para escrever queries SQL, otimizar desempenho de banco de dados, gerar migrações, explorar esquemas de banco de dados, ou trabalhar com ORMs como Prisma, Drizzle, TypeORM ou SQLAlchemy.",
+  "locales": {
+    "pt": {
+      "name": "sql-database-assistant",
+      "description": "Use quando o usuário pede para escrever queries SQL, otimizar desempenho de banco de dados, gerar migrações, explorar esquemas de banco de dados, ou trabalhar com ORMs como Prisma, Drizzle, TypeORM ou SQLAlchemy."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

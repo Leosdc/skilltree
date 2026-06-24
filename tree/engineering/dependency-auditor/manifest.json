@@ -1,0 +1,21 @@
+{
+  "id": "dependency-auditor",
+  "name": "dependency-auditor",
+  "category": "engineering",
+  "description": "Auditor de Dependências — analisa, audita e gerencia dependências em projetos multi-linguagem, identificando vulnerabilidades, garantindo conformidade de licença, otimizando árvores de dependência e planejando atualizações seguras.",
+  "locales": {
+    "pt": {
+      "name": "dependency-auditor",
+      "description": "Auditor de Dependências — analisa, audita e gerencia dependências em projetos multi-linguagem, identificando vulnerabilidades, garantindo conformidade de licença, otimizando árvores de dependência e planejando atualizações seguras."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

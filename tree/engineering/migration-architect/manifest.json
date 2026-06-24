@@ -1,0 +1,21 @@
+{
+  "id": "migration-architect",
+  "name": "migration-architect",
+  "category": "engineering",
+  "description": "Arquiteto de Migração. Planejamento de migração com zero downtime, validação de compatibilidade e geração de estratégia de rollback.",
+  "locales": {
+    "pt": {
+      "name": "migration-architect",
+      "description": "Arquiteto de Migração. Planejamento de migração com zero downtime, validação de compatibilidade e geração de estratégia de rollback."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

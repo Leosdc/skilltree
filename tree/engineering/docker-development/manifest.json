@@ -1,0 +1,21 @@
+{
+  "id": "docker-development",
+  "name": "docker-development",
+  "category": "engineering",
+  "description": "Skill e plugin para desenvolvimento Docker e container no Claude Code para otimização de Dockerfile, orquestração docker-compose, builds multi-stage e hardening de segurança de container. Use quando: o usuário quiser otimizar um Dockerfile, criar ou melhorar configurações docker-compose, implementar builds multi-stage, auditar segurança de container, reduzir tamanho de imagem ou seguir melhores práticas de container.",
+  "locales": {
+    "pt": {
+      "name": "docker-development",
+      "description": "Skill e plugin para desenvolvimento Docker e container no Claude Code para otimização de Dockerfile, orquestração docker-compose, builds multi-stage e hardening de segurança de container. Use quando: o usuário quiser otimizar um Dockerfile, criar ou melhorar configurações docker-compose, implementar builds multi-stage, auditar segurança de container, reduzir tamanho de imagem ou seguir melhores práticas de container."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

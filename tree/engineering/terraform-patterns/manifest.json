@@ -1,0 +1,21 @@
+{
+  "id": "terraform-patterns",
+  "name": "terraform-patterns",
+  "category": "engineering",
+  "description": "Skill de infraestrutura-como-código com Terraform para Claude Code. Cobre padrões de design de módulos, estratégias de gerenciamento de estado, configuração de providers, hardening de segurança, policy-as-code com Sentinel/OPA e fluxos CI/CD de plan/apply. Use quando o usuário quiser projetar módulos Terraform, gerenciar state backends, revisar segurança Terraform, implementar deploys multi-região ou seguir melhores práticas de IaC.",
+  "locales": {
+    "pt": {
+      "name": "terraform-patterns",
+      "description": "Skill de infraestrutura-como-código com Terraform para Claude Code. Cobre padrões de design de módulos, estratégias de gerenciamento de estado, configuração de providers, hardening de segurança, policy-as-code com Sentinel/OPA e fluxos CI/CD de plan/apply. Use quando o usuário quiser projetar módulos Terraform, gerenciar state backends, revisar segurança Terraform, implementar deploys multi-região ou seguir melhores práticas de IaC."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
