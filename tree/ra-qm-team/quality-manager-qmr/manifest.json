@@ -1,0 +1,21 @@
+{
+  "id": "quality-manager-qmr",
+  "name": "quality-manager-qmr",
+  "category": "ra-qm-team",
+  "description": "Gerente de Qualidade Sênior — Representante da Direção (RD/QMR) para empresas HealthTech e MedTech. Fornece governança do sistema da qualidade, liderança de revisão gerencial, supervisão de conformidade regulatória e monitoramento de desempenho da qualidade conforme a ISO 13485 Cláusula 5.5.2 — com foco no mercado brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "quality-manager-qmr",
+      "description": "Gerente de Qualidade Sênior — Representante da Direção (RD/QMR) para empresas HealthTech e MedTech. Fornece governança do sistema da qualidade, liderança de revisão gerencial, supervisão de conformidade regulatória e monitoramento de desempenho da qualidade conforme a ISO 13485 Cláusula 5.5.2 — com foco no mercado brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

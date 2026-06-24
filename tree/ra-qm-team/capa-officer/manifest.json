@@ -1,0 +1,21 @@
+{
+  "id": "capa-officer",
+  "name": "capa-officer",
+  "category": "ra-qm-team",
+  "description": "Gestão do sistema CAPA para QMS de dispositivos médicos. Cobre análise de causa raiz, planejamento de ações corretivas, verificação de eficácia e métricas de CAPA. Use para investigações CAPA, análise dos 5 Porquês, diagramas de Ishikawa, determinação de causa raiz, rastreamento de ações corretivas, verificação de eficácia ou otimização do programa de CAPA.",
+  "locales": {
+    "pt": {
+      "name": "capa-officer",
+      "description": "Gestão do sistema CAPA para QMS de dispositivos médicos. Cobre análise de causa raiz, planejamento de ações corretivas, verificação de eficácia e métricas de CAPA. Use para investigações CAPA, análise dos 5 Porquês, diagramas de Ishikawa, determinação de causa raiz, rastreamento de ações corretivas, verificação de eficácia ou otimização do programa de CAPA."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

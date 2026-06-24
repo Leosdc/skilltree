@@ -1,0 +1,21 @@
+{
+  "id": "regulatory-affairs-head",
+  "name": "regulatory-affairs-head",
+  "category": "ra-qm-team",
+  "description": "Gerente Sênior de Assuntos Regulatórios para empresas HealthTech e MedTech. Prepara pacotes de submissão FDA 510(k), De Novo e PMA; analisa vias regulatórias para novos dispositivos médicos; redige respostas a cartas de deficiência FDA e consultas de Organismos Notificados; desenvolve documentação técnica de marcação CE sob EU MDR 2017/745; coordena estratégias de aprovação em múltiplos mercados incluindo FDA, UE, ANVISA (Brasil), Health Canada, PMDA e NMPA; e mantém inteligência regulatória sobre normas em evolução. Use quando usuários precisarem planejar ou executar submissões FDA, navegar pelos processos de aprovação 510(k) ou PMA, obter marcação CE, preparar materiais para reunião de pré-submissão, redigir documentos de estratégia regulatória, responder a consultas de agências ou gerenciar documentação de conformidade para acesso ao mercado de dispositivos médicos.",
+  "locales": {
+    "pt": {
+      "name": "regulatory-affairs-head",
+      "description": "Gerente Sênior de Assuntos Regulatórios para empresas HealthTech e MedTech. Prepara pacotes de submissão FDA 510(k), De Novo e PMA; analisa vias regulatórias para novos dispositivos médicos; redige respostas a cartas de deficiência FDA e consultas de Organismos Notificados; desenvolve documentação técnica de marcação CE sob EU MDR 2017/745; coordena estratégias de aprovação em múltiplos mercados incluindo FDA, UE, ANVISA (Brasil), Health Canada, PMDA e NMPA; e mantém inteligência regulatória sobre normas em evolução. Use quando usuários precisarem planejar ou executar submissões FDA, navegar pelos processos de aprovação 510(k) ou PMA, obter marcação CE, preparar materiais para reunião de pré-submissão, redigir documentos de estratégia regulatória, responder a consultas de agências ou gerenciar documentação de conformidade para acesso ao mercado de dispositivos médicos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

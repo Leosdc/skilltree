@@ -1,0 +1,21 @@
+{
+  "id": "mdr-745-specialist",
+  "name": "mdr-745-specialist",
+  "category": "ra-qm-team",
+  "description": "Especialista em conformidade EU MDR 2017/745 para classificação de dispositivos médicos, documentação técnica, evidência clínica e vigilância pós-mercado. Cobre regras de classificação do Anexo VIII, arquivos técnicos dos Anexos II/III, avaliação clínica do Anexo XIV e integração EUDAMED.",
+  "locales": {
+    "pt": {
+      "name": "mdr-745-specialist",
+      "description": "Especialista em conformidade EU MDR 2017/745 para classificação de dispositivos médicos, documentação técnica, evidência clínica e vigilância pós-mercado. Cobre regras de classificação do Anexo VIII, arquivos técnicos dos Anexos II/III, avaliação clínica do Anexo XIV e integração EUDAMED."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

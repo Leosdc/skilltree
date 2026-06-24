@@ -1,0 +1,21 @@
+{
+  "id": "quality-manager-qms-iso13485",
+  "name": "quality-manager-qms-iso13485",
+  "category": "ra-qm-team",
+  "description": "Implementação e manutenção de Sistema de Gestão da Qualidade ISO 13485 para organizações de dispositivos médicos. Fornece design do QMS, controle de documentação, auditoria interna, gestão de CAPA e suporte à certificação. Use ao trabalhar com sistemas de qualidade de dispositivos médicos, preparar para auditorias ISO 13485, gerenciar documentação de conformidade regulatória, configurar ações corretivas ou construir programas de preparação para auditoria — com foco no mercado brasileiro e ANVISA.",
+  "locales": {
+    "pt": {
+      "name": "quality-manager-qms-iso13485",
+      "description": "Implementação e manutenção de Sistema de Gestão da Qualidade ISO 13485 para organizações de dispositivos médicos. Fornece design do QMS, controle de documentação, auditoria interna, gestão de CAPA e suporte à certificação. Use ao trabalhar com sistemas de qualidade de dispositivos médicos, preparar para auditorias ISO 13485, gerenciar documentação de conformidade regulatória, configurar ações corretivas ou construir programas de preparação para auditoria — com foco no mercado brasileiro e ANVISA."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

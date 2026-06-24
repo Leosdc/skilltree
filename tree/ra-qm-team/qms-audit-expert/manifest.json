@@ -1,0 +1,21 @@
+{
+  "id": "qms-audit-expert",
+  "name": "qms-audit-expert",
+  "category": "ra-qm-team",
+  "description": "Especialista em auditoria interna ISO 13485 para QMS de dispositivos médicos. Cobre planejamento de auditoria, execução, classificação de não conformidades e verificação de CAPA. Use para planejamento de auditoria interna, execução de auditoria, classificação de achados, preparação para auditoria externa ou gestão do programa de auditoria.",
+  "locales": {
+    "pt": {
+      "name": "qms-audit-expert",
+      "description": "Especialista em auditoria interna ISO 13485 para QMS de dispositivos médicos. Cobre planejamento de auditoria, execução, classificação de não conformidades e verificação de CAPA. Use para planejamento de auditoria interna, execução de auditoria, classificação de achados, preparação para auditoria externa ou gestão do programa de auditoria."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
