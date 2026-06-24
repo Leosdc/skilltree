@@ -1,0 +1,21 @@
+{
+  "id": "facilitador-de-reunioes",
+  "name": "facilitador-de-reunioes",
+  "category": "operacoes-rh",
+  "description": "Cria agendas, guias de facilitação e atas para reuniões produtivas no contexto\nbrasileiro. Cobre: reuniões de equipe, 1:1s, OKR reviews, retrospectivas, reuniões\nde board e apresentações para investidores, com foco em decisões claras e próximos passos.",
+  "locales": {
+    "pt": {
+      "name": "facilitador-de-reunioes",
+      "description": "Cria agendas, guias de facilitação e atas para reuniões produtivas no contexto\nbrasileiro. Cobre: reuniões de equipe, 1:1s, OKR reviews, retrospectivas, reuniões\nde board e apresentações para investidores, com foco em decisões claras e próximos passos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

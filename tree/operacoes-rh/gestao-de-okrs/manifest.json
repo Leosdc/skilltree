@@ -1,0 +1,21 @@
+{
+  "id": "gestao-de-okrs",
+  "name": "gestao-de-okrs",
+  "category": "operacoes-rh",
+  "description": "Define, cascateia e acompanha OKRs para empresas brasileiras. Cria Objectives\naspiracionais com Key Results mensuráveis, alinha do nível empresa até o individual,\ne cria a cadência de acompanhamento (weekly check-in, monthly review, quarterly reset).",
+  "locales": {
+    "pt": {
+      "name": "gestao-de-okrs",
+      "description": "Define, cascateia e acompanha OKRs para empresas brasileiras. Cria Objectives\naspiracionais com Key Results mensuráveis, alinha do nível empresa até o individual,\ne cria a cadência de acompanhamento (weekly check-in, monthly review, quarterly reset)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

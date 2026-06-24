@@ -1,0 +1,21 @@
+{
+  "id": "operacoes-rh-hub",
+  "name": "operacoes-rh",
+  "category": "operacoes-rh",
+  "description": "Skills para documentar processos, estruturar times, criar políticas de RH e\nautomatizar operações com contexto da legislação trabalhista brasileira (CLT/PJ/MEI).\nCobre desde SOPs e onboarding até OKRs, avaliação de desempenho e cultura organizacional.",
+  "locales": {
+    "pt": {
+      "name": "operacoes-rh",
+      "description": "Skills para documentar processos, estruturar times, criar políticas de RH e\nautomatizar operações com contexto da legislação trabalhista brasileira (CLT/PJ/MEI).\nCobre desde SOPs e onboarding até OKRs, avaliação de desempenho e cultura organizacional."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

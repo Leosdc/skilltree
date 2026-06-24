@@ -1,0 +1,21 @@
+{
+  "id": "cultura-empresa",
+  "name": "cultura-empresa",
+  "category": "operacoes-rh",
+  "description": "Desenvolve valores, rituais, cerimônias e estratégias de cultura organizacional\npara empresas brasileiras. Define os comportamentos que traduzem os valores em\nações concretas e cria iniciativas de engajamento adaptadas ao contexto cultural BR.",
+  "locales": {
+    "pt": {
+      "name": "cultura-empresa",
+      "description": "Desenvolve valores, rituais, cerimônias e estratégias de cultura organizacional\npara empresas brasileiras. Define os comportamentos que traduzem os valores em\nações concretas e cria iniciativas de engajamento adaptadas ao contexto cultural BR."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

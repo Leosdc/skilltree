@@ -1,0 +1,21 @@
+{
+  "id": "descricao-de-vagas",
+  "name": "descricao-de-vagas",
+  "category": "operacoes-rh",
+  "description": "Cria descrições de vagas, perfis de candidatos e critérios de seleção para\no mercado de trabalho brasileiro. Adapta o formato para CLT e PJ, inclui\nfaixa salarial em R$, benefícios obrigatórios (CLT) e modelo de trabalho.",
+  "locales": {
+    "pt": {
+      "name": "descricao-de-vagas",
+      "description": "Cria descrições de vagas, perfis de candidatos e critérios de seleção para\no mercado de trabalho brasileiro. Adapta o formato para CLT e PJ, inclui\nfaixa salarial em R$, benefícios obrigatórios (CLT) e modelo de trabalho."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

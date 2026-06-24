@@ -1,0 +1,21 @@
+{
+  "id": "criador-de-sop",
+  "name": "criador-de-sop",
+  "category": "operacoes-rh",
+  "description": "Cria SOPs (Procedimentos Operacionais Padrão) completos com fluxogramas textuais,\nchecklists, responsáveis e critérios de qualidade. Documenta processos críticos\nde operação para que qualquer pessoa do time possa executar com consistência.",
+  "locales": {
+    "pt": {
+      "name": "criador-de-sop",
+      "description": "Cria SOPs (Procedimentos Operacionais Padrão) completos com fluxogramas textuais,\nchecklists, responsáveis e critérios de qualidade. Documenta processos críticos\nde operação para que qualquer pessoa do time possa executar com consistência."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

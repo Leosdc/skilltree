@@ -1,0 +1,21 @@
+{
+  "id": "onboarding",
+  "name": "onboarding",
+  "category": "operacoes-rh",
+  "description": "Cria planos de onboarding estruturados para novos colaboradores (CLT e PJ) e\nnovos clientes. Usa a metodologia 30/60/90 dias para colaboradores e define\nmarcos claros de integração, aprendizado e primeiras entregas.",
+  "locales": {
+    "pt": {
+      "name": "onboarding",
+      "description": "Cria planos de onboarding estruturados para novos colaboradores (CLT e PJ) e\nnovos clientes. Usa a metodologia 30/60/90 dias para colaboradores e define\nmarcos claros de integração, aprendizado e primeiras entregas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

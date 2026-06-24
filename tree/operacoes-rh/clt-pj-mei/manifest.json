@@ -1,0 +1,21 @@
+{
+  "id": "clt-pj-mei",
+  "name": "clt-pj-mei",
+  "category": "operacoes-rh",
+  "description": "Orienta sobre os regimes de contratação brasileiros: CLT, PJ (Pessoa Jurídica),\nMEI, CLT Flex e estágio. Analisa riscos de vínculo empregatício, compara custos\nreais de cada modalidade e orienta na escolha adequada para cada situação.",
+  "locales": {
+    "pt": {
+      "name": "clt-pj-mei",
+      "description": "Orienta sobre os regimes de contratação brasileiros: CLT, PJ (Pessoa Jurídica),\nMEI, CLT Flex e estágio. Analisa riscos de vínculo empregatício, compara custos\nreais de cada modalidade e orienta na escolha adequada para cada situação."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

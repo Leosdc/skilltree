@@ -1,0 +1,21 @@
+{
+  "id": "avaliacao-desempenho",
+  "name": "avaliacao-desempenho",
+  "category": "operacoes-rh",
+  "description": "Cria templates de avaliação de desempenho 360°, PDI (Plano de Desenvolvimento\nIndividual), calibração de notas e critérios de promoção para empresas brasileiras.\nAdapta ao contexto cultural BR com feedback construtivo e estruturado.",
+  "locales": {
+    "pt": {
+      "name": "avaliacao-desempenho",
+      "description": "Cria templates de avaliação de desempenho 360°, PDI (Plano de Desenvolvimento\nIndividual), calibração de notas e critérios de promoção para empresas brasileiras.\nAdapta ao contexto cultural BR com feedback construtivo e estruturado."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

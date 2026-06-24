@@ -1,0 +1,21 @@
+{
+  "id": "automacao-processos",
+  "name": "automacao-processos",
+  "category": "operacoes-rh",
+  "description": "Identifica oportunidades de automação e cria fluxos de trabalho com Make (Integromat),\nZapier, n8n e ferramentas nativas. Foca em operações, RH e atendimento com as\nferramentas mais utilizadas no mercado brasileiro de PMEs e startups.",
+  "locales": {
+    "pt": {
+      "name": "automacao-processos",
+      "description": "Identifica oportunidades de automação e cria fluxos de trabalho com Make (Integromat),\nZapier, n8n e ferramentas nativas. Foca em operações, RH e atendimento com as\nferramentas mais utilizadas no mercado brasileiro de PMEs e startups."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

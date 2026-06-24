@@ -1,0 +1,21 @@
+{
+  "id": "politicas-rh",
+  "name": "politicas-rh",
+  "category": "operacoes-rh",
+  "description": "Cria políticas internas de RH, código de conduta e handbook do colaborador para\nempresas brasileiras. Todas as políticas são alinhadas à CLT, LGPD e boas práticas\nde gestão de pessoas, com linguagem acessível e aplicável ao cotidiano.",
+  "locales": {
+    "pt": {
+      "name": "politicas-rh",
+      "description": "Cria políticas internas de RH, código de conduta e handbook do colaborador para\nempresas brasileiras. Todas as políticas são alinhadas à CLT, LGPD e boas práticas\nde gestão de pessoas, com linguagem acessível e aplicável ao cotidiano."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
