@@ -1,0 +1,21 @@
+{
+  "id": "juridico-advocacia-hub",
+  "name": "juridico-advocacia",
+  "category": "juridico-advocacia",
+  "description": "Skills para advogados e gestores jurídicos: petições, contratos, captação de clientes, precificação e conformidade com o direito brasileiro. Use quando precisar estruturar documentos jurídicos, estratégias para escritórios de advocacia ou orientação sobre legislação brasileira.",
+  "locales": {
+    "pt": {
+      "name": "juridico-advocacia",
+      "description": "Skills para advogados e gestores jurídicos: petições, contratos, captação de clientes, precificação e conformidade com o direito brasileiro. Use quando precisar estruturar documentos jurídicos, estratégias para escritórios de advocacia ou orientação sobre legislação brasileira."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

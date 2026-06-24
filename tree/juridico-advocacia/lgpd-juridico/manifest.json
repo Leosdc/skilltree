@@ -1,0 +1,21 @@
+{
+  "id": "lgpd-juridico",
+  "name": "lgpd-juridico",
+  "category": "juridico-advocacia",
+  "description": "Adequação LGPD para escritórios de advocacia: contratos, políticas, DPA e procedimentos",
+  "locales": {
+    "pt": {
+      "name": "lgpd-juridico",
+      "description": "Adequação LGPD para escritórios de advocacia: contratos, políticas, DPA e procedimentos"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

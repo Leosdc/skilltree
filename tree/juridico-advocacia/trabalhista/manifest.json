@@ -1,0 +1,21 @@
+{
+  "id": "trabalhista",
+  "name": "trabalhista",
+  "category": "juridico-advocacia",
+  "description": "Direito trabalhista brasileiro: CLT, Reforma Trabalhista, TST, dissídio e acordos",
+  "locales": {
+    "pt": {
+      "name": "trabalhista",
+      "description": "Direito trabalhista brasileiro: CLT, Reforma Trabalhista, TST, dissídio e acordos"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

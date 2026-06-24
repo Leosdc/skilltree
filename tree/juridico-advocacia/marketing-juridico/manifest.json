@@ -1,0 +1,21 @@
+{
+  "id": "marketing-juridico",
+  "name": "marketing-juridico",
+  "category": "juridico-advocacia",
+  "description": "Marketing jurídico permitido pela OAB: LinkedIn, Instagram, WhatsApp e conteúdo educativo",
+  "locales": {
+    "pt": {
+      "name": "marketing-juridico",
+      "description": "Marketing jurídico permitido pela OAB: LinkedIn, Instagram, WhatsApp e conteúdo educativo"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

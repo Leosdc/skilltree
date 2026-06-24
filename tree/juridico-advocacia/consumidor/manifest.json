@@ -1,0 +1,21 @@
+{
+  "id": "consumidor",
+  "name": "consumidor",
+  "category": "juridico-advocacia",
+  "description": "Direito do consumidor: CDC, Procon, Reclame Aqui e mediação de conflitos",
+  "locales": {
+    "pt": {
+      "name": "consumidor",
+      "description": "Direito do consumidor: CDC, Procon, Reclame Aqui e mediação de conflitos"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

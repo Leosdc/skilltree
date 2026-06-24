@@ -1,0 +1,21 @@
+{
+  "id": "empresarial",
+  "name": "empresarial",
+  "category": "juridico-advocacia",
+  "description": "Constituição de empresa, alterações societárias e regime tributário no Brasil",
+  "locales": {
+    "pt": {
+      "name": "empresarial",
+      "description": "Constituição de empresa, alterações societárias e regime tributário no Brasil"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rotina-escritorio",
+  "name": "rotina-escritorio",
+  "category": "juridico-advocacia",
+  "description": "SOP e processos para advocacia solo e boutique: prazos, agenda e gestão de clientes",
+  "locales": {
+    "pt": {
+      "name": "rotina-escritorio",
+      "description": "SOP e processos para advocacia solo e boutique: prazos, agenda e gestão de clientes"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

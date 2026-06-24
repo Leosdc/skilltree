@@ -1,0 +1,21 @@
+{
+  "id": "peticao-inicial",
+  "name": "peticao-inicial",
+  "category": "juridico-advocacia",
+  "description": "Estruturação de petições iniciais, contestações e recursos conforme CPC/2015 e legislação brasileira",
+  "locales": {
+    "pt": {
+      "name": "peticao-inicial",
+      "description": "Estruturação de petições iniciais, contestações e recursos conforme CPC/2015 e legislação brasileira"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

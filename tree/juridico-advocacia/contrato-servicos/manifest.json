@@ -1,0 +1,21 @@
+{
+  "id": "contrato-servicos",
+  "name": "contrato-servicos",
+  "category": "juridico-advocacia",
+  "description": "Contratos de prestação de serviços conforme Código Civil e CDC brasileiro",
+  "locales": {
+    "pt": {
+      "name": "contrato-servicos",
+      "description": "Contratos de prestação de serviços conforme Código Civil e CDC brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "honorarios",
+  "name": "honorarios",
+  "category": "juridico-advocacia",
+  "description": "Tabela de honorários e precificação de serviços jurídicos no mercado brasileiro",
+  "locales": {
+    "pt": {
+      "name": "honorarios",
+      "description": "Tabela de honorários e precificação de serviços jurídicos no mercado brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

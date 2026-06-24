@@ -1,0 +1,21 @@
+{
+  "id": "captacao-clientes",
+  "name": "captacao-clientes",
+  "category": "juridico-advocacia",
+  "description": "Estratégias de captação de clientes para advogados respeitando o Código de Ética da OAB",
+  "locales": {
+    "pt": {
+      "name": "captacao-clientes",
+      "description": "Estratégias de captação de clientes para advogados respeitando o Código de Ética da OAB"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
