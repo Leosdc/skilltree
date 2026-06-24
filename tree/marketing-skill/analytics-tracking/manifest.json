@@ -1,0 +1,21 @@
+{
+  "id": "analytics-tracking",
+  "name": "analytics-tracking",
+  "category": "marketing-skill",
+  "description": "Configure, audite e depure a implementação de rastreamento de analytics — GA4, Google Tag Manager, taxonomia de eventos, rastreamento de conversão e qualidade de dados. Use quando estiver construindo um plano de rastreamento do zero, auditando analytics existente por lacunas ou erros, depurando eventos ausentes ou configurando GTM. Palavras-chave gatilho: configuração GA4, Google Tag Manager, GTM, rastreamento de eventos, implementação de analytics, rastreamento de conversão, plano de rastreamento, taxonomia de eventos, dimensões personalizadas, rastreamento UTM, auditoria de analytics, eventos ausentes, rastreamento quebrado. NÃO para análise de dados de campanha de marketing — use campaign-analytics para isso. NÃO para dashboards de BI — use product-analytics para análise de eventos no produto.",
+  "locales": {
+    "pt": {
+      "name": "analytics-tracking",
+      "description": "Configure, audite e depure a implementação de rastreamento de analytics — GA4, Google Tag Manager, taxonomia de eventos, rastreamento de conversão e qualidade de dados. Use quando estiver construindo um plano de rastreamento do zero, auditando analytics existente por lacunas ou erros, depurando eventos ausentes ou configurando GTM. Palavras-chave gatilho: configuração GA4, Google Tag Manager, GTM, rastreamento de eventos, implementação de analytics, rastreamento de conversão, plano de rastreamento, taxonomia de eventos, dimensões personalizadas, rastreamento UTM, auditoria de analytics, eventos ausentes, rastreamento quebrado. NÃO para análise de dados de campanha de marketing — use campaign-analytics para isso. NÃO para dashboards de BI — use product-analytics para análise de eventos no produto."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "marketing-skill-hub",
+  "name": "marketing-skills",
+  "category": "marketing-skill",
+  "description": "42 skills e plugins de marketing para agentes Claude Code. 7 pods: conteúdo, SEO, CRO, canais, crescimento, inteligência, vendas. Contexto base + roteador de orquestração. 27 ferramentas Python (somente stdlib).",
+  "locales": {
+    "pt": {
+      "name": "marketing-skills",
+      "description": "42 skills e plugins de marketing para agentes Claude Code. 7 pods: conteúdo, SEO, CRO, canais, crescimento, inteligência, vendas. Contexto base + roteador de orquestração. 27 ferramentas Python (somente stdlib)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

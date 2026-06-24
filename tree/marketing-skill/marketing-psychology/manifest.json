@@ -1,0 +1,21 @@
+{
+  "id": "marketing-psychology",
+  "name": "marketing-psychology",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer aplicar princípios psicológicos, modelos mentais ou ciência comportamental ao marketing. Use também quando o usuário mencionar 'psicologia', 'modelos mentais', 'viés cognitivo', 'persuasão', 'ciência comportamental', 'por que as pessoas compram', 'tomada de decisão' ou 'comportamento do consumidor'. Esta skill fornece 70+ modelos mentais organizados para aplicação em marketing.",
+  "locales": {
+    "pt": {
+      "name": "marketing-psychology",
+      "description": "Quando o usuário quer aplicar princípios psicológicos, modelos mentais ou ciência comportamental ao marketing. Use também quando o usuário mencionar 'psicologia', 'modelos mentais', 'viés cognitivo', 'persuasão', 'ciência comportamental', 'por que as pessoas compram', 'tomada de decisão' ou 'comportamento do consumidor'. Esta skill fornece 70+ modelos mentais organizados para aplicação em marketing."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

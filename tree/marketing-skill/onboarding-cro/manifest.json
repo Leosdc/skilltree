@@ -1,0 +1,21 @@
+{
+  "id": "onboarding-cro",
+  "name": "onboarding-cro",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer otimizar o onboarding pós-cadastro, ativação de usuários, experiência de primeiro acesso ou tempo-até-valor. Use também quando o usuário mencionar \"fluxo de onboarding\", \"taxa de ativação\", \"ativação de usuário\", \"experiência de primeiro acesso\", \"empty states\", \"checklist de onboarding\", \"momento aha\" ou \"experiência de novo usuário\". Para otimização de cadastro/registro, veja signup-flow-cro. Para sequências de e-mail contínuas, veja email-sequence.",
+  "locales": {
+    "pt": {
+      "name": "onboarding-cro",
+      "description": "Quando o usuário quer otimizar o onboarding pós-cadastro, ativação de usuários, experiência de primeiro acesso ou tempo-até-valor. Use também quando o usuário mencionar \"fluxo de onboarding\", \"taxa de ativação\", \"ativação de usuário\", \"experiência de primeiro acesso\", \"empty states\", \"checklist de onboarding\", \"momento aha\" ou \"experiência de novo usuário\". Para otimização de cadastro/registro, veja signup-flow-cro. Para sequências de e-mail contínuas, veja email-sequence."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

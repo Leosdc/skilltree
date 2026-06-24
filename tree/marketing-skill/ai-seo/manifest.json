@@ -1,0 +1,21 @@
+{
+  "id": "ai-seo",
+  "name": "ai-seo",
+  "category": "marketing-skill",
+  "description": "Otimize conteúdo para ser citado por mecanismos de busca com IA — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use quando quiser que seu conteúdo apareça em respostas geradas por IA, não apenas ranqueado em links azuis. Gatilhos: 'otimizar para busca IA', 'ser citado pelo ChatGPT', 'AI Overviews', 'citações Perplexity', 'AI SEO', 'busca generativa', 'visibilidade em LLM', 'GEO' (otimização para motores generativos). NÃO para SEO tradicional (use seo-audit). NÃO para criação de conteúdo (use content-production).",
+  "locales": {
+    "pt": {
+      "name": "ai-seo",
+      "description": "Otimize conteúdo para ser citado por mecanismos de busca com IA — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use quando quiser que seu conteúdo apareça em respostas geradas por IA, não apenas ranqueado em links azuis. Gatilhos: 'otimizar para busca IA', 'ser citado pelo ChatGPT', 'AI Overviews', 'citações Perplexity', 'AI SEO', 'busca generativa', 'visibilidade em LLM', 'GEO' (otimização para motores generativos). NÃO para SEO tradicional (use seo-audit). NÃO para criação de conteúdo (use content-production)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

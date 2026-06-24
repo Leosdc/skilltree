@@ -1,0 +1,21 @@
+{
+  "id": "free-tool-strategy",
+  "name": "free-tool-strategy",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser construir uma ferramenta gratuita para marketing — geração de leads, valor de SEO ou conscientização de marca. Use quando mencionar 'engineering as marketing', 'ferramenta gratuita', 'calculadora', 'gerador', 'verificador', 'avaliador', 'ferramenta de marketing', 'ferramenta de geração de leads', 'construir algo para tráfego', 'ferramenta interativa' ou 'recurso gratuito'. Cobre avaliação de ideias, design de ferramenta e estratégia de lançamento. Para estratégia de conteúdo SEO puro (sem ferramenta), use seo-audit ou content-strategy.",
+  "locales": {
+    "pt": {
+      "name": "free-tool-strategy",
+      "description": "Quando o usuário quiser construir uma ferramenta gratuita para marketing — geração de leads, valor de SEO ou conscientização de marca. Use quando mencionar 'engineering as marketing', 'ferramenta gratuita', 'calculadora', 'gerador', 'verificador', 'avaliador', 'ferramenta de marketing', 'ferramenta de geração de leads', 'construir algo para tráfego', 'ferramenta interativa' ou 'recurso gratuito'. Cobre avaliação de ideias, design de ferramenta e estratégia de lançamento. Para estratégia de conteúdo SEO puro (sem ferramenta), use seo-audit ou content-strategy."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

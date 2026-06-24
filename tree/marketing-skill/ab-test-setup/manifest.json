@@ -1,0 +1,21 @@
+{
+  "id": "ab-test-setup",
+  "name": "ab-test-setup",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser planejar, projetar ou implementar um teste A/B ou experimento. Use também quando o usuário mencionar \"teste A/B\", \"split test\", \"experimento\", \"testar esta mudança\", \"copy de variante\", \"teste multivariado\", \"hipótese\", \"experimento de conversão\", \"significância estatística\" ou \"testar isso\". Para implementação de rastreamento, veja analytics-tracking.",
+  "locales": {
+    "pt": {
+      "name": "ab-test-setup",
+      "description": "Quando o usuário quiser planejar, projetar ou implementar um teste A/B ou experimento. Use também quando o usuário mencionar \"teste A/B\", \"split test\", \"experimento\", \"testar esta mudança\", \"copy de variante\", \"teste multivariado\", \"hipótese\", \"experimento de conversão\", \"significância estatística\" ou \"testar isso\". Para implementação de rastreamento, veja analytics-tracking."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

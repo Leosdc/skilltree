@@ -1,0 +1,21 @@
+{
+  "id": "content-production",
+  "name": "content-production",
+  "category": "marketing-skill",
+  "description": "Pipeline completo de produção de conteúdo — leva um tópico da página em branco até a peça pronta para publicação. Use quando precisar executar conteúdo: escrever um post de blog, artigo ou guia do começo ao fim. Gatilhos: 'escrever um post sobre', 'rascunhar um artigo', 'criar conteúdo para', 'me ajude a escrever', 'preciso de um post de blog'. NÃO para estratégia de conteúdo ou planejamento de calendário (use content-strategy). NÃO para reaproveitar conteúdo existente (use content-repurposing). NÃO apenas para legendas de redes sociais.",
+  "locales": {
+    "pt": {
+      "name": "content-production",
+      "description": "Pipeline completo de produção de conteúdo — leva um tópico da página em branco até a peça pronta para publicação. Use quando precisar executar conteúdo: escrever um post de blog, artigo ou guia do começo ao fim. Gatilhos: 'escrever um post sobre', 'rascunhar um artigo', 'criar conteúdo para', 'me ajude a escrever', 'preciso de um post de blog'. NÃO para estratégia de conteúdo ou planejamento de calendário (use content-strategy). NÃO para reaproveitar conteúdo existente (use content-repurposing). NÃO apenas para legendas de redes sociais."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "brand-guidelines",
+  "name": "brand-guidelines",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser aplicar, documentar ou reforçar diretrizes de marca para qualquer produto ou empresa. Use também quando o usuário mencionar 'diretrizes de marca', 'cores da marca', 'tipografia', 'uso do logo', 'voz da marca', 'identidade visual', 'tom de voz', 'padrões de marca', 'guia de estilo', 'consistência da marca' ou 'padrões de design da empresa'. Cobre sistemas de cores, tipografia, regras de logo, diretrizes de imagens e matriz de tom para qualquer marca.",
+  "locales": {
+    "pt": {
+      "name": "brand-guidelines",
+      "description": "Quando o usuário quiser aplicar, documentar ou reforçar diretrizes de marca para qualquer produto ou empresa. Use também quando o usuário mencionar 'diretrizes de marca', 'cores da marca', 'tipografia', 'uso do logo', 'voz da marca', 'identidade visual', 'tom de voz', 'padrões de marca', 'guia de estilo', 'consistência da marca' ou 'padrões de design da empresa'. Cobre sistemas de cores, tipografia, regras de logo, diretrizes de imagens e matriz de tom para qualquer marca."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

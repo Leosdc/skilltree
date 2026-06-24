@@ -1,0 +1,21 @@
+{
+  "id": "marketing-strategy-pmm",
+  "name": "marketing-strategy-pmm",
+  "category": "marketing-skill",
+  "description": "Skill de product marketing para posicionamento, estratégia GTM, inteligência competitiva e lançamentos de produto. Use quando o usuário perguntar sobre posicionamento de produto, planejamento de go-to-market, análise competitiva, definição de público-alvo, definição de ICP, pesquisa de mercado, planos de lançamento ou capacitação de vendas. Cobre posicionamento April Dunford, definição de ICP, battlecards competitivos, playbooks de lançamento e entrada em mercados internacionais. Produz entregáveis incluindo declarações de posicionamento, documentos de battlecard, planos de lançamento e estratégias go-to-market.",
+  "locales": {
+    "pt": {
+      "name": "marketing-strategy-pmm",
+      "description": "Skill de product marketing para posicionamento, estratégia GTM, inteligência competitiva e lançamentos de produto. Use quando o usuário perguntar sobre posicionamento de produto, planejamento de go-to-market, análise competitiva, definição de público-alvo, definição de ICP, pesquisa de mercado, planos de lançamento ou capacitação de vendas. Cobre posicionamento April Dunford, definição de ICP, battlecards competitivos, playbooks de lançamento e entrada em mercados internacionais. Produz entregáveis incluindo declarações de posicionamento, documentos de battlecard, planos de lançamento e estratégias go-to-market."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

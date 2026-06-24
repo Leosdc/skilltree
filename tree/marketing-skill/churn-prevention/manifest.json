@@ -1,0 +1,21 @@
+{
+  "id": "churn-prevention",
+  "name": "churn-prevention",
+  "category": "marketing-skill",
+  "description": "Reduza o churn voluntário e involuntário por meio do design do fluxo de cancelamento, ofertas de retenção, pesquisas de saída e sequências de dunning. Use ao projetar ou otimizar um fluxo de cancelamento, construir ofertas de retenção, configurar emails de dunning ou reduzir o churn por falha de pagamento. Palavras-chave gatilho: fluxo de cancelamento, redução de churn, ofertas de retenção, dunning, pesquisa de saída, recuperação de pagamento, win-back, churn involuntário, pagamentos com falha, página de cancelamento. NÃO para pontuação de saúde do cliente ou receita de expansão — use customer-success-manager para isso.",
+  "locales": {
+    "pt": {
+      "name": "churn-prevention",
+      "description": "Reduza o churn voluntário e involuntário por meio do design do fluxo de cancelamento, ofertas de retenção, pesquisas de saída e sequências de dunning. Use ao projetar ou otimizar um fluxo de cancelamento, construir ofertas de retenção, configurar emails de dunning ou reduzir o churn por falha de pagamento. Palavras-chave gatilho: fluxo de cancelamento, redução de churn, ofertas de retenção, dunning, pesquisa de saída, recuperação de pagamento, win-back, churn involuntário, pagamentos com falha, página de cancelamento. NÃO para pontuação de saúde do cliente ou receita de expansão — use customer-success-manager para isso."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

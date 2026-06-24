@@ -1,0 +1,21 @@
+{
+  "id": "schema-markup",
+  "name": "schema-markup",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer implementar, auditar ou validar dados estruturados (schema markup) no seu site. Use quando o usuário mencionar 'dados estruturados', 'schema.org', 'JSON-LD', 'rich results', 'rich snippets', 'schema markup', 'FAQ schema', 'Product schema', 'HowTo schema' ou 'erros de dados estruturados no Search Console'. Use também quando alguém pergunta por que seu conteúdo não está exibindo rich results ou quer melhorar a visibilidade na busca por IA. NÃO para auditorias gerais de SEO (use seo-audit) ou problemas técnicos de rastreamento SEO (use site-architecture).",
+  "locales": {
+    "pt": {
+      "name": "schema-markup",
+      "description": "Quando o usuário quer implementar, auditar ou validar dados estruturados (schema markup) no seu site. Use quando o usuário mencionar 'dados estruturados', 'schema.org', 'JSON-LD', 'rich results', 'rich snippets', 'schema markup', 'FAQ schema', 'Product schema', 'HowTo schema' ou 'erros de dados estruturados no Search Console'. Use também quando alguém pergunta por que seu conteúdo não está exibindo rich results ou quer melhorar a visibilidade na busca por IA. NÃO para auditorias gerais de SEO (use seo-audit) ou problemas técnicos de rastreamento SEO (use site-architecture)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "copywriting",
+  "name": "copywriting",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser escrever, reescrever ou melhorar copy de marketing para qualquer página — incluindo homepage, landing pages, páginas de precificação, páginas de funcionalidades, sobre nós ou páginas de produto. Use também quando o usuário disser 'escreva copy para', 'melhore este copy', 'reescreva esta página', 'copy de marketing', 'ajuda com título' ou 'copy de CTA'. Para copy de email, veja email-sequence. Para copy de popup, veja popup-cro.",
+  "locales": {
+    "pt": {
+      "name": "copywriting",
+      "description": "Quando o usuário quiser escrever, reescrever ou melhorar copy de marketing para qualquer página — incluindo homepage, landing pages, páginas de precificação, páginas de funcionalidades, sobre nós ou páginas de produto. Use também quando o usuário disser 'escreva copy para', 'melhore este copy', 'reescreva esta página', 'copy de marketing', 'ajuda com título' ou 'copy de CTA'. Para copy de email, veja email-sequence. Para copy de popup, veja popup-cro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

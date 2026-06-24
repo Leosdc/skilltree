@@ -1,0 +1,21 @@
+{
+  "id": "programmatic-seo",
+  "name": "programmatic-seo",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer criar páginas otimizadas para SEO em escala usando templates e dados. Use também quando o usuário mencionar \"SEO programático\", \"páginas de template\", \"páginas em escala\", \"páginas de diretório\", \"páginas de localização\", \"páginas [palavra-chave] + [cidade]\", \"páginas de comparação\", \"páginas de integração\" ou \"construindo muitas páginas para SEO\". Para auditar problemas de SEO existentes, veja seo-audit.",
+  "locales": {
+    "pt": {
+      "name": "programmatic-seo",
+      "description": "Quando o usuário quer criar páginas otimizadas para SEO em escala usando templates e dados. Use também quando o usuário mencionar \"SEO programático\", \"páginas de template\", \"páginas em escala\", \"páginas de diretório\", \"páginas de localização\", \"páginas [palavra-chave] + [cidade]\", \"páginas de comparação\", \"páginas de integração\" ou \"construindo muitas páginas para SEO\". Para auditar problemas de SEO existentes, veja seo-audit."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "app-store-optimization",
+  "name": "app-store-optimization",
+  "category": "marketing-skill",
+  "description": "Kit de ASO (App Store Optimization) para pesquisar palavras-chave, analisar rankings de concorrentes, gerar sugestões de metadados e melhorar a visibilidade do app na Apple App Store e Google Play Store. Use quando o usuário perguntar sobre ASO, rankings na app store, metadados do app, títulos e descrições de apps, listagens na app store, visibilidade do app, ou marketing de apps mobile no iOS ou Android. Suporta pesquisa e pontuação de palavras-chave, análise de palavras-chave de concorrentes, otimização de metadados, planejamento de testes A/B, checklists de lançamento e rastreamento de mudanças de ranking.",
+  "locales": {
+    "pt": {
+      "name": "app-store-optimization",
+      "description": "Kit de ASO (App Store Optimization) para pesquisar palavras-chave, analisar rankings de concorrentes, gerar sugestões de metadados e melhorar a visibilidade do app na Apple App Store e Google Play Store. Use quando o usuário perguntar sobre ASO, rankings na app store, metadados do app, títulos e descrições de apps, listagens na app store, visibilidade do app, ou marketing de apps mobile no iOS ou Android. Suporta pesquisa e pontuação de palavras-chave, análise de palavras-chave de concorrentes, otimização de metadados, planejamento de testes A/B, checklists de lançamento e rastreamento de mudanças de ranking."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

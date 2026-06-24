@@ -1,0 +1,21 @@
+{
+  "id": "seo-audit",
+  "name": "seo-audit",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer auditar, revisar ou diagnosticar problemas de SEO no seu site. Use também quando o usuário mencionar \"auditoria de SEO\", \"SEO técnico\", \"por que não estou rankeando\", \"problemas de SEO\", \"SEO on-page\", \"revisão de meta tags\" ou \"verificação de saúde de SEO\". Para construir páginas em escala para segmentar palavras-chave, veja programmatic-seo. Para adicionar dados estruturados, veja schema-markup.",
+  "locales": {
+    "pt": {
+      "name": "seo-audit",
+      "description": "Quando o usuário quer auditar, revisar ou diagnosticar problemas de SEO no seu site. Use também quando o usuário mencionar \"auditoria de SEO\", \"SEO técnico\", \"por que não estou rankeando\", \"problemas de SEO\", \"SEO on-page\", \"revisão de meta tags\" ou \"verificação de saúde de SEO\". Para construir páginas em escala para segmentar palavras-chave, veja programmatic-seo. Para adicionar dados estruturados, veja schema-markup."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

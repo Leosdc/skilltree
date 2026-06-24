@@ -1,0 +1,21 @@
+{
+  "id": "prompt-engineer-toolkit",
+  "name": "prompt-engineer-toolkit",
+  "category": "marketing-skill",
+  "description": "Analisa e reescreve prompts para melhor saída de IA, cria templates de prompt reutilizáveis para casos de uso de marketing (copy de anúncios, campanhas de e-mail, mídia social) e estrutura fluxos de trabalho de conteúdo de IA de ponta a ponta. Use quando o usuário quer melhorar prompts para marketing assistido por IA, construir templates de prompt ou otimizar fluxos de trabalho de conteúdo de IA. Use também quando o usuário mencionar 'engenharia de prompt', 'melhorar meus prompts', 'qualidade de escrita com IA', 'templates de prompt' ou 'fluxo de trabalho de conteúdo com IA'.",
+  "locales": {
+    "pt": {
+      "name": "prompt-engineer-toolkit",
+      "description": "Analisa e reescreve prompts para melhor saída de IA, cria templates de prompt reutilizáveis para casos de uso de marketing (copy de anúncios, campanhas de e-mail, mídia social) e estrutura fluxos de trabalho de conteúdo de IA de ponta a ponta. Use quando o usuário quer melhorar prompts para marketing assistido por IA, construir templates de prompt ou otimizar fluxos de trabalho de conteúdo de IA. Use também quando o usuário mencionar 'engenharia de prompt', 'melhorar meus prompts', 'qualidade de escrita com IA', 'templates de prompt' ou 'fluxo de trabalho de conteúdo com IA'."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

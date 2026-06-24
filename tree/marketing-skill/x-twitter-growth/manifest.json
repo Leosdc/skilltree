@@ -1,0 +1,21 @@
+{
+  "id": "x-twitter-growth",
+  "name": "x-twitter-growth",
+  "category": "marketing-skill",
+  "description": "Motor de crescimento no X/Twitter para construir audiência, criar conteúdo viral e analisar engajamento. Use quando o usuário quer crescer no X/Twitter, escrever tweets ou threads, analisar o perfil no X, pesquisar concorrentes no X, planejar estratégia de postagem ou otimizar engajamento. Complementa social-content (múltiplas plataformas) com profundidade específica para o X: mecânica do algoritmo, engenharia de threads, estratégia de replies, otimização de perfil e inteligência competitiva via busca na web.",
+  "locales": {
+    "pt": {
+      "name": "x-twitter-growth",
+      "description": "Motor de crescimento no X/Twitter para construir audiência, criar conteúdo viral e analisar engajamento. Use quando o usuário quer crescer no X/Twitter, escrever tweets ou threads, analisar o perfil no X, pesquisar concorrentes no X, planejar estratégia de postagem ou otimizar engajamento. Complementa social-content (múltiplas plataformas) com profundidade específica para o X: mecânica do algoritmo, engenharia de threads, estratégia de replies, otimização de perfil e inteligência competitiva via busca na web."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

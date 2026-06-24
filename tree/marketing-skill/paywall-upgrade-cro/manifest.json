@@ -1,0 +1,21 @@
+{
+  "id": "paywall-upgrade-cro",
+  "name": "paywall-upgrade-cro",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer criar ou otimizar paywalls in-app, telas de upgrade, modais de upsell ou bloqueios de funcionalidade. Use também quando o usuário mencionar \"paywall\", \"tela de upgrade\", \"modal de upgrade\", \"upsell\", \"bloqueio de funcionalidade\", \"converter free para pago\", \"conversão freemium\", \"tela de expiração de trial\", \"tela de limite atingido\", \"prompt de upgrade de plano\" ou \"precificação in-app\". Distinto das páginas públicas de preços (veja page-cro) — esta skill foca em momentos de upgrade dentro do produto onde o usuário já experimentou valor.",
+  "locales": {
+    "pt": {
+      "name": "paywall-upgrade-cro",
+      "description": "Quando o usuário quer criar ou otimizar paywalls in-app, telas de upgrade, modais de upsell ou bloqueios de funcionalidade. Use também quando o usuário mencionar \"paywall\", \"tela de upgrade\", \"modal de upgrade\", \"upsell\", \"bloqueio de funcionalidade\", \"converter free para pago\", \"conversão freemium\", \"tela de expiração de trial\", \"tela de limite atingido\", \"prompt de upgrade de plano\" ou \"precificação in-app\". Distinto das páginas públicas de preços (veja page-cro) — esta skill foca em momentos de upgrade dentro do produto onde o usuário já experimentou valor."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

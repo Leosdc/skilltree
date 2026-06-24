@@ -1,0 +1,21 @@
+{
+  "id": "site-architecture",
+  "name": "site-architecture",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer auditar, redesenhar ou planejar a estrutura do seu site, hierarquia de URL, design de navegação ou estratégia de linking interno. Use quando o usuário mencionar 'arquitetura do site', 'estrutura de URL', 'links internos', 'navegação do site', 'breadcrumbs', 'cluster de tópicos', 'páginas hub', 'páginas órfãs', 'estrutura de silo', 'arquitetura da informação' ou 'reorganização do site'. Use também quando alguém tem problemas de SEO e a causa raiz é estrutural (não conteúdo ou schema). NÃO para decisões de estratégia de conteúdo sobre o que escrever (use content-strategy) ou para schema markup (use schema-markup).",
+  "locales": {
+    "pt": {
+      "name": "site-architecture",
+      "description": "Quando o usuário quer auditar, redesenhar ou planejar a estrutura do seu site, hierarquia de URL, design de navegação ou estratégia de linking interno. Use quando o usuário mencionar 'arquitetura do site', 'estrutura de URL', 'links internos', 'navegação do site', 'breadcrumbs', 'cluster de tópicos', 'páginas hub', 'páginas órfãs', 'estrutura de silo', 'arquitetura da informação' ou 'reorganização do site'. Use também quando alguém tem problemas de SEO e a causa raiz é estrutural (não conteúdo ou schema). NÃO para decisões de estratégia de conteúdo sobre o que escrever (use content-strategy) ou para schema markup (use schema-markup)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

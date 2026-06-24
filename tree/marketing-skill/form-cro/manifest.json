@@ -1,0 +1,21 @@
+{
+  "id": "form-cro",
+  "name": "form-cro",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser otimizar qualquer formulário que NÃO seja de cadastro/registro — incluindo formulários de captura de lead, formulários de contato, formulários de solicitação de demo, formulários de inscrição, formulários de pesquisa ou formulários de checkout. Use também quando o usuário mencionar 'otimização de formulário', 'conversões de formulário de lead', 'atrito no formulário', 'campos do formulário', 'taxa de conclusão do formulário' ou 'formulário de contato'. Para formulários de cadastro/registro, veja signup-flow-cro. Para popups com formulários, veja popup-cro.",
+  "locales": {
+    "pt": {
+      "name": "form-cro",
+      "description": "Quando o usuário quiser otimizar qualquer formulário que NÃO seja de cadastro/registro — incluindo formulários de captura de lead, formulários de contato, formulários de solicitação de demo, formulários de inscrição, formulários de pesquisa ou formulários de checkout. Use também quando o usuário mencionar 'otimização de formulário', 'conversões de formulário de lead', 'atrito no formulário', 'campos do formulário', 'taxa de conclusão do formulário' ou 'formulário de contato'. Para formulários de cadastro/registro, veja signup-flow-cro. Para popups com formulários, veja popup-cro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

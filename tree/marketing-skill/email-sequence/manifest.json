@@ -1,0 +1,21 @@
+{
+  "id": "email-sequence",
+  "name": "email-sequence",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser criar ou otimizar uma sequência de email, campanha de drip, fluxo de email automatizado ou programa de email de lifecycle. Use também quando o usuário mencionar 'sequência de email', 'campanha de drip', 'sequência de nutrição', 'emails de onboarding', 'sequência de boas-vindas', 'emails de reengajamento', 'automação de email' ou 'emails de lifecycle'. Para onboarding no app, veja onboarding-cro.",
+  "locales": {
+    "pt": {
+      "name": "email-sequence",
+      "description": "Quando o usuário quiser criar ou otimizar uma sequência de email, campanha de drip, fluxo de email automatizado ou programa de email de lifecycle. Use também quando o usuário mencionar 'sequência de email', 'campanha de drip', 'sequência de nutrição', 'emails de onboarding', 'sequência de boas-vindas', 'emails de reengajamento', 'automação de email' ou 'emails de lifecycle'. Para onboarding no app, veja onboarding-cro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "launch-strategy",
+  "name": "launch-strategy",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser planejar um lançamento de produto, anúncio de funcionalidade ou estratégia de release. Use também quando o usuário mencionar 'lançamento', 'Product Hunt', 'release de funcionalidade', 'anúncio', 'go-to-market', 'beta launch', 'acesso antecipado', 'lista de espera', 'atualização de produto', 'plano GTM', 'checklist de lançamento' ou 'momentum de lançamento'. Esta skill cobre lançamentos em fases, estratégia de canais e momentum contínuo pós-lançamento.",
+  "locales": {
+    "pt": {
+      "name": "launch-strategy",
+      "description": "Quando o usuário quiser planejar um lançamento de produto, anúncio de funcionalidade ou estratégia de release. Use também quando o usuário mencionar 'lançamento', 'Product Hunt', 'release de funcionalidade', 'anúncio', 'go-to-market', 'beta launch', 'acesso antecipado', 'lista de espera', 'atualização de produto', 'plano GTM', 'checklist de lançamento' ou 'momentum de lançamento'. Esta skill cobre lançamentos em fases, estratégia de canais e momentum contínuo pós-lançamento."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

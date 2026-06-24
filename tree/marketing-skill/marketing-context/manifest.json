@@ -1,0 +1,21 @@
+{
+  "id": "marketing-context",
+  "name": "marketing-context",
+  "category": "marketing-skill",
+  "description": "Criar e manter o documento de contexto de marketing que todas as skills de marketing leem antes de começar. Use quando o usuário mencionar 'contexto de marketing', 'voz da marca', 'configurar contexto', 'público-alvo', 'ICP', 'guia de estilo', 'quem é meu cliente', 'posicionamento', ou quando quiser evitar repetir informações fundamentais em diferentes tarefas de marketing. Execute isso no início de qualquer novo projeto antes de usar outras skills de marketing.",
+  "locales": {
+    "pt": {
+      "name": "marketing-context",
+      "description": "Criar e manter o documento de contexto de marketing que todas as skills de marketing leem antes de começar. Use quando o usuário mencionar 'contexto de marketing', 'voz da marca', 'configurar contexto', 'público-alvo', 'ICP', 'guia de estilo', 'quem é meu cliente', 'posicionamento', ou quando quiser evitar repetir informações fundamentais em diferentes tarefas de marketing. Execute isso no início de qualquer novo projeto antes de usar outras skills de marketing."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "marketing-demand-acquisition",
+  "name": "marketing-demand-acquisition",
+  "category": "marketing-skill",
+  "description": "Cria campanhas de geração de demanda, otimiza investimentos em anúncios pagos no LinkedIn, Google e Meta, desenvolve estratégias de SEO e estrutura programas de parceria para startups Série A+ em expansão internacional. Use quando estiver planejando estratégia de marketing, growth marketing, campanhas de publicidade, otimização de PPC, geração de leads, geração de pipeline ou orçamentos de marketing para startups. Cobre aquisição multicanal (Google Ads, LinkedIn Ads, Meta Ads), análise de CAC, fluxos de trabalho MQL/SQL, modelagem de atribuição, SEO técnico e parcerias de co-marketing para movimentos híbridos PLG/Liderado por Vendas nos mercados BR/EU/US/Canada.",
+  "locales": {
+    "pt": {
+      "name": "marketing-demand-acquisition",
+      "description": "Cria campanhas de geração de demanda, otimiza investimentos em anúncios pagos no LinkedIn, Google e Meta, desenvolve estratégias de SEO e estrutura programas de parceria para startups Série A+ em expansão internacional. Use quando estiver planejando estratégia de marketing, growth marketing, campanhas de publicidade, otimização de PPC, geração de leads, geração de pipeline ou orçamentos de marketing para startups. Cobre aquisição multicanal (Google Ads, LinkedIn Ads, Meta Ads), análise de CAC, fluxos de trabalho MQL/SQL, modelagem de atribuição, SEO técnico e parcerias de co-marketing para movimentos híbridos PLG/Liderado por Vendas nos mercados BR/EU/US/Canada."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

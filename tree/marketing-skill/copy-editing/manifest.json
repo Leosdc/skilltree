@@ -1,0 +1,21 @@
+{
+  "id": "copy-editing",
+  "name": "copy-editing",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser editar, revisar ou melhorar copy de marketing existente. Use também quando o usuário mencionar 'editar este copy', 'revisar meu copy', 'feedback de copy', 'revisar', 'polir isso', 'tornar isso melhor' ou 'varredura de copy'. Esta skill fornece uma abordagem sistemática para editar copy de marketing por meio de múltiplas passagens focadas.",
+  "locales": {
+    "pt": {
+      "name": "copy-editing",
+      "description": "Quando o usuário quiser editar, revisar ou melhorar copy de marketing existente. Use também quando o usuário mencionar 'editar este copy', 'revisar meu copy', 'feedback de copy', 'revisar', 'polir isso', 'tornar isso melhor' ou 'varredura de copy'. Esta skill fornece uma abordagem sistemática para editar copy de marketing por meio de múltiplas passagens focadas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

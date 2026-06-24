@@ -1,0 +1,21 @@
+{
+  "id": "content-strategy",
+  "name": "content-strategy",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser planejar uma estratégia de conteúdo, decidir que conteúdo criar ou descobrir quais tópicos abordar. Use também quando o usuário mencionar 'estratégia de conteúdo', 'sobre o que devo escrever', 'ideias de conteúdo', 'estratégia de blog', 'cluster de tópicos' ou 'planejamento de conteúdo'. Para escrever peças individuais, veja copywriting. Para auditorias específicas de SEO, veja seo-audit.",
+  "locales": {
+    "pt": {
+      "name": "content-strategy",
+      "description": "Quando o usuário quiser planejar uma estratégia de conteúdo, decidir que conteúdo criar ou descobrir quais tópicos abordar. Use também quando o usuário mencionar 'estratégia de conteúdo', 'sobre o que devo escrever', 'ideias de conteúdo', 'estratégia de blog', 'cluster de tópicos' ou 'planejamento de conteúdo'. Para escrever peças individuais, veja copywriting. Para auditorias específicas de SEO, veja seo-audit."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

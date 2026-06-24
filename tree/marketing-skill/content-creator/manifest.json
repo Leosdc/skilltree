@@ -1,0 +1,21 @@
+{
+  "id": "content-creator",
+  "name": "content-creator",
+  "category": "marketing-skill",
+  "description": "Skill de redirecionamento depreciada que direciona solicitações legadas de 'content creator' para a skill especialista correta. Use quando o usuário invocar 'content creator', pedir para escrever um post de blog, artigo, guia ou análise de voz da marca (direcionar para content-production), ou pedir para planejar conteúdo, construir um cluster de tópicos ou criar um calendário editorial (direcionar para content-strategy). Não trata solicitações diretamente — identifica a intenção do usuário e redireciona para content-production (tarefas de redação/SEO/voz da marca) ou content-strategy (tarefas de planejamento).",
+  "locales": {
+    "pt": {
+      "name": "content-creator",
+      "description": "Skill de redirecionamento depreciada que direciona solicitações legadas de 'content creator' para a skill especialista correta. Use quando o usuário invocar 'content creator', pedir para escrever um post de blog, artigo, guia ou análise de voz da marca (direcionar para content-production), ou pedir para planejar conteúdo, construir um cluster de tópicos ou criar um calendário editorial (direcionar para content-strategy). Não trata solicitações diretamente — identifica a intenção do usuário e redireciona para content-production (tarefas de redação/SEO/voz da marca) ou content-strategy (tarefas de planejamento)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

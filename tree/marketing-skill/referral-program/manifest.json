@@ -1,0 +1,21 @@
+{
+  "id": "referral-program",
+  "name": "referral-program",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer projetar, lançar ou otimizar um programa de indicação ou afiliados. Use quando mencionarem 'programa de indicação', 'programa de afiliados', 'boca a boca', 'indique um amigo', 'programa de incentivo', 'indicações de clientes', 'embaixador de marca', 'programa de parceiros', 'link de indicação' ou 'crescimento por indicações'. Cobre mecânicas do programa, design de incentivos e otimização — não apenas a ideia de indicações, mas o sistema real.",
+  "locales": {
+    "pt": {
+      "name": "referral-program",
+      "description": "Quando o usuário quer projetar, lançar ou otimizar um programa de indicação ou afiliados. Use quando mencionarem 'programa de indicação', 'programa de afiliados', 'boca a boca', 'indique um amigo', 'programa de incentivo', 'indicações de clientes', 'embaixador de marca', 'programa de parceiros', 'link de indicação' ou 'crescimento por indicações'. Cobre mecânicas do programa, design de incentivos e otimização — não apenas a ideia de indicações, mas o sistema real."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

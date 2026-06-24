@@ -1,0 +1,21 @@
+{
+  "id": "social-content",
+  "name": "social-content",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer ajuda para criar, agendar ou otimizar conteúdo de mídia social para LinkedIn, Twitter/X, Instagram, TikTok, Facebook ou outras plataformas. Use também quando o usuário mencionar 'post no LinkedIn', 'thread no Twitter', 'mídia social', 'calendário editorial', 'agendamento social', 'engajamento' ou 'conteúdo viral'. Esta skill cobre criação de conteúdo, reaproveitamento e estratégias específicas por plataforma.",
+  "locales": {
+    "pt": {
+      "name": "social-content",
+      "description": "Quando o usuário quer ajuda para criar, agendar ou otimizar conteúdo de mídia social para LinkedIn, Twitter/X, Instagram, TikTok, Facebook ou outras plataformas. Use também quando o usuário mencionar 'post no LinkedIn', 'thread no Twitter', 'mídia social', 'calendário editorial', 'agendamento social', 'engajamento' ou 'conteúdo viral'. Esta skill cobre criação de conteúdo, reaproveitamento e estratégias específicas por plataforma."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "marketing-ideas",
+  "name": "marketing-ideas",
+  "category": "marketing-skill",
+  "description": "Quando o usuário precisa de ideias de marketing, inspiração ou estratégias para seu produto SaaS ou software. Use também quando o usuário pedir 'ideias de marketing', 'ideias de crescimento', 'como fazer marketing', 'estratégias de marketing', 'táticas de marketing', 'formas de promover' ou 'ideias para crescer'. Esta skill fornece 139 abordagens de marketing comprovadas organizadas por categoria.",
+  "locales": {
+    "pt": {
+      "name": "marketing-ideas",
+      "description": "Quando o usuário precisa de ideias de marketing, inspiração ou estratégias para seu produto SaaS ou software. Use também quando o usuário pedir 'ideias de marketing', 'ideias de crescimento', 'como fazer marketing', 'estratégias de marketing', 'táticas de marketing', 'formas de promover' ou 'ideias para crescer'. Esta skill fornece 139 abordagens de marketing comprovadas organizadas por categoria."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

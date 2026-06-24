@@ -1,0 +1,21 @@
+{
+  "id": "content-humanizer",
+  "name": "content-humanizer",
+  "category": "marketing-skill",
+  "description": "Faz com que conteúdo gerado por IA soe genuinamente humano — não apenas limpo, mas vivo. Use quando o conteúdo parecer robótico, usar muitos clichês de IA, faltar personalidade ou soar como foi escrito por comitê. Gatilhos: 'isso soa como IA', 'torne mais humano', 'adicione personalidade', 'parece genérico', 'soa robótico', 'corrija escrita de IA', 'injete nossa voz'. NÃO para criação inicial de conteúdo (use content-production). NÃO para otimização de SEO (use content-production Modo 3).",
+  "locales": {
+    "pt": {
+      "name": "content-humanizer",
+      "description": "Faz com que conteúdo gerado por IA soe genuinamente humano — não apenas limpo, mas vivo. Use quando o conteúdo parecer robótico, usar muitos clichês de IA, faltar personalidade ou soar como foi escrito por comitê. Gatilhos: 'isso soa como IA', 'torne mais humano', 'adicione personalidade', 'parece genérico', 'soa robótico', 'corrija escrita de IA', 'injete nossa voz'. NÃO para criação inicial de conteúdo (use content-production). NÃO para otimização de SEO (use content-production Modo 3)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

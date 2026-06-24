@@ -1,0 +1,21 @@
+{
+  "id": "ad-creative",
+  "name": "ad-creative",
+  "category": "marketing-skill",
+  "description": "Quando o usuário precisa gerar, iterar ou escalar criativos de anúncios para publicidade paga. Use quando disserem 'escrever copy de anúncio', 'gerar títulos', 'criar variações de anúncios', 'criativo em massa', 'iterar sobre anúncios', 'validação de copy de anúncio', 'headlines RSA', 'copy de anúncio Meta Ads', 'anúncio LinkedIn' ou 'teste criativo'. Esta é produção criativa pura — distinta de paid-ads (estratégia de campanha). Use ad-creative quando precisar do copy, não do plano de campanha.",
+  "locales": {
+    "pt": {
+      "name": "ad-creative",
+      "description": "Quando o usuário precisa gerar, iterar ou escalar criativos de anúncios para publicidade paga. Use quando disserem 'escrever copy de anúncio', 'gerar títulos', 'criar variações de anúncios', 'criativo em massa', 'iterar sobre anúncios', 'validação de copy de anúncio', 'headlines RSA', 'copy de anúncio Meta Ads', 'anúncio LinkedIn' ou 'teste criativo'. Esta é produção criativa pura — distinta de paid-ads (estratégia de campanha). Use ad-creative quando precisar do copy, não do plano de campanha."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

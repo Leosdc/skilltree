@@ -1,0 +1,21 @@
+{
+  "id": "competitor-alternatives",
+  "name": "competitor-alternatives",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser criar páginas de comparação ou alternativas a concorrentes para SEO e capacitação de vendas. Use também quando o usuário mencionar 'página de alternativa', 'página vs', 'comparação de concorrentes', 'página de comparação', '[Produto] vs [Produto]', 'alternativa ao [Produto]', 'landing pages competitivas', 'migrar do concorrente' ou 'conteúdo de comparação'. Cobre quatro formatos: alternativa singular, alternativas no plural, você vs concorrente e concorrente vs concorrente. Enfatiza pesquisa aprofundada, arquitetura de conteúdo modular e tipos de seção variados além de tabelas de funcionalidades.",
+  "locales": {
+    "pt": {
+      "name": "competitor-alternatives",
+      "description": "Quando o usuário quiser criar páginas de comparação ou alternativas a concorrentes para SEO e capacitação de vendas. Use também quando o usuário mencionar 'página de alternativa', 'página vs', 'comparação de concorrentes', 'página de comparação', '[Produto] vs [Produto]', 'alternativa ao [Produto]', 'landing pages competitivas', 'migrar do concorrente' ou 'conteúdo de comparação'. Cobre quatro formatos: alternativa singular, alternativas no plural, você vs concorrente e concorrente vs concorrente. Enfatiza pesquisa aprofundada, arquitetura de conteúdo modular e tipos de seção variados além de tabelas de funcionalidades."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

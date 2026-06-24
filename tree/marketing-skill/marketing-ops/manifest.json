@@ -1,0 +1,21 @@
+{
+  "id": "marketing-ops",
+  "name": "marketing-ops",
+  "category": "marketing-skill",
+  "description": "Roteador central para o ecossistema de skills de marketing. Use quando não tiver certeza de qual skill de marketing usar, ao orquestrar uma campanha multi-skill ou ao coordenar conteúdo, SEO, CRO, canais e analytics. Use também quando o usuário mencionar 'ajuda com marketing', 'plano de campanha', 'o que devo fazer a seguir', 'prioridades de marketing' ou 'coordenar marketing'.",
+  "locales": {
+    "pt": {
+      "name": "marketing-ops",
+      "description": "Roteador central para o ecossistema de skills de marketing. Use quando não tiver certeza de qual skill de marketing usar, ao orquestrar uma campanha multi-skill ou ao coordenar conteúdo, SEO, CRO, canais e analytics. Use também quando o usuário mencionar 'ajuda com marketing', 'plano de campanha', 'o que devo fazer a seguir', 'prioridades de marketing' ou 'coordenar marketing'."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

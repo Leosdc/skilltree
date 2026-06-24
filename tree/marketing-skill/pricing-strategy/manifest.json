@@ -1,0 +1,21 @@
+{
+  "id": "pricing-strategy",
+  "name": "pricing-strategy",
+  "category": "marketing-skill",
+  "description": "Projete, otimize e comunique a precificação de SaaS — estrutura de tiers, métricas de valor, páginas de preços e estratégia de aumento de preços. Use ao construir um modelo de precificação do zero, redesenhar a precificação existente, planejar um aumento de preços ou melhorar uma página de preços. Palavras-chave de gatilho: tiers de preços, página de preços, aumento de preços, embalagem, métrica de valor, precificação por assento, precificação baseada em uso, freemium, good-better-best, estratégia de precificação, monetização, conversão de página de preços, Van Westendorp. NÃO para estratégia de produto mais ampla — use product-strategist para isso. NÃO para sucesso do cliente ou renovações — use customer-success-manager para receita de expansão.",
+  "locales": {
+    "pt": {
+      "name": "pricing-strategy",
+      "description": "Projete, otimize e comunique a precificação de SaaS — estrutura de tiers, métricas de valor, páginas de preços e estratégia de aumento de preços. Use ao construir um modelo de precificação do zero, redesenhar a precificação existente, planejar um aumento de preços ou melhorar uma página de preços. Palavras-chave de gatilho: tiers de preços, página de preços, aumento de preços, embalagem, métrica de valor, precificação por assento, precificação baseada em uso, freemium, good-better-best, estratégia de precificação, monetização, conversão de página de preços, Van Westendorp. NÃO para estratégia de produto mais ampla — use product-strategist para isso. NÃO para sucesso do cliente ou renovações — use customer-success-manager para receita de expansão."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "signup-flow-cro",
+  "name": "signup-flow-cro",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer otimizar fluxos de cadastro, registro, criação de conta ou ativação de trial. Use também quando o usuário mencionar \"conversões de cadastro\", \"atrito no registro\", \"otimização de formulário de cadastro\", \"cadastro de trial gratuito\", \"reduzir abandono no cadastro\" ou \"fluxo de criação de conta\". Para onboarding pós-cadastro, veja onboarding-cro. Para formulários de captura de leads (não criação de conta), veja form-cro.",
+  "locales": {
+    "pt": {
+      "name": "signup-flow-cro",
+      "description": "Quando o usuário quer otimizar fluxos de cadastro, registro, criação de conta ou ativação de trial. Use também quando o usuário mencionar \"conversões de cadastro\", \"atrito no registro\", \"otimização de formulário de cadastro\", \"cadastro de trial gratuito\", \"reduzir abandono no cadastro\" ou \"fluxo de criação de conta\". Para onboarding pós-cadastro, veja onboarding-cro. Para formulários de captura de leads (não criação de conta), veja form-cro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

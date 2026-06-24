@@ -1,0 +1,21 @@
+{
+  "id": "social-media-analyzer",
+  "name": "social-media-analyzer",
+  "category": "marketing-skill",
+  "description": "Análise de campanhas de mídia social e rastreamento de desempenho. Calcula taxas de engajamento, ROI e benchmarks entre plataformas. Use para analisar desempenho de mídia social, calcular taxa de engajamento, medir ROI de campanha, comparar métricas de plataforma ou fazer benchmark de engajamento contra padrões do setor.",
+  "locales": {
+    "pt": {
+      "name": "social-media-analyzer",
+      "description": "Análise de campanhas de mídia social e rastreamento de desempenho. Calcula taxas de engajamento, ROI e benchmarks entre plataformas. Use para analisar desempenho de mídia social, calcular taxa de engajamento, medir ROI de campanha, comparar métricas de plataforma ou fazer benchmark de engajamento contra padrões do setor."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

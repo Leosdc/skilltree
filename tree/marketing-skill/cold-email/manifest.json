@@ -1,0 +1,21 @@
+{
+  "id": "cold-email",
+  "name": "cold-email",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quiser escrever, melhorar ou construir uma sequência de emails de prospecção B2B a frio para prospects que não solicitaram contato. Use quando o usuário mencionar 'cold email', 'prospecção a frio', 'emails de prospecção', 'emails de SDR', 'emails de vendas', 'email de primeiro contato', 'sequência de acompanhamento' ou 'prospecção por email'. Use também quando compartilharem um rascunho de email que soa muito comercial e precisa ser humanizado. Distinto de email-sequence (lifecycle/nutrição para assinantes que optaram em) — este é contato não solicitado para novos prospects. NÃO para emails de lifecycle, newsletters ou campanhas de drip (use email-sequence).",
+  "locales": {
+    "pt": {
+      "name": "cold-email",
+      "description": "Quando o usuário quiser escrever, melhorar ou construir uma sequência de emails de prospecção B2B a frio para prospects que não solicitaram contato. Use quando o usuário mencionar 'cold email', 'prospecção a frio', 'emails de prospecção', 'emails de SDR', 'emails de vendas', 'email de primeiro contato', 'sequência de acompanhamento' ou 'prospecção por email'. Use também quando compartilharem um rascunho de email que soa muito comercial e precisa ser humanizado. Distinto de email-sequence (lifecycle/nutrição para assinantes que optaram em) — este é contato não solicitado para novos prospects. NÃO para emails de lifecycle, newsletters ou campanhas de drip (use email-sequence)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "popup-cro",
+  "name": "popup-cro",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer criar ou otimizar popups, modais, overlays, slide-ins ou banners para fins de conversão. Use também quando o usuário mencionar \"exit intent\", \"conversões de popup\", \"otimização de modal\", \"popup de captura de leads\", \"popup de e-mail\", \"banner de anúncio\" ou \"overlay\". Para formulários fora de popups, veja form-cro. Para otimização geral de conversão de página, veja page-cro.",
+  "locales": {
+    "pt": {
+      "name": "popup-cro",
+      "description": "Quando o usuário quer criar ou otimizar popups, modais, overlays, slide-ins ou banners para fins de conversão. Use também quando o usuário mencionar \"exit intent\", \"conversões de popup\", \"otimização de modal\", \"popup de captura de leads\", \"popup de e-mail\", \"banner de anúncio\" ou \"overlay\". Para formulários fora de popups, veja form-cro. Para otimização geral de conversão de página, veja page-cro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

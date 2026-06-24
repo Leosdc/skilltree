@@ -1,0 +1,21 @@
+{
+  "id": "social-media-manager",
+  "name": "social-media-manager",
+  "category": "marketing-skill",
+  "description": "Quando o usuário quer desenvolver estratégia de mídia social, planejar calendários editoriais, gerenciar engajamento com a comunidade ou crescer sua presença social entre plataformas. Use também quando o usuário mencionar 'estratégia de mídia social', 'calendário social', 'gestão de comunidade', 'plano de mídia social', 'crescer seguidores', 'taxa de engajamento', 'auditoria de mídia social' ou 'quais plataformas devo usar'. Para criar posts sociais individuais, veja social-content. Para analisar dados de desempenho social, veja social-media-analyzer.",
+  "locales": {
+    "pt": {
+      "name": "social-media-manager",
+      "description": "Quando o usuário quer desenvolver estratégia de mídia social, planejar calendários editoriais, gerenciar engajamento com a comunidade ou crescer sua presença social entre plataformas. Use também quando o usuário mencionar 'estratégia de mídia social', 'calendário social', 'gestão de comunidade', 'plano de mídia social', 'crescer seguidores', 'taxa de engajamento', 'auditoria de mídia social' ou 'quais plataformas devo usar'. Para criar posts sociais individuais, veja social-content. Para analisar dados de desempenho social, veja social-media-analyzer."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

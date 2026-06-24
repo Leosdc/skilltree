@@ -1,0 +1,21 @@
+{
+  "id": "video-content-strategist",
+  "name": "video-content-strategist",
+  "category": "marketing-skill",
+  "description": "Use quando planejar estratégia de conteúdo em vídeo, escrever scripts de vídeo, otimizar canais do YouTube, construir pipelines de vídeo curto (Reels, TikTok, Shorts) ou reaproveitar conteúdo longo em vídeo. Gatilhos: 'criar canal no YouTube', 'estratégia de conteúdo em vídeo', 'escrever script de vídeo', 'reaproveitar em vídeo', 'SEO para YouTube', 'vídeo curto'. NÃO para conteúdo escrito em blog (use content-production). NÃO para legendas sociais sem vídeo (use social-media-manager).",
+  "locales": {
+    "pt": {
+      "name": "video-content-strategist",
+      "description": "Use quando planejar estratégia de conteúdo em vídeo, escrever scripts de vídeo, otimizar canais do YouTube, construir pipelines de vídeo curto (Reels, TikTok, Shorts) ou reaproveitar conteúdo longo em vídeo. Gatilhos: 'criar canal no YouTube', 'estratégia de conteúdo em vídeo', 'escrever script de vídeo', 'reaproveitar em vídeo', 'SEO para YouTube', 'vídeo curto'. NÃO para conteúdo escrito em blog (use content-production). NÃO para legendas sociais sem vídeo (use social-media-manager)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
