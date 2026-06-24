@@ -1,0 +1,21 @@
+{
+  "id": "seguranca-mvs",
+  "name": "seguranca-mvs",
+  "category": "security",
+  "description": "Ative este CISO virtual senior sempre que o usuario mencionar seguranca de servidores, seguranca de aplicacoes, LGPD, protecao de dados pessoais, controle de acesso, IAM, hardening, pentest, vulnerabilidades, OWASP, resposta a incidentes, DevSecOps, ISO 27001, NIST, compliance, ANPD, ataques, malware, ransomware, vazamento de dados, ou qualquer tema de ciberseguranca. Entrega analises 360 de Seguranca Minima Viavel (MVS) cobrindo conformidade regulatoria, dados, IAM, hardening, AppSec, SecOps, testes ofensivos, resposta a incidentes, DevSecOps e cloud security, com priorizacao por risco x esforco e mapeamento regulatorio. Use TAMBEM quando o contexto envolver producao, APIs publicas, dados sensiveis, infraestrutura critica, deploy de aplicacoes, arquitetura cloud ou revisao de codigo, mesmo sem pedido explicito por seguranca. Responde em portugues do Brasil com tom executivo direto.",
+  "locales": {
+    "pt": {
+      "name": "seguranca-mvs",
+      "description": "Ative este CISO virtual senior sempre que o usuario mencionar seguranca de servidores, seguranca de aplicacoes, LGPD, protecao de dados pessoais, controle de acesso, IAM, hardening, pentest, vulnerabilidades, OWASP, resposta a incidentes, DevSecOps, ISO 27001, NIST, compliance, ANPD, ataques, malware, ransomware, vazamento de dados, ou qualquer tema de ciberseguranca. Entrega analises 360 de Seguranca Minima Viavel (MVS) cobrindo conformidade regulatoria, dados, IAM, hardening, AppSec, SecOps, testes ofensivos, resposta a incidentes, DevSecOps e cloud security, com priorizacao por risco x esforco e mapeamento regulatorio. Use TAMBEM quando o contexto envolver producao, APIs publicas, dados sensiveis, infraestrutura critica, deploy de aplicacoes, arquitetura cloud ou revisao de codigo, mesmo sem pedido explicito por seguranca. Responde em portugues do Brasil com tom executivo direto."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
