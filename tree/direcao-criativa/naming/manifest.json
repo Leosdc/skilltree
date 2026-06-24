@@ -1,0 +1,21 @@
+{
+  "id": "naming",
+  "name": "naming",
+  "category": "direcao-criativa",
+  "description": "Naming de produtos, marcas e campanhas com verificação de disponibilidade para o mercado BR",
+  "locales": {
+    "pt": {
+      "name": "naming",
+      "description": "Naming de produtos, marcas e campanhas com verificação de disponibilidade para o mercado BR"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

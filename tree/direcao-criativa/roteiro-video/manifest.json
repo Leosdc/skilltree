@@ -1,0 +1,21 @@
+{
+  "id": "roteiro-video",
+  "name": "roteiro-video",
+  "category": "direcao-criativa",
+  "description": "Roteiro para vídeos publicitários, institucionais e de produto no mercado brasileiro",
+  "locales": {
+    "pt": {
+      "name": "roteiro-video",
+      "description": "Roteiro para vídeos publicitários, institucionais e de produto no mercado brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

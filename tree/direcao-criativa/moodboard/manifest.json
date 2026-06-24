@@ -1,0 +1,21 @@
+{
+  "id": "moodboard",
+  "name": "moodboard",
+  "category": "direcao-criativa",
+  "description": "Criação de moodboards textuais e referências visuais para produções criativas",
+  "locales": {
+    "pt": {
+      "name": "moodboard",
+      "description": "Criação de moodboards textuais e referências visuais para produções criativas"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

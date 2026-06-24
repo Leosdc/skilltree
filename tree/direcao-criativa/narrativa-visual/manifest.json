@@ -1,0 +1,21 @@
+{
+  "id": "narrativa-visual",
+  "name": "narrativa-visual",
+  "category": "direcao-criativa",
+  "description": "Narrativa visual para marcas: arco dramático, personagens e emoção na comunicação",
+  "locales": {
+    "pt": {
+      "name": "narrativa-visual",
+      "description": "Narrativa visual para marcas: arco dramático, personagens e emoção na comunicação"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

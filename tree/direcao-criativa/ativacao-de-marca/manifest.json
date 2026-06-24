@@ -1,0 +1,21 @@
+{
+  "id": "ativacao-de-marca",
+  "name": "ativacao-de-marca",
+  "category": "direcao-criativa",
+  "description": "Ativações de marca, experiências e eventos criativos para o mercado brasileiro",
+  "locales": {
+    "pt": {
+      "name": "ativacao-de-marca",
+      "description": "Ativações de marca, experiências e eventos criativos para o mercado brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

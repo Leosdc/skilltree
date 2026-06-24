@@ -1,0 +1,21 @@
+{
+  "id": "ideacao",
+  "name": "ideacao",
+  "category": "direcao-criativa",
+  "description": "Facilitação de brainstorming e sessões de ideação criativa para times e projetos",
+  "locales": {
+    "pt": {
+      "name": "ideacao",
+      "description": "Facilitação de brainstorming e sessões de ideação criativa para times e projetos"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

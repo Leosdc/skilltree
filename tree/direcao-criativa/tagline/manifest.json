@@ -1,0 +1,21 @@
+{
+  "id": "tagline",
+  "name": "tagline",
+  "category": "direcao-criativa",
+  "description": "Criação de taglines, slogans e brand promises memoráveis para marcas brasileiras",
+  "locales": {
+    "pt": {
+      "name": "tagline",
+      "description": "Criação de taglines, slogans e brand promises memoráveis para marcas brasileiras"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

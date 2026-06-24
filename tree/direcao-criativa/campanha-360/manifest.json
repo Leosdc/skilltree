@@ -1,0 +1,21 @@
+{
+  "id": "campanha-360",
+  "name": "campanha-360",
+  "category": "direcao-criativa",
+  "description": "Planejamento de campanha integrada multi-canal para o mercado brasileiro",
+  "locales": {
+    "pt": {
+      "name": "campanha-360",
+      "description": "Planejamento de campanha integrada multi-canal para o mercado brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

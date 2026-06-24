@@ -1,0 +1,21 @@
+{
+  "id": "conceito-criativo",
+  "name": "conceito-criativo",
+  "category": "direcao-criativa",
+  "description": "Desenvolvimento de big idea e conceito central de campanha para marcas brasileiras",
+  "locales": {
+    "pt": {
+      "name": "conceito-criativo",
+      "description": "Desenvolvimento de big idea e conceito central de campanha para marcas brasileiras"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
