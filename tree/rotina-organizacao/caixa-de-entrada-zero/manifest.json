@@ -1,0 +1,21 @@
+{
+  "id": "caixa-de-entrada-zero",
+  "name": "caixa-de-entrada-zero",
+  "category": "rotina-organizacao",
+  "description": "Gestão de email e notificações para inbox zero: sistema de triagem, resposta e arquivamento de emails, gestão de notificações de WhatsApp e Slack, e como manter o inbox limpo de forma sustentável.",
+  "locales": {
+    "pt": {
+      "name": "caixa-de-entrada-zero",
+      "description": "Gestão de email e notificações para inbox zero: sistema de triagem, resposta e arquivamento de emails, gestão de notificações de WhatsApp e Slack, e como manter o inbox limpo de forma sustentável."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

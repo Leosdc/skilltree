@@ -1,0 +1,21 @@
+{
+  "id": "rotina-organizacao-hub",
+  "name": "rotina-organizacao",
+  "category": "rotina-organizacao",
+  "description": "Skills de produtividade pessoal com metodologias GTD, time blocking, gestão de energia e organização de projetos pessoais. Use quando precisar implementar sistema de tarefas, planejar agenda, criar checklists reutilizáveis, delegar eficazmente ou construir hábitos sustentáveis.",
+  "locales": {
+    "pt": {
+      "name": "rotina-organizacao",
+      "description": "Skills de produtividade pessoal com metodologias GTD, time blocking, gestão de energia e organização de projetos pessoais. Use quando precisar implementar sistema de tarefas, planejar agenda, criar checklists reutilizáveis, delegar eficazmente ou construir hábitos sustentáveis."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

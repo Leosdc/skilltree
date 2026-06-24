@@ -1,0 +1,21 @@
+{
+  "id": "habitos",
+  "name": "habitos",
+  "category": "rotina-organizacao",
+  "description": "Criação e manutenção de hábitos com Atomic Habits e habit stacking: como projetar ambiente para facilitar bons hábitos, estratégias de consistência, recuperação de falhas e como quebrar hábitos ruins.",
+  "locales": {
+    "pt": {
+      "name": "habitos",
+      "description": "Criação e manutenção de hábitos com Atomic Habits e habit stacking: como projetar ambiente para facilitar bons hábitos, estratégias de consistência, recuperação de falhas e como quebrar hábitos ruins."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

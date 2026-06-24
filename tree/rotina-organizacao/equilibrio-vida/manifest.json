@@ -1,0 +1,21 @@
+{
+  "id": "equilibrio-vida",
+  "name": "equilibrio-vida",
+  "category": "rotina-organizacao",
+  "description": "Work-life balance, prevenção de burnout e saúde mental do trabalho: identificar sinais de burnout, criar limites saudáveis sem prejudicar a carreira, técnicas de recuperação e como sustentar alta performance no longo prazo.",
+  "locales": {
+    "pt": {
+      "name": "equilibrio-vida",
+      "description": "Work-life balance, prevenção de burnout e saúde mental do trabalho: identificar sinais de burnout, criar limites saudáveis sem prejudicar a carreira, técnicas de recuperação e como sustentar alta performance no longo prazo."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

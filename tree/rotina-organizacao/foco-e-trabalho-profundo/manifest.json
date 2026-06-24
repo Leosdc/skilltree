@@ -1,0 +1,21 @@
+{
+  "id": "foco-e-trabalho-profundo",
+  "name": "foco-e-trabalho-profundo",
+  "category": "rotina-organizacao",
+  "description": "Técnicas de foco profundo: Deep Work (Cal Newport), Pomodoro adaptado, Flow State, eliminação de distrações digitais e design de ambiente para trabalho cognitivo intenso no contexto brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "foco-e-trabalho-profundo",
+      "description": "Técnicas de foco profundo: Deep Work (Cal Newport), Pomodoro adaptado, Flow State, eliminação de distrações digitais e design de ambiente para trabalho cognitivo intenso no contexto brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

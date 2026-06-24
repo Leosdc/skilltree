@@ -1,0 +1,21 @@
+{
+  "id": "prioridades",
+  "name": "prioridades",
+  "category": "rotina-organizacao",
+  "description": "Frameworks de priorização pessoal: Matriz de Eisenhower, RICE pessoal, princípio 80/20 e regra das 3 prioridades. Para profissionais que fazem tudo mas nunca o mais importante.",
+  "locales": {
+    "pt": {
+      "name": "prioridades",
+      "description": "Frameworks de priorização pessoal: Matriz de Eisenhower, RICE pessoal, princípio 80/20 e regra das 3 prioridades. Para profissionais que fazem tudo mas nunca o mais importante."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

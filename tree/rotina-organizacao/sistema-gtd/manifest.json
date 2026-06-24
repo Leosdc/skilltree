@@ -1,0 +1,21 @@
+{
+  "id": "sistema-gtd",
+  "name": "sistema-gtd",
+  "category": "rotina-organizacao",
+  "description": "Implementação do método GTD (Getting Things Done) adaptado à realidade brasileira: configuração das caixas de coleta, processamento de inbox, listas de próximas ações e revisão semanal com ferramentas digitais e analógicas.",
+  "locales": {
+    "pt": {
+      "name": "sistema-gtd",
+      "description": "Implementação do método GTD (Getting Things Done) adaptado à realidade brasileira: configuração das caixas de coleta, processamento de inbox, listas de próximas ações e revisão semanal com ferramentas digitais e analógicas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

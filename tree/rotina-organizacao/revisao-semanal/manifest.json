@@ -1,0 +1,21 @@
+{
+  "id": "revisao-semanal",
+  "name": "revisao-semanal",
+  "category": "rotina-organizacao",
+  "description": "Revisão semanal completa: processamento de capturas, revisão de projetos em aberto, definição de próximas ações prioritárias e planejamento da semana seguinte. Template adaptado para o profissional brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "revisao-semanal",
+      "description": "Revisão semanal completa: processamento de capturas, revisão de projetos em aberto, definição de próximas ações prioritárias e planejamento da semana seguinte. Template adaptado para o profissional brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

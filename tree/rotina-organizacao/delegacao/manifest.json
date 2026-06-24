@@ -1,0 +1,21 @@
+{
+  "id": "delegacao",
+  "name": "delegacao",
+  "category": "rotina-organizacao",
+  "description": "Frameworks de delegação eficaz para líderes e donos de negócio: como escolher o que delegar, preparar o delegado, criar sistema de acompanhamento e sair do microgerenciamento sem perder controle de qualidade.",
+  "locales": {
+    "pt": {
+      "name": "delegacao",
+      "description": "Frameworks de delegação eficaz para líderes e donos de negócio: como escolher o que delegar, preparar o delegado, criar sistema de acompanhamento e sair do microgerenciamento sem perder controle de qualidade."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "criador-de-checklists",
+  "name": "criador-de-checklists",
+  "category": "rotina-organizacao",
+  "description": "Criação de checklists, SOPs pessoais e rotinas repetíveis: estruturação de procedimentos para tarefas recorrentes, onboarding, fechamentos de projeto e processos que precisam de consistência garantida.",
+  "locales": {
+    "pt": {
+      "name": "criador-de-checklists",
+      "description": "Criação de checklists, SOPs pessoais e rotinas repetíveis: estruturação de procedimentos para tarefas recorrentes, onboarding, fechamentos de projeto e processos que precisam de consistência garantida."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
