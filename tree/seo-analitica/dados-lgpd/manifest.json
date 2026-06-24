@@ -1,0 +1,21 @@
+{
+  "id": "dados-lgpd",
+  "name": "dados-lgpd",
+  "category": "seo-analitica",
+  "description": "Coleta, armazenamento e uso de dados em conformidade com a LGPD brasileira",
+  "locales": {
+    "pt": {
+      "name": "dados-lgpd",
+      "description": "Coleta, armazenamento e uso de dados em conformidade com a LGPD brasileira"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

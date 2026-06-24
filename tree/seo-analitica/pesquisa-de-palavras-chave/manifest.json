@@ -1,0 +1,21 @@
+{
+  "id": "pesquisa-de-palavras-chave",
+  "name": "pesquisa-de-palavras-chave",
+  "category": "seo-analitica",
+  "description": "Pesquisa de palavras-chave para busca brasileira com volume e intenção de busca",
+  "locales": {
+    "pt": {
+      "name": "pesquisa-de-palavras-chave",
+      "description": "Pesquisa de palavras-chave para busca brasileira com volume e intenção de busca"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

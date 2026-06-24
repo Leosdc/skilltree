@@ -1,0 +1,21 @@
+{
+  "id": "seo-tecnico",
+  "name": "seo-tecnico",
+  "category": "seo-analitica",
+  "description": "Auditoria SEO técnica: Core Web Vitals, indexação, schema markup e correções prioritárias",
+  "locales": {
+    "pt": {
+      "name": "seo-tecnico",
+      "description": "Auditoria SEO técnica: Core Web Vitals, indexação, schema markup e correções prioritárias"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

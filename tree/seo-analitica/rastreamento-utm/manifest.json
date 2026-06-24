@@ -1,0 +1,21 @@
+{
+  "id": "rastreamento-utm",
+  "name": "rastreamento-utm",
+  "category": "seo-analitica",
+  "description": "Estratégia de UTMs, rastreamento de campanhas e atribuição de conversões",
+  "locales": {
+    "pt": {
+      "name": "rastreamento-utm",
+      "description": "Estratégia de UTMs, rastreamento de campanhas e atribuição de conversões"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

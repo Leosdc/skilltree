@@ -1,0 +1,21 @@
+{
+  "id": "google-search-console",
+  "name": "google-search-console",
+  "category": "seo-analitica",
+  "description": "Google Search Console para diagnóstico SEO e oportunidades de ranking",
+  "locales": {
+    "pt": {
+      "name": "google-search-console",
+      "description": "Google Search Console para diagnóstico SEO e oportunidades de ranking"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

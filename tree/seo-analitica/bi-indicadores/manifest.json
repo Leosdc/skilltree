@@ -1,0 +1,21 @@
+{
+  "id": "bi-indicadores",
+  "name": "bi-indicadores",
+  "category": "seo-analitica",
+  "description": "KPIs e indicadores de negócio para PMEs brasileiras: fórmulas e benchmarks",
+  "locales": {
+    "pt": {
+      "name": "bi-indicadores",
+      "description": "KPIs e indicadores de negócio para PMEs brasileiras: fórmulas e benchmarks"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

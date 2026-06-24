@@ -1,0 +1,21 @@
+{
+  "id": "relatorio-dados",
+  "name": "relatorio-dados",
+  "category": "seo-analitica",
+  "description": "Criação de relatórios e dashboards executivos com dados reais de marketing digital",
+  "locales": {
+    "pt": {
+      "name": "relatorio-dados",
+      "description": "Criação de relatórios e dashboards executivos com dados reais de marketing digital"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

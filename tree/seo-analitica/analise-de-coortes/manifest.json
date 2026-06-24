@@ -1,0 +1,21 @@
+{
+  "id": "analise-de-coortes",
+  "name": "analise-de-coortes",
+  "category": "seo-analitica",
+  "description": "Análise de coortes, retenção e LTV de usuários para SaaS e e-commerce",
+  "locales": {
+    "pt": {
+      "name": "analise-de-coortes",
+      "description": "Análise de coortes, retenção e LTV de usuários para SaaS e e-commerce"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "testes-ab",
+  "name": "testes-ab",
+  "category": "seo-analitica",
+  "description": "Planejamento e análise estatística de testes A/B para otimização de conversão",
+  "locales": {
+    "pt": {
+      "name": "testes-ab",
+      "description": "Planejamento e análise estatística de testes A/B para otimização de conversão"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

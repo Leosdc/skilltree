@@ -1,0 +1,21 @@
+{
+  "id": "google-analytics",
+  "name": "google-analytics",
+  "category": "seo-analitica",
+  "description": "Configuração e análise no GA4 com eventos customizados para negócios brasileiros",
+  "locales": {
+    "pt": {
+      "name": "google-analytics",
+      "description": "Configuração e análise no GA4 com eventos customizados para negócios brasileiros"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
