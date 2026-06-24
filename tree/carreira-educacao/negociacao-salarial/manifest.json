@@ -1,0 +1,21 @@
+{
+  "id": "negociacao-salarial",
+  "name": "negociacao-salarial",
+  "category": "carreira-educacao",
+  "description": "Negociação salarial para o mercado brasileiro: pesquisa de benchmarks, scripts de negociação, como avaliar uma proposta completa (salário + benefícios + crescimento) e como lidar com contra-propostas.",
+  "locales": {
+    "pt": {
+      "name": "negociacao-salarial",
+      "description": "Negociação salarial para o mercado brasileiro: pesquisa de benchmarks, scripts de negociação, como avaliar uma proposta completa (salário + benefícios + crescimento) e como lidar com contra-propostas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

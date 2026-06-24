@@ -1,0 +1,21 @@
+{
+  "id": "curriculo-e-cv",
+  "name": "curriculo-e-cv",
+  "category": "carreira-educacao",
+  "description": "Criação de currículo para o mercado brasileiro: formato ATS para triagem automática, versão visual para apresentação presencial, descrição de experiências com métricas e adaptação por vaga e empresa.",
+  "locales": {
+    "pt": {
+      "name": "curriculo-e-cv",
+      "description": "Criação de currículo para o mercado brasileiro: formato ATS para triagem automática, versão visual para apresentação presencial, descrição de experiências com métricas e adaptação por vaga e empresa."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "framework-de-mentoria",
+  "name": "framework-de-mentoria",
+  "category": "carreira-educacao",
+  "description": "Frameworks de mentoria estruturada e planos de desenvolvimento individual (PDI): como conduzir sessões de mentoria, criar PDI com metas SMART, dar feedback construtivo e acompanhar progresso do mentorado.",
+  "locales": {
+    "pt": {
+      "name": "framework-de-mentoria",
+      "description": "Frameworks de mentoria estruturada e planos de desenvolvimento individual (PDI): como conduzir sessões de mentoria, criar PDI com metas SMART, dar feedback construtivo e acompanhar progresso do mentorado."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

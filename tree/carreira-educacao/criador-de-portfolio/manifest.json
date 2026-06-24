@@ -1,0 +1,21 @@
+{
+  "id": "criador-de-portfolio",
+  "name": "criador-de-portfolio",
+  "category": "carreira-educacao",
+  "description": "Construção de portfólio profissional digital: seleção e apresentação de projetos, estrutura de cases com problema-solução-resultado, showcase de habilidades e estratégia de distribuição para atrair clientes e recrutadores.",
+  "locales": {
+    "pt": {
+      "name": "criador-de-portfolio",
+      "description": "Construção de portfólio profissional digital: seleção e apresentação de projetos, estrutura de cases com problema-solução-resultado, showcase de habilidades e estratégia de distribuição para atrair clientes e recrutadores."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

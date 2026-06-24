@@ -1,0 +1,21 @@
+{
+  "id": "criador-de-cursos",
+  "name": "criador-de-cursos",
+  "category": "carreira-educacao",
+  "description": "Estruturação de cursos online: design instrucional, criação de módulos e aulas, materiais complementares, estratégia de precificação e lançamento nas plataformas brasileiras (Hotmart, Kiwify, Eduzz).",
+  "locales": {
+    "pt": {
+      "name": "criador-de-cursos",
+      "description": "Estruturação de cursos online: design instrucional, criação de módulos e aulas, materiais complementares, estratégia de precificação e lançamento nas plataformas brasileiras (Hotmart, Kiwify, Eduzz)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

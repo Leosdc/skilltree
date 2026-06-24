@@ -1,0 +1,21 @@
+{
+  "id": "carreira-educacao-hub",
+  "name": "carreira-educacao",
+  "category": "carreira-educacao",
+  "description": "Skills para construção de carreira, criação de cursos, mentoria e desenvolvimento de marca pessoal no mercado brasileiro. Use quando precisar otimizar LinkedIn, criar currículo ATS, estruturar um curso online, preparar entrevistas técnicas, montar negócio freelancer ou negociar salário.",
+  "locales": {
+    "pt": {
+      "name": "carreira-educacao",
+      "description": "Skills para construção de carreira, criação de cursos, mentoria e desenvolvimento de marca pessoal no mercado brasileiro. Use quando precisar otimizar LinkedIn, criar currículo ATS, estruturar um curso online, preparar entrevistas técnicas, montar negócio freelancer ou negociar salário."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

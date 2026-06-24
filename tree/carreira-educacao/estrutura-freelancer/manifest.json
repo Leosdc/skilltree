@@ -1,0 +1,21 @@
+{
+  "id": "estrutura-freelancer",
+  "name": "estrutura-freelancer",
+  "category": "carreira-educacao",
+  "description": "Estruturação de negócio freelancer no Brasil: comparativo MEI vs PJ, abertura de empresa, precificação justa considerando impostos e tempo não faturável, contratos simples e gestão financeira básica.",
+  "locales": {
+    "pt": {
+      "name": "estrutura-freelancer",
+      "description": "Estruturação de negócio freelancer no Brasil: comparativo MEI vs PJ, abertura de empresa, precificação justa considerando impostos e tempo não faturável, contratos simples e gestão financeira básica."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

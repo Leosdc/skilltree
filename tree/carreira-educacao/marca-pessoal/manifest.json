@@ -1,0 +1,21 @@
+{
+  "id": "marca-pessoal",
+  "name": "marca-pessoal",
+  "category": "carreira-educacao",
+  "description": "Construção de autoridade e posicionamento digital para profissionais brasileiros: nicho de posicionamento, estratégia de conteúdo, presença multiplataforma e como monetizar a audiência construída.",
+  "locales": {
+    "pt": {
+      "name": "marca-pessoal",
+      "description": "Construção de autoridade e posicionamento digital para profissionais brasileiros: nicho de posicionamento, estratégia de conteúdo, presença multiplataforma e como monetizar a audiência construída."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

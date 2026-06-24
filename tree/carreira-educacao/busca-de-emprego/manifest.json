@@ -1,0 +1,21 @@
+{
+  "id": "busca-de-emprego",
+  "name": "busca-de-emprego",
+  "category": "carreira-educacao",
+  "description": "Estratégia completa de busca de emprego no mercado brasileiro: onde procurar vagas, como personalizar candidatura, preparação para entrevistas técnicas (system design, coding, comportamental) e negociação de oferta.",
+  "locales": {
+    "pt": {
+      "name": "busca-de-emprego",
+      "description": "Estratégia completa de busca de emprego no mercado brasileiro: onde procurar vagas, como personalizar candidatura, preparação para entrevistas técnicas (system design, coding, comportamental) e negociação de oferta."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

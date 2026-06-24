@@ -1,0 +1,21 @@
+{
+  "id": "palestra-preparacao",
+  "name": "palestra-preparacao",
+  "category": "carreira-educacao",
+  "description": "Preparação de palestras técnicas e apresentações em eventos brasileiros: estrutura de conteúdo, storytelling, slides eficazes, técnicas de apresentação e como submeter CFP em eventos de tecnologia BR.",
+  "locales": {
+    "pt": {
+      "name": "palestra-preparacao",
+      "description": "Preparação de palestras técnicas e apresentações em eventos brasileiros: estrutura de conteúdo, storytelling, slides eficazes, técnicas de apresentação e como submeter CFP em eventos de tecnologia BR."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
