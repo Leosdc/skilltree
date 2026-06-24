@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2026-06-24
+
+### Fixed / Corrigido
+- **CLI Navigation Pagination / Paginação da Navegação CLI:** Added categories pagination to the interactive console UI, preventing automatic terminal scrolling issues in large catalogs and allowing clean navigation in sub-menus. / *Adicionada paginação de categorias no painel interativo da CLI, evitando rolagem automática indesejada do terminal em catálogos grandes e permitindo navegação limpa em sub-menus.*
+
+---
+
 ## [1.1.0] - 2026-06-24
 
 ### Added / Adicionado

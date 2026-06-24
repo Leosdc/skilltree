@@ -1112,8 +1112,10 @@ function backToMenu() {
 
 let selectedRow = 0;
 let selectedCol = 0;
+let currentView = 'categories';
+let activeCategory = '';
 
-// 7. Menu interativo principal (Baseado em teclado e setas de grade 2D)
+// 7. Menu interativo principal (Baseado em teclado e setas de grade 2D com paginação de categorias)
 function runInteractiveMenu() {
   const skills = loadAvailableSkills();
   const activeIds = loadActiveIds();
@@ -1130,9 +1132,40 @@ function runInteractiveMenu() {
   const terminalCols = process.stdout.columns || 80;
   const numCols = Math.max(1, Math.floor(terminalCols / columnWidth));
 
-  // Popula a grade de linhas e colunas com as habilidades agrupadas por categoria
-  for (const catName of Object.keys(categories)) {
-    const catSkills = categories[catName];
+  if (currentView === 'categories') {
+    // Popula a grade com as Categorias disponíveis
+    const catNames = Object.keys(categories).sort();
+    for (let i = 0; i < catNames.length; i += numCols) {
+      const rowItems = [];
+      for (let j = 0; j < numCols && (i + j) < catNames.length; j++) {
+        const cat = catNames[i + j];
+        const total = categories[cat].length;
+        const activeCount = categories[cat].filter(s => activeIds.includes(s.id)).length;
+        const badge = activeCount > 0 ? ` (${activeCount}/${total})` : ` (${total})`;
+        rowItems.push({
+          type: 'category_item',
+          category: cat,
+          label: `${cat.toUpperCase()}${badge}`
+        });
+      }
+      menuLines.push(rowItems);
+    }
+
+    // Insere ações na parte inferior
+    const actions = [
+      { type: 'action', action: 'scan', label: t('actionScan') },
+      { type: 'action', action: 'create', label: t('actionCreate') },
+      { type: 'action', action: 'json', label: t('actionJson') },
+      { type: 'action', action: 'lang', label: t('actionLang') },
+      { type: 'action', action: 'exit', label: t('actionExit') }
+    ];
+
+    for (const act of actions) {
+      menuLines.push([act]);
+    }
+  } else {
+    // Popula a grade com as Skills da Categoria selecionada
+    const catSkills = categories[activeCategory] || [];
     for (let i = 0; i < catSkills.length; i += numCols) {
       const rowItems = [];
       for (let j = 0; j < numCols && (i + j) < catSkills.length; j++) {
@@ -1141,25 +1174,18 @@ function runInteractiveMenu() {
           type: 'skill',
           id: skill.id,
           name: skill.name,
-          category: catName,
+          category: activeCategory,
           description: skill.description
         });
       }
       menuLines.push(rowItems);
     }
-  }
 
-  // Insere ações na parte inferior do menu como linhas individuais
-  const actions = [
-    { type: 'action', action: 'scan', label: t('actionScan') },
-    { type: 'action', action: 'create', label: t('actionCreate') },
-    { type: 'action', action: 'json', label: t('actionJson') },
-    { type: 'action', action: 'lang', label: t('actionLang') },
-    { type: 'action', action: 'exit', label: t('actionExit') }
-  ];
-
-  for (const act of actions) {
-    menuLines.push([act]);
+    // Botão Voltar
+    menuLines.push([{
+      type: 'back',
+      label: currentLang === 'pt' ? '◀ Voltar ao Menu Principal' : '◀ Back to Main Menu'
+    }]);
   }
 
   // Garante que o cursor de linha/coluna está sempre dentro dos limites após inicializar/reconstruir
@@ -1178,58 +1204,72 @@ function runInteractiveMenu() {
   process.stdin.resume();
 
   function render() {
-    printHeader(true);
+    if (currentView === 'categories') {
+      printHeader(true);
+      console.log(`${BOLD}${CYAN}${t('panelTitle')}${RESET}\n`);
+      console.log(` ${BOLD}${MAGENTA}[${currentLang === 'pt' ? 'CATEGORIAS DE HABILIDADES' : 'SKILL CATEGORIES'}]${RESET}\n`);
 
-    console.log(`${BOLD}${CYAN}${t('panelTitle')}${RESET}\n`);
-
-    let currentCategory = '';
-
-    for (let r = 0; r < menuLines.length; r++) {
-      const rowItems = menuLines[r];
-      
-      // Exibe títulos de categoria para linhas de habilidades
-      if (rowItems[0].type === 'skill') {
-        const firstItem = rowItems[0];
-        if (firstItem.category !== currentCategory) {
-          currentCategory = firstItem.category;
-          console.log(` ${BOLD}${MAGENTA}[${currentCategory.toUpperCase()}]${RESET}`);
-        }
-      } else {
-        // Transição das habilidades para a categoria de ações
-        if (r > 0 && menuLines[r - 1][0].type === 'skill') {
+      for (let r = 0; r < menuLines.length; r++) {
+        const rowItems = menuLines[r];
+        
+        // Transição das categorias para a categoria de ações
+        if (r > 0 && menuLines[r - 1][0].type === 'category_item' && rowItems[0].type === 'action') {
           console.log(`\n ${BOLD}${MAGENTA}[${t('actionsTitle')}]${RESET}`);
         }
-      }
 
-      let lineText = '';
-      for (let c = 0; c < rowItems.length; c++) {
-        const item = rowItems[c];
-        const isSelected = (r === selectedRow && c === selectedCol);
-        const cursor = isSelected ? `${BOLD}${MAGENTA}▶ ${RESET}` : '  ';
-        const textStyle = isSelected ? `${BOLD}${CYAN}` : '';
+        let lineText = '';
+        for (let c = 0; c < rowItems.length; c++) {
+          const item = rowItems[c];
+          const isSelected = (r === selectedRow && c === selectedCol);
+          const cursor = isSelected ? `${BOLD}${MAGENTA}▶ ${RESET}` : '  ';
+          const textStyle = isSelected ? `${BOLD}${CYAN}` : '';
 
-        if (item.type === 'skill') {
-          const isActive = activeIds.includes(item.id);
-          const check = isActive ? `${GREEN}[✔]${RESET}` : `[ ]`;
-          const cellContent = `${cursor}${check} ${textStyle}${item.name}${RESET}`;
-          
-          // Calcula comprimento sem cores ANSI para preencher o espaçamento de forma consistente
-          const rawText = (isSelected ? '▶ ' : '  ') + (isActive ? '[✔] ' : '[ ] ') + item.name;
-          const padLength = columnWidth - rawText.length;
-          const padding = padLength > 0 ? ' '.repeat(padLength) : ' ';
-          
-          lineText += cellContent + padding;
-        } else {
-          // Ações simples
-          lineText += `${cursor}${textStyle}${item.label}${RESET}`;
+          if (item.type === 'category_item') {
+            const cellContent = `${cursor}${textStyle}${item.label}${RESET}`;
+            const padLength = columnWidth - item.label.length - 2;
+            const padding = padLength > 0 ? ' '.repeat(padLength) : ' ';
+            lineText += cellContent + padding;
+          } else {
+            lineText += `${cursor}${textStyle}${item.label}${RESET}`;
+          }
         }
+        console.log(lineText);
       }
-      console.log(lineText);
+    } else {
+      printHeader(false);
+      console.log(`\n ${BOLD}${MAGENTA}[${currentLang === 'pt' ? 'CATEGORIA' : 'CATEGORY'}: ${activeCategory.toUpperCase()}]${RESET}\n`);
 
-      // Exibe a descrição da habilidade selecionada na linha imediatamente inferior
-      const selectedItem = menuLines[selectedRow][selectedCol];
-      if (selectedItem.type === 'skill' && r === selectedRow) {
-        console.log(`     ${GRAY}↳ ${selectedItem.description}${RESET}`);
+      for (let r = 0; r < menuLines.length; r++) {
+        const rowItems = menuLines[r];
+
+        let lineText = '';
+        for (let c = 0; c < rowItems.length; c++) {
+          const item = rowItems[c];
+          const isSelected = (r === selectedRow && c === selectedCol);
+          const cursor = isSelected ? `${BOLD}${MAGENTA}▶ ${RESET}` : '  ';
+          const textStyle = isSelected ? `${BOLD}${CYAN}` : '';
+
+          if (item.type === 'skill') {
+            const isActive = activeIds.includes(item.id);
+            const check = isActive ? `${GREEN}[✔]${RESET}` : `[ ]`;
+            const cellContent = `${cursor}${check} ${textStyle}${item.name}${RESET}`;
+            
+            const rawText = (isSelected ? '▶ ' : '  ') + (isActive ? '[✔] ' : '[ ] ') + item.name;
+            const padLength = columnWidth - rawText.length;
+            const padding = padLength > 0 ? ' '.repeat(padLength) : ' ';
+            
+            lineText += cellContent + padding;
+          } else if (item.type === 'back') {
+            lineText += `${cursor}${textStyle}${item.label}${RESET}`;
+          }
+        }
+        console.log(lineText);
+
+        // Exibe a descrição da habilidade selecionada na linha imediatamente inferior
+        const selectedItem = menuLines[selectedRow][selectedCol];
+        if (selectedItem.type === 'skill' && r === selectedRow) {
+          console.log(`     ${GRAY}↳ ${selectedItem.description}${RESET}`);
+        }
       }
     }
     console.log();
@@ -1259,10 +1299,25 @@ function runInteractiveMenu() {
     } else if (key.name === 'right') {
       selectedCol = (selectedCol + 1) % menuLines[selectedRow].length;
       render();
+    } else if (key.name === 'escape') {
+      if (currentView === 'skills') {
+        currentView = 'categories';
+        selectedRow = 0;
+        selectedCol = 0;
+        process.stdin.removeListener('keypress', keypressHandler);
+        runInteractiveMenu();
+      }
     } else if (key.name === 'space') {
       const currentItem = menuLines[selectedRow][selectedCol];
       if (currentItem.type === 'skill') {
         toggleSkill(currentItem.id);
+      } else if (currentItem.type === 'category_item') {
+        currentView = 'skills';
+        activeCategory = currentItem.category;
+        selectedRow = 0;
+        selectedCol = 0;
+        process.stdin.removeListener('keypress', keypressHandler);
+        runInteractiveMenu();
       }
     } else if (key.name === 'd' || key.name === 'delete') {
       const currentItem = menuLines[selectedRow][selectedCol];
@@ -1276,9 +1331,22 @@ function runInteractiveMenu() {
       const currentItem = menuLines[selectedRow][selectedCol];
       if (currentItem.type === 'skill') {
         toggleSkill(currentItem.id);
+      } else if (currentItem.type === 'category_item') {
+        currentView = 'skills';
+        activeCategory = currentItem.category;
+        selectedRow = 0;
+        selectedCol = 0;
+        process.stdin.removeListener('keypress', keypressHandler);
+        runInteractiveMenu();
       } else if (currentItem.type === 'action') {
         detachStdin();
         executeAction(currentItem.action);
+      } else if (currentItem.type === 'back') {
+        currentView = 'categories';
+        selectedRow = 0;
+        selectedCol = 0;
+        process.stdin.removeListener('keypress', keypressHandler);
+        runInteractiveMenu();
       }
     } else if (key.name === 'q') {
       cleanupAndExit();
