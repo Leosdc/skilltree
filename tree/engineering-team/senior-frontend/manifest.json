@@ -1,0 +1,21 @@
+{
+  "id": "senior-frontend",
+  "name": "senior-frontend",
+  "category": "engineering-team",
+  "description": "Skill de desenvolvimento frontend para aplicações React, Next.js, TypeScript e Tailwind CSS. Use quando construir componentes React, otimizar performance no Next.js, analisar tamanhos de bundle, criar scaffolding de projetos frontend, implementar acessibilidade ou revisar qualidade de código frontend.",
+  "locales": {
+    "pt": {
+      "name": "senior-frontend",
+      "description": "Skill de desenvolvimento frontend para aplicações React, Next.js, TypeScript e Tailwind CSS. Use quando construir componentes React, otimizar performance no Next.js, analisar tamanhos de bundle, criar scaffolding de projetos frontend, implementar acessibilidade ou revisar qualidade de código frontend."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

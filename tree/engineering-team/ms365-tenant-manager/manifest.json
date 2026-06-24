@@ -1,0 +1,21 @@
+{
+  "id": "ms365-tenant-manager",
+  "name": "ms365-tenant-manager",
+  "category": "engineering-team",
+  "description": "Administração de tenant Microsoft 365 para Administradores Globais. Automatize configuração de tenant M365, tarefas de administração do Office 365, gerenciamento de usuários Azure AD, configuração do Exchange Online, administração do Teams e políticas de segurança. Gere scripts PowerShell para operações em massa, políticas de Acesso Condicional, gerenciamento de licenças e relatórios de conformidade. Use para gerenciamento de tenant M365, admin Office 365, usuários Azure AD, Administrador Global, configuração de tenant ou automação Microsoft 365.",
+  "locales": {
+    "pt": {
+      "name": "ms365-tenant-manager",
+      "description": "Administração de tenant Microsoft 365 para Administradores Globais. Automatize configuração de tenant M365, tarefas de administração do Office 365, gerenciamento de usuários Azure AD, configuração do Exchange Online, administração do Teams e políticas de segurança. Gere scripts PowerShell para operações em massa, políticas de Acesso Condicional, gerenciamento de licenças e relatórios de conformidade. Use para gerenciamento de tenant M365, admin Office 365, usuários Azure AD, Administrador Global, configuração de tenant ou automação Microsoft 365."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

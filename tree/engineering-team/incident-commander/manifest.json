@@ -1,0 +1,21 @@
+{
+  "id": "incident-commander",
+  "name": "incident-commander",
+  "category": "engineering-team",
+  "description": "Skill de Comandante de Incidentes para gerenciar resposta a incidentes tecnológicos, desde a detecção até a resolução e revisão pós-incidente. Cobre classificação de severidade, reconstrução de linha do tempo e geração de PIR.",
+  "locales": {
+    "pt": {
+      "name": "incident-commander",
+      "description": "Skill de Comandante de Incidentes para gerenciar resposta a incidentes tecnológicos, desde a detecção até a resolução e revisão pós-incidente. Cobre classificação de severidade, reconstrução de linha do tempo e geração de PIR."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

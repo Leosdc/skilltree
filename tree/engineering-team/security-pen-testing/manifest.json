@@ -1,0 +1,21 @@
+{
+  "id": "security-pen-testing",
+  "name": "security-pen-testing",
+  "category": "engineering-team",
+  "description": "Use quando o usuário pedir para realizar auditorias de segurança, testes de penetração, varredura de vulnerabilidades, verificações OWASP Top 10 ou avaliações de segurança ofensiva. Cobre análise estática, varredura de dependências, detecção de segredos, testes de segurança de API e geração de relatórios de pen test.",
+  "locales": {
+    "pt": {
+      "name": "security-pen-testing",
+      "description": "Use quando o usuário pedir para realizar auditorias de segurança, testes de penetração, varredura de vulnerabilidades, verificações OWASP Top 10 ou avaliações de segurança ofensiva. Cobre análise estática, varredura de dependências, detecção de segredos, testes de segurança de API e geração de relatórios de pen test."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

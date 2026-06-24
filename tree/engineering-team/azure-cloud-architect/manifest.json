@@ -1,0 +1,21 @@
+{
+  "id": "azure-cloud-architect",
+  "name": "azure-cloud-architect",
+  "category": "engineering-team",
+  "description": "Projete arquiteturas Azure para startups e empresas. Use ao projetar infraestrutura Azure, criar templates Bicep/ARM, otimizar custos Azure, configurar pipelines Azure DevOps ou migrar para Azure. Cobre AKS, App Service, Azure Functions, Cosmos DB e otimização de custos.",
+  "locales": {
+    "pt": {
+      "name": "azure-cloud-architect",
+      "description": "Projete arquiteturas Azure para startups e empresas. Use ao projetar infraestrutura Azure, criar templates Bicep/ARM, otimizar custos Azure, configurar pipelines Azure DevOps ou migrar para Azure. Cobre AKS, App Service, Azure Functions, Cosmos DB e otimização de custos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

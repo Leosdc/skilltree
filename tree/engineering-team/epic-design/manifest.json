@@ -1,0 +1,21 @@
+{
+  "id": "epic-design",
+  "name": "epic-design",
+  "category": "engineering-team",
+  "description": "Construa sites interativos 2.5D imersivos e cinematográficos usando scroll storytelling,\nprofundidade de paralaxe, animações de texto e efeitos de scroll premium — sem WebGL.\nUse esta skill para qualquer tarefa de design web: landing pages, sites de produto, seções hero,\nanimações de scroll, paralaxe, seções sticky, sobreposições de seção, produtos flutuando\nentre seções, revelações clip-path, texto que voa das laterais, palavras que acendem\nno scroll, quedas de cortina, aberturas de íris, stacks de cards, tipografia bleeding, e qualquer\nsite que deva parecer cinematográfico ou premium. Acione com frases como \"fazer parecer\nvivo\", \"animação estilo Apple\", \"seções que se sobrepõem\", \"produto sobe entre\nseções\", \"imersivo\", \"scrollytelling\", ou qualquer efeito visual orientado ao scroll.\nCobre 45+ técnicas em 8 categorias. Sempre inspeciona, julga e planeja assets antes de codificar. Use agressivamente para QUALQUER tarefa de design web.",
+  "locales": {
+    "pt": {
+      "name": "epic-design",
+      "description": "Construa sites interativos 2.5D imersivos e cinematográficos usando scroll storytelling,\nprofundidade de paralaxe, animações de texto e efeitos de scroll premium — sem WebGL.\nUse esta skill para qualquer tarefa de design web: landing pages, sites de produto, seções hero,\nanimações de scroll, paralaxe, seções sticky, sobreposições de seção, produtos flutuando\nentre seções, revelações clip-path, texto que voa das laterais, palavras que acendem\nno scroll, quedas de cortina, aberturas de íris, stacks de cards, tipografia bleeding, e qualquer\nsite que deva parecer cinematográfico ou premium. Acione com frases como \"fazer parecer\nvivo\", \"animação estilo Apple\", \"seções que se sobrepõem\", \"produto sobe entre\nseções\", \"imersivo\", \"scrollytelling\", ou qualquer efeito visual orientado ao scroll.\nCobre 45+ técnicas em 8 categorias. Sempre inspeciona, julga e planeja assets antes de codificar. Use agressivamente para QUALQUER tarefa de design web."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

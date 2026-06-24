@@ -1,0 +1,21 @@
+{
+  "id": "senior-qa",
+  "name": "senior-qa",
+  "category": "engineering-team",
+  "description": "Gera testes unitários, testes de integração e testes E2E para aplicações React/Next.js. Escaneia componentes para criar stubs de testes Jest + React Testing Library, analisa relatórios de cobertura Istanbul/LCOV para identificar lacunas, cria scaffolding de arquivos de teste Playwright a partir de rotas Next.js, mocka chamadas de API com MSW, cria fixtures de teste e configura test runners. Use quando o usuário pedir para 'gerar testes', 'escrever testes unitários', 'analisar cobertura de testes', 'criar scaffolding de testes E2E', 'configurar Playwright', 'configurar Jest', 'implementar padrões de teste' ou 'melhorar qualidade de testes'.",
+  "locales": {
+    "pt": {
+      "name": "senior-qa",
+      "description": "Gera testes unitários, testes de integração e testes E2E para aplicações React/Next.js. Escaneia componentes para criar stubs de testes Jest + React Testing Library, analisa relatórios de cobertura Istanbul/LCOV para identificar lacunas, cria scaffolding de arquivos de teste Playwright a partir de rotas Next.js, mocka chamadas de API com MSW, cria fixtures de teste e configura test runners. Use quando o usuário pedir para 'gerar testes', 'escrever testes unitários', 'analisar cobertura de testes', 'criar scaffolding de testes E2E', 'configurar Playwright', 'configurar Jest', 'implementar padrões de teste' ou 'melhorar qualidade de testes'."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

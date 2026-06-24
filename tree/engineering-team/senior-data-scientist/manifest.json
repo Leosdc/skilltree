@@ -1,0 +1,21 @@
+{
+  "id": "senior-data-scientist",
+  "name": "senior-data-scientist",
+  "category": "engineering-team",
+  "description": "Skill de cientista de dados sênior de nível mundial especializada em modelagem estatística, design de experimentos, inferência causal e analytics preditivo. Cobre teste A/B (dimensionamento de amostra, testes z de duas proporções, correção de Bonferroni), difference-in-differences, pipelines de feature engineering (Scikit-learn, XGBoost), avaliação de modelo com validação cruzada (AUC-ROC, AUC-PR, SHAP) e rastreamento de experimentos MLflow — usando Python (NumPy, Pandas, Scikit-learn), R e SQL. Use quando projetar ou analisar experimentos controlados, construir e avaliar modelos de classificação ou regressão, realizar análise causal em dados observacionais, fazer feature engineering para datasets tabulares estruturados ou traduzir achados estatísticos em decisões de negócio baseadas em dados.",
+  "locales": {
+    "pt": {
+      "name": "senior-data-scientist",
+      "description": "Skill de cientista de dados sênior de nível mundial especializada em modelagem estatística, design de experimentos, inferência causal e analytics preditivo. Cobre teste A/B (dimensionamento de amostra, testes z de duas proporções, correção de Bonferroni), difference-in-differences, pipelines de feature engineering (Scikit-learn, XGBoost), avaliação de modelo com validação cruzada (AUC-ROC, AUC-PR, SHAP) e rastreamento de experimentos MLflow — usando Python (NumPy, Pandas, Scikit-learn), R e SQL. Use quando projetar ou analisar experimentos controlados, construir e avaliar modelos de classificação ou regressão, realizar análise causal em dados observacionais, fazer feature engineering para datasets tabulares estruturados ou traduzir achados estatísticos em decisões de negócio baseadas em dados."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

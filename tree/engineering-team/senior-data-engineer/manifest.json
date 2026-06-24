@@ -1,0 +1,21 @@
+{
+  "id": "senior-data-engineer",
+  "name": "senior-data-engineer",
+  "category": "engineering-team",
+  "description": "Skill de engenharia de dados para construção de pipelines de dados escaláveis, sistemas ETL/ELT e infraestrutura de dados. Expertise em Python, SQL, Spark, Airflow, dbt, Kafka e o stack de dados moderno. Inclui modelagem de dados, orquestração de pipeline, qualidade de dados e DataOps. Use quando projetar arquiteturas de dados, construir pipelines de dados, otimizar fluxos de trabalho de dados, implementar governança de dados ou solucionar problemas de dados.",
+  "locales": {
+    "pt": {
+      "name": "senior-data-engineer",
+      "description": "Skill de engenharia de dados para construção de pipelines de dados escaláveis, sistemas ETL/ELT e infraestrutura de dados. Expertise em Python, SQL, Spark, Airflow, dbt, Kafka e o stack de dados moderno. Inclui modelagem de dados, orquestração de pipeline, qualidade de dados e DataOps. Use quando projetar arquiteturas de dados, construir pipelines de dados, otimizar fluxos de trabalho de dados, implementar governança de dados ou solucionar problemas de dados."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

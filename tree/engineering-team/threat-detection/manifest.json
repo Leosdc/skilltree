@@ -1,0 +1,21 @@
+{
+  "id": "threat-detection",
+  "name": "threat-detection",
+  "category": "engineering-team",
+  "description": "Use ao caçar ameaças em um ambiente, analisar IOCs ou detectar anomalias comportamentais em telemetria. Cobre threat hunting orientado a hipóteses, geração de varredura de IOC, detecção de anomalias por z-score e priorização de sinais mapeados ao MITRE ATT&CK.",
+  "locales": {
+    "pt": {
+      "name": "threat-detection",
+      "description": "Use ao caçar ameaças em um ambiente, analisar IOCs ou detectar anomalias comportamentais em telemetria. Cobre threat hunting orientado a hipóteses, geração de varredura de IOC, detecção de anomalias por z-score e priorização de sinais mapeados ao MITRE ATT&CK."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

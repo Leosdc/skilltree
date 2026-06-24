@@ -1,0 +1,21 @@
+{
+  "id": "stripe-integration-expert",
+  "name": "stripe-integration-expert",
+  "category": "engineering-team",
+  "description": "Especialista em Integração Stripe para implementar integrações Stripe em nível de produção: assinaturas com trials e proration, pagamentos únicos, billing baseado em uso, checkout sessions, handlers de webhook idempotentes, portal do cliente e faturamento. Cobre padrões Next.js, Express e Django.",
+  "locales": {
+    "pt": {
+      "name": "stripe-integration-expert",
+      "description": "Especialista em Integração Stripe para implementar integrações Stripe em nível de produção: assinaturas com trials e proration, pagamentos únicos, billing baseado em uso, checkout sessions, handlers de webhook idempotentes, portal do cliente e faturamento. Cobre padrões Next.js, Express e Django."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

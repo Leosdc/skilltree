@@ -1,0 +1,21 @@
+{
+  "id": "senior-security",
+  "name": "senior-security",
+  "category": "engineering-team",
+  "description": "Kit de engenharia de segurança para modelagem de ameaças, análise de vulnerabilidades, arquitetura segura e testes de penetração. Inclui análise STRIDE, orientação OWASP, padrões de criptografia e ferramentas de escaneamento de segurança. Use quando o usuário perguntar sobre revisões de segurança, análise de ameaças, avaliações de vulnerabilidades, práticas de codificação segura, auditorias de segurança, análise de superfície de ataque, remediação de CVE ou melhores práticas de segurança.",
+  "locales": {
+    "pt": {
+      "name": "senior-security",
+      "description": "Kit de engenharia de segurança para modelagem de ameaças, análise de vulnerabilidades, arquitetura segura e testes de penetração. Inclui análise STRIDE, orientação OWASP, padrões de criptografia e ferramentas de escaneamento de segurança. Use quando o usuário perguntar sobre revisões de segurança, análise de ameaças, avaliações de vulnerabilidades, práticas de codificação segura, auditorias de segurança, análise de superfície de ataque, remediação de CVE ou melhores práticas de segurança."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "playwright-pro",
+  "name": "playwright-pro",
+  "category": "engineering-team",
+  "description": "Toolkit de testes Playwright de nível produção. Use quando o usuário menciona testes Playwright, testes E2E, automação de navegador, correção de testes instáveis, migração de testes, testes CI/CD ou suites de testes. Gere testes, corrija falhas instáveis, migre do Cypress/Selenium, sincronize com TestRail, execute no BrowserStack. 55 templates, 3 agents, relatórios inteligentes.",
+  "locales": {
+    "pt": {
+      "name": "playwright-pro",
+      "description": "Toolkit de testes Playwright de nível produção. Use quando o usuário menciona testes Playwright, testes E2E, automação de navegador, correção de testes instáveis, migração de testes, testes CI/CD ou suites de testes. Gere testes, corrija falhas instáveis, migre do Cypress/Selenium, sincronize com TestRail, execute no BrowserStack. 55 templates, 3 agents, relatórios inteligentes."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

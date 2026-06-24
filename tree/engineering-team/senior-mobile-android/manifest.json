@@ -1,0 +1,21 @@
+{
+  "id": "senior-mobile-android",
+  "name": "senior-mobile-android",
+  "category": "engineering-team",
+  "description": "Engenheiro Android sênior especializado em Kotlin, Jetpack Compose, Coroutines, Flow, arquitetura (Clean Architecture, MVI/MVVM), Hilt DI, Room, Retrofit, testes (JUnit5, Turbine, Paparazzi), CI/CD (Gradle, GitHub Actions, Firebase App Distribution) e publicação na Play Store. Use ao desenvolver apps Android nativos, revisar código Kotlin, otimizar performance de UI, implementar Material Design 3, trabalhar com KMP, integrar SDKs ou quando o usuário mencionar Android, Kotlin, Jetpack Compose, Play Store ou Gradle.",
+  "locales": {
+    "pt": {
+      "name": "senior-mobile-android",
+      "description": "Engenheiro Android sênior especializado em Kotlin, Jetpack Compose, Coroutines, Flow, arquitetura (Clean Architecture, MVI/MVVM), Hilt DI, Room, Retrofit, testes (JUnit5, Turbine, Paparazzi), CI/CD (Gradle, GitHub Actions, Firebase App Distribution) e publicação na Play Store. Use ao desenvolver apps Android nativos, revisar código Kotlin, otimizar performance de UI, implementar Material Design 3, trabalhar com KMP, integrar SDKs ou quando o usuário mencionar Android, Kotlin, Jetpack Compose, Play Store ou Gradle."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

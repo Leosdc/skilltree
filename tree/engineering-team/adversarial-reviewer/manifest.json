@@ -1,0 +1,21 @@
+{
+  "id": "adversarial-reviewer",
+  "name": "adversarial-reviewer",
+  "category": "engineering-team",
+  "description": "Revisão de código adversarial que quebra a monocultura de auto-revisão. Use quando quiser uma revisão genuinamente crítica de mudanças recentes, antes de fazer merge de um PR, ou quando suspeitar que o Claude está sendo condescendente demais sobre a qualidade do código. Força mudanças de perspectiva por meio de personas de revisores hostis que capturam pontos cegos que o modelo mental do autor compartilha com o revisor.",
+  "locales": {
+    "pt": {
+      "name": "adversarial-reviewer",
+      "description": "Revisão de código adversarial que quebra a monocultura de auto-revisão. Use quando quiser uma revisão genuinamente crítica de mudanças recentes, antes de fazer merge de um PR, ou quando suspeitar que o Claude está sendo condescendente demais sobre a qualidade do código. Força mudanças de perspectiva por meio de personas de revisores hostis que capturam pontos cegos que o modelo mental do autor compartilha com o revisor."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

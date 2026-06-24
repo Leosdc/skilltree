@@ -1,0 +1,21 @@
+{
+  "id": "engineering-team-hub",
+  "name": "engineering-skills",
+  "category": "engineering-team",
+  "description": "23 skills de engenharia prontas para produção para Claude Code. Arquitetura, frontend, backend, QA, DevOps, segurança, IA/ML, engenharia de dados, Playwright, Stripe, AWS, MS365. ferramentas Node.js, TypeScript e scripts utilitários.",
+  "locales": {
+    "pt": {
+      "name": "engineering-skills",
+      "description": "23 skills de engenharia prontas para produção para Claude Code. Arquitetura, frontend, backend, QA, DevOps, segurança, IA/ML, engenharia de dados, Playwright, Stripe, AWS, MS365. ferramentas Node.js, TypeScript e scripts utilitários."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

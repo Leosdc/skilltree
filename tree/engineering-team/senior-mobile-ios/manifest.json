@@ -1,0 +1,21 @@
+{
+  "id": "senior-mobile-ios",
+  "name": "senior-mobile-ios",
+  "category": "engineering-team",
+  "description": "Engenheiro iOS sênior especializado em Swift 6, SwiftUI, UIKit, Combine, async/await, arquitetura modular (MVVM, TCA, Clean), testes (XCTest, Swift Testing), CI/CD (Fastlane, Xcode Cloud), distribuição (App Store Connect, TestFlight) e integração com HIG da Apple. Use ao desenvolver apps iOS nativos, revisar código Swift, otimizar performance de UI, implementar Live Activities/Widgets/App Clips, integrar SDKs, preparar submissão à App Store ou quando o usuário mencionar iOS, Swift, SwiftUI, UIKit, Xcode, App Store ou TestFlight.",
+  "locales": {
+    "pt": {
+      "name": "senior-mobile-ios",
+      "description": "Engenheiro iOS sênior especializado em Swift 6, SwiftUI, UIKit, Combine, async/await, arquitetura modular (MVVM, TCA, Clean), testes (XCTest, Swift Testing), CI/CD (Fastlane, Xcode Cloud), distribuição (App Store Connect, TestFlight) e integração com HIG da Apple. Use ao desenvolver apps iOS nativos, revisar código Swift, otimizar performance de UI, implementar Live Activities/Widgets/App Clips, integrar SDKs, preparar submissão à App Store ou quando o usuário mencionar iOS, Swift, SwiftUI, UIKit, Xcode, App Store ou TestFlight."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

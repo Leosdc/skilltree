@@ -1,0 +1,21 @@
+{
+  "id": "senior-computer-vision",
+  "name": "senior-computer-vision",
+  "category": "engineering-team",
+  "description": "Skill de engenharia de visão computacional para detecção de objetos, segmentação de imagens e sistemas de IA visual. Cobre arquiteturas CNN e Vision Transformer, detecção YOLO/Faster R-CNN/DETR, segmentação Mask R-CNN/SAM e implantação em produção com ONNX/TensorRT. Inclui frameworks PyTorch, torchvision, Ultralytics, Detectron2 e MMDetection. Use quando construir pipelines de detecção, treinar modelos personalizados, otimizar inferência ou implantar sistemas de visão.",
+  "locales": {
+    "pt": {
+      "name": "senior-computer-vision",
+      "description": "Skill de engenharia de visão computacional para detecção de objetos, segmentação de imagens e sistemas de IA visual. Cobre arquiteturas CNN e Vision Transformer, detecção YOLO/Faster R-CNN/DETR, segmentação Mask R-CNN/SAM e implantação em produção com ONNX/TensorRT. Inclui frameworks PyTorch, torchvision, Ultralytics, Detectron2 e MMDetection. Use quando construir pipelines de detecção, treinar modelos personalizados, otimizar inferência ou implantar sistemas de visão."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

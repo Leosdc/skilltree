@@ -1,0 +1,21 @@
+{
+  "id": "red-team",
+  "name": "red-team",
+  "category": "engineering-team",
+  "description": "Use quando planejar ou executar engajamentos de red team autorizados, análise de caminho de ataque ou simulações de segurança ofensiva. Cobre planejamento de kill-chain com MITRE ATT&CK, pontuação de técnicas, identificação de pontos críticos, avaliação de risco OPSEC e identificação de alvos de alto valor.",
+  "locales": {
+    "pt": {
+      "name": "red-team",
+      "description": "Use quando planejar ou executar engajamentos de red team autorizados, análise de caminho de ataque ou simulações de segurança ofensiva. Cobre planejamento de kill-chain com MITRE ATT&CK, pontuação de técnicas, identificação de pontos críticos, avaliação de risco OPSEC e identificação de alvos de alto valor."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
