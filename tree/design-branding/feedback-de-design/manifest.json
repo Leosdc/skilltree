@@ -1,0 +1,21 @@
+{
+  "id": "feedback-de-design",
+  "name": "feedback-de-design",
+  "category": "design-branding",
+  "description": "Feedback estruturado e direção em projetos de UI/UX, protótipos e interfaces",
+  "locales": {
+    "pt": {
+      "name": "feedback-de-design",
+      "description": "Feedback estruturado e direção em projetos de UI/UX, protótipos e interfaces"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

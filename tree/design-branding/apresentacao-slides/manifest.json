@@ -1,0 +1,21 @@
+{
+  "id": "apresentacao-slides",
+  "name": "apresentacao-slides",
+  "category": "design-branding",
+  "description": "Slides executivos: estrutura, narrativa visual e design para apresentações no Brasil",
+  "locales": {
+    "pt": {
+      "name": "apresentacao-slides",
+      "description": "Slides executivos: estrutura, narrativa visual e design para apresentações no Brasil"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

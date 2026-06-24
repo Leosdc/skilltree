@@ -1,0 +1,21 @@
+{
+  "id": "assets-redes-sociais",
+  "name": "assets-redes-sociais",
+  "category": "design-branding",
+  "description": "Templates e especificações para redes sociais: feed, stories, banners e thumbnails",
+  "locales": {
+    "pt": {
+      "name": "assets-redes-sociais",
+      "description": "Templates e especificações para redes sociais: feed, stories, banners e thumbnails"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "materiais-vendas",
+  "name": "materiais-vendas",
+  "category": "design-branding",
+  "description": "One-pager, proposta visual, folder e materiais B2B para aceleração de vendas",
+  "locales": {
+    "pt": {
+      "name": "materiais-vendas",
+      "description": "One-pager, proposta visual, folder e materiais B2B para aceleração de vendas"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

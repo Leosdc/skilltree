@@ -1,0 +1,21 @@
+{
+  "id": "manual-de-marca",
+  "name": "manual-de-marca",
+  "category": "design-branding",
+  "description": "Brandbook completo: aplicações de marca, tipografia, cores e restrições para uso consistente",
+  "locales": {
+    "pt": {
+      "name": "manual-de-marca",
+      "description": "Brandbook completo: aplicações de marca, tipografia, cores e restrições para uso consistente"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

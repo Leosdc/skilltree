@@ -1,0 +1,21 @@
+{
+  "id": "briefing-de-logo",
+  "name": "briefing-de-logo",
+  "category": "design-branding",
+  "description": "Briefing de logo e identidade para designers e agências no mercado brasileiro",
+  "locales": {
+    "pt": {
+      "name": "briefing-de-logo",
+      "description": "Briefing de logo e identidade para designers e agências no mercado brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

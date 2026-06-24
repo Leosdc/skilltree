@@ -1,0 +1,21 @@
+{
+  "id": "design-branding-hub",
+  "name": "design-branding",
+  "category": "design-branding",
+  "description": "Skills para identidade visual, criação de materiais de vendas, decks executivos e assets B2B com briefing para designers. Use quando precisar criar, revisar ou orientar projetos de design, branding, apresentações e materiais visuais para o mercado brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "design-branding",
+      "description": "Skills para identidade visual, criação de materiais de vendas, decks executivos e assets B2B com briefing para designers. Use quando precisar criar, revisar ou orientar projetos de design, branding, apresentações e materiais visuais para o mercado brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

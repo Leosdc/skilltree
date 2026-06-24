@@ -1,0 +1,21 @@
+{
+  "id": "producao-no-figma",
+  "name": "producao-no-figma",
+  "category": "design-branding",
+  "description": "Orientação para organização e produção em Figma: componentes, auto-layout e sistemas de design",
+  "locales": {
+    "pt": {
+      "name": "producao-no-figma",
+      "description": "Orientação para organização e produção em Figma: componentes, auto-layout e sistemas de design"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

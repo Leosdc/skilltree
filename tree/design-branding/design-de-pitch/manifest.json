@@ -1,0 +1,21 @@
+{
+  "id": "design-de-pitch",
+  "name": "design-de-pitch",
+  "category": "design-branding",
+  "description": "Design e estrutura de pitch decks e apresentações executivas para captação e vendas",
+  "locales": {
+    "pt": {
+      "name": "design-de-pitch",
+      "description": "Design e estrutura de pitch decks e apresentações executivas para captação e vendas"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

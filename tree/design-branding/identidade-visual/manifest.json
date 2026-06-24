@@ -1,0 +1,21 @@
+{
+  "id": "identidade-visual",
+  "name": "identidade-visual",
+  "category": "design-branding",
+  "description": "Criação de identidade visual e brand guidelines completos para marcas brasileiras",
+  "locales": {
+    "pt": {
+      "name": "identidade-visual",
+      "description": "Criação de identidade visual e brand guidelines completos para marcas brasileiras"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

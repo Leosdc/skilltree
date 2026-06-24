@@ -1,0 +1,21 @@
+{
+  "id": "briefing-de-video",
+  "name": "briefing-de-video",
+  "category": "design-branding",
+  "description": "Briefing para vídeos institucionais, de produto e publicitários no mercado brasileiro",
+  "locales": {
+    "pt": {
+      "name": "briefing-de-video",
+      "description": "Briefing para vídeos institucionais, de produto e publicitários no mercado brasileiro"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
