@@ -1,0 +1,21 @@
+{
+  "id": "business-growth-hub",
+  "name": "business-growth-skills",
+  "category": "business-growth",
+  "description": "4 skills de crescimento de negócios para Claude Code. Customer Success (health scoring, prevenção de churn), Sales Engineer (análise de RFP), Revenue Operations (pipeline, GTM), Contract & Proposal Writer (propostas e contratos). Ferramentas Python (apenas stdlib).",
+  "locales": {
+    "pt": {
+      "name": "business-growth-skills",
+      "description": "4 skills de crescimento de negócios para Claude Code. Customer Success (health scoring, prevenção de churn), Sales Engineer (análise de RFP), Revenue Operations (pipeline, GTM), Contract & Proposal Writer (propostas e contratos). Ferramentas Python (apenas stdlib)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

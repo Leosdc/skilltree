@@ -1,0 +1,21 @@
+{
+  "id": "sales-engineer",
+  "name": "sales-engineer",
+  "category": "business-growth",
+  "description": "Analisa respostas de RFP/RFI para lacunas de cobertura, constrói matrizes de comparação de funcionalidades competitivas e planeja engajamentos de prova de conceito (POC) para engenharia de pré-vendas. Use ao responder a RFPs, licitações ou solicitações de proposta; comparar funcionalidades do produto contra concorrentes; planejar ou pontuar um POC ou demonstração de vendas para o cliente; preparar uma proposta técnica; ou realizar análise competitiva de vitórias/perdas. Lida com tarefas descritas como 'resposta a RFP', 'resposta a licitação', 'resposta a proposta', 'comparação de concorrente', 'matriz de funcionalidades', 'planejamento de POC', 'preparação de demo de vendas' ou 'engenharia de pré-vendas'.",
+  "locales": {
+    "pt": {
+      "name": "sales-engineer",
+      "description": "Analisa respostas de RFP/RFI para lacunas de cobertura, constrói matrizes de comparação de funcionalidades competitivas e planeja engajamentos de prova de conceito (POC) para engenharia de pré-vendas. Use ao responder a RFPs, licitações ou solicitações de proposta; comparar funcionalidades do produto contra concorrentes; planejar ou pontuar um POC ou demonstração de vendas para o cliente; preparar uma proposta técnica; ou realizar análise competitiva de vitórias/perdas. Lida com tarefas descritas como 'resposta a RFP', 'resposta a licitação', 'resposta a proposta', 'comparação de concorrente', 'matriz de funcionalidades', 'planejamento de POC', 'preparação de demo de vendas' ou 'engenharia de pré-vendas'."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

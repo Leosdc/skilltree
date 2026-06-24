@@ -1,0 +1,21 @@
+{
+  "id": "partnerships-manager",
+  "name": "partnerships-manager",
+  "category": "business-growth",
+  "description": "Partnerships Manager / Business Development sênior para parcerias estratégicas, alianças tecnológicas, canal de vendas (resellers, integradores), co-marketing, programas de afiliados, marketplace e go-to-market conjunto. Use ao estruturar programa de parceiros, negociar acordos comerciais, construir canal indireto, planejar co-marketing, priorizar parceiros ou quando o usuário mencionar partnerships, BD, business development, canal, parceiros, reseller, integrador, marketplace ou aliança.",
+  "locales": {
+    "pt": {
+      "name": "partnerships-manager",
+      "description": "Partnerships Manager / Business Development sênior para parcerias estratégicas, alianças tecnológicas, canal de vendas (resellers, integradores), co-marketing, programas de afiliados, marketplace e go-to-market conjunto. Use ao estruturar programa de parceiros, negociar acordos comerciais, construir canal indireto, planejar co-marketing, priorizar parceiros ou quando o usuário mencionar partnerships, BD, business development, canal, parceiros, reseller, integrador, marketplace ou aliança."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "account-manager",
+  "name": "account-manager",
+  "category": "business-growth",
+  "description": "Gerente de Contas (Account Manager) B2B sênior para gestão de carteira, QBRs, expansão (upsell/cross-sell), renovação, prevenção de churn, relacionamento executivo e planos de contas estratégicas. Use ao construir Account Plan, preparar QBR, planejar upsell, renovar contratos, mapear stakeholders, conduzir executive business review ou quando o usuário mencionar Account Manager, AM, Key Account, KAM, renovação, upsell, cross-sell, QBR ou expansão de receita.",
+  "locales": {
+    "pt": {
+      "name": "account-manager",
+      "description": "Gerente de Contas (Account Manager) B2B sênior para gestão de carteira, QBRs, expansão (upsell/cross-sell), renovação, prevenção de churn, relacionamento executivo e planos de contas estratégicas. Use ao construir Account Plan, preparar QBR, planejar upsell, renovar contratos, mapear stakeholders, conduzir executive business review ou quando o usuário mencionar Account Manager, AM, Key Account, KAM, renovação, upsell, cross-sell, QBR ou expansão de receita."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
