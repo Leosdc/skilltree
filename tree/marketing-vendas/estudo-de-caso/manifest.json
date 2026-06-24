@@ -1,0 +1,21 @@
+{
+  "id": "estudo-de-caso",
+  "name": "estudo-de-caso",
+  "category": "marketing-vendas",
+  "description": "Transforma resultados de clientes em cases de sucesso persuasivos para o\nmercado brasileiro. Estrutura problema → solução → resultado com dados reais,\ndepoimentos e prova social para uso em vendas, site e redes sociais.",
+  "locales": {
+    "pt": {
+      "name": "estudo-de-caso",
+      "description": "Transforma resultados de clientes em cases de sucesso persuasivos para o\nmercado brasileiro. Estrutura problema → solução → resultado com dados reais,\ndepoimentos e prova social para uso em vendas, site e redes sociais."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

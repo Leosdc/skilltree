@@ -1,0 +1,21 @@
+{
+  "id": "analise-competitiva",
+  "name": "analise-competitiva",
+  "category": "marketing-vendas",
+  "description": "Realiza análise competitiva detalhada e posicionamento de mercado para empresas\nbrasileiras. Mapeia concorrentes diretos e indiretos, identifica gaps de mercado\ne propõe estratégia de diferenciação com contexto do setor no Brasil.",
+  "locales": {
+    "pt": {
+      "name": "analise-competitiva",
+      "description": "Realiza análise competitiva detalhada e posicionamento de mercado para empresas\nbrasileiras. Mapeia concorrentes diretos e indiretos, identifica gaps de mercado\ne propõe estratégia de diferenciação com contexto do setor no Brasil."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

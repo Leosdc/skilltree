@@ -1,0 +1,21 @@
+{
+  "id": "objecoes-vendas",
+  "name": "objecoes-vendas",
+  "category": "marketing-vendas",
+  "description": "Cria roteiros para tratar as objeções mais comuns no mercado brasileiro: preço,\ntempo, concorrência, \"preciso pensar\" e \"não tenho orçamento\". Usa técnicas\nde venda consultiva adaptadas ao estilo de negociação brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "objecoes-vendas",
+      "description": "Cria roteiros para tratar as objeções mais comuns no mercado brasileiro: preço,\ntempo, concorrência, \"preciso pensar\" e \"não tenho orçamento\". Usa técnicas\nde venda consultiva adaptadas ao estilo de negociação brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

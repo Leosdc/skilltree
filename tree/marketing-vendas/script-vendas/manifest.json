@@ -1,0 +1,21 @@
+{
+  "id": "script-vendas",
+  "name": "script-vendas",
+  "category": "marketing-vendas",
+  "description": "Cria scripts de vendas para cold call, reunião de discovery e fechamento\ncom contexto do mercado brasileiro. Inclui abertura, qualificação BANT,\napresentação de valor, tratamento de objeções e técnicas de fechamento.",
+  "locales": {
+    "pt": {
+      "name": "script-vendas",
+      "description": "Cria scripts de vendas para cold call, reunião de discovery e fechamento\ncom contexto do mercado brasileiro. Inclui abertura, qualificação BANT,\napresentação de valor, tratamento de objeções e técnicas de fechamento."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "estrategia-promocional",
+  "name": "estrategia-promocional",
+  "category": "marketing-vendas",
+  "description": "Cria estratégias de promoções sazonais para o mercado brasileiro com cronograma\ncompleto: Black Friday, Natal, Dia das Mães, Carnaval e outras datas relevantes.\nInclui mecânica de desconto, canais de divulgação e metas de faturamento.",
+  "locales": {
+    "pt": {
+      "name": "estrategia-promocional",
+      "description": "Cria estratégias de promoções sazonais para o mercado brasileiro com cronograma\ncompleto: Black Friday, Natal, Dia das Mães, Carnaval e outras datas relevantes.\nInclui mecânica de desconto, canais de divulgação e metas de faturamento."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "funil-vendas",
+  "name": "funil-vendas",
+  "category": "marketing-vendas",
+  "description": "Mapeia, diagnostica e otimiza funis de vendas TOFU/MOFU/BOFU com contexto\ndo mercado brasileiro. Analisa taxas de conversão por etapa, identifica gargalos\ne propõe ações concretas para aumentar receita sem aumentar tráfego.",
+  "locales": {
+    "pt": {
+      "name": "funil-vendas",
+      "description": "Mapeia, diagnostica e otimiza funis de vendas TOFU/MOFU/BOFU com contexto\ndo mercado brasileiro. Analisa taxas de conversão por etapa, identifica gargalos\ne propõe ações concretas para aumentar receita sem aumentar tráfego."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

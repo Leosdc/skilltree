@@ -1,0 +1,21 @@
+{
+  "id": "deck-de-pitch",
+  "name": "deck-de-pitch",
+  "category": "marketing-vendas",
+  "description": "Estrutura e escreve o conteúdo de apresentações de vendas, pitch para investidores\ne apresentações de board com contexto do ecossistema brasileiro. Inclui narrativa,\ndados de mercado BR e estrutura para cada tipo de audiência.",
+  "locales": {
+    "pt": {
+      "name": "deck-de-pitch",
+      "description": "Estrutura e escreve o conteúdo de apresentações de vendas, pitch para investidores\ne apresentações de board com contexto do ecossistema brasileiro. Inclui narrativa,\ndados de mercado BR e estrutura para cada tipo de audiência."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

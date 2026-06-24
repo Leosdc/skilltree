@@ -1,0 +1,21 @@
+{
+  "id": "proposta-comercial",
+  "name": "proposta-comercial",
+  "category": "marketing-vendas",
+  "description": "Gera propostas comerciais e orçamentos profissionais para o mercado brasileiro.\nEstrutura o escopo, precifica em R$ com opções de parcelamento, inclui termos\nde pagamento por boleto/PIX/cartão e cláusulas adequadas ao mercado local.",
+  "locales": {
+    "pt": {
+      "name": "proposta-comercial",
+      "description": "Gera propostas comerciais e orçamentos profissionais para o mercado brasileiro.\nEstrutura o escopo, precifica em R$ com opções de parcelamento, inclui termos\nde pagamento por boleto/PIX/cartão e cláusulas adequadas ao mercado local."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "follow-up",
+  "name": "follow-up",
+  "category": "marketing-vendas",
+  "description": "Cria sequências de follow-up por email, WhatsApp e telefone para o mercado\nbrasileiro. Mantém o relacionamento sem ser insistente, usa intervalos de tempo\nadequados e adapta o tom por etapa do pipeline de vendas.",
+  "locales": {
+    "pt": {
+      "name": "follow-up",
+      "description": "Cria sequências de follow-up por email, WhatsApp e telefone para o mercado\nbrasileiro. Mantém o relacionamento sem ser insistente, usa intervalos de tempo\nadequados e adapta o tom por etapa do pipeline de vendas."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

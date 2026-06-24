@@ -1,0 +1,21 @@
+{
+  "id": "marketing-vendas-hub",
+  "name": "marketing-vendas",
+  "category": "marketing-vendas",
+  "description": "Skills para funis de vendas, propostas comerciais, tratamento de objeções e\npublicidade digital com contexto do mercado brasileiro. Cobre desde o primeiro\ncontato com o prospect até o fechamento, retenção e expansão de receita em R$.",
+  "locales": {
+    "pt": {
+      "name": "marketing-vendas",
+      "description": "Skills para funis de vendas, propostas comerciais, tratamento de objeções e\npublicidade digital com contexto do mercado brasileiro. Cobre desde o primeiro\ncontato com o prospect até o fechamento, retenção e expansão de receita em R$."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

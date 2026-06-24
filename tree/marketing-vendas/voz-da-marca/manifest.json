@@ -1,0 +1,21 @@
+{
+  "id": "voz-da-marca",
+  "name": "voz-da-marca",
+  "category": "marketing-vendas",
+  "description": "Define e documenta o tom de voz da marca para o mercado brasileiro. Cria o\nmanual de voz com arquétipos, vocabulário aprovado/evitado, exemplos por canal\ne guidelines para times de marketing, vendas e suporte.",
+  "locales": {
+    "pt": {
+      "name": "voz-da-marca",
+      "description": "Define e documenta o tom de voz da marca para o mercado brasileiro. Cria o\nmanual de voz com arquétipos, vocabulário aprovado/evitado, exemplos por canal\ne guidelines para times de marketing, vendas e suporte."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
