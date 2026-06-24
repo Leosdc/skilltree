@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2026-06-24
+
+### Added / Adicionado
+- **Flowgrammers Skills Integration / Integração de Skills do Flowgrammers:** Integrated 365 production-ready skills from Ric Neves' flowgrammers-skills repository, significantly expanding the catalog across categories like marketing, copywriting, C-level advisor, product management, and development. / *Integração de 365 novas skills prontas para produção do repositório flowgrammers-skills do Ric Neves, expandindo severamente o catálogo da Skill Tree em áreas como marketing, copy, assessoria executiva, gestão de produtos e código.*
+- **README Credits / Créditos nos READMEs:** Included dedication and thanks sections to Ric Neves in both English and Portuguese READMEs. / *Adicionados agradecimentos e créditos dedicados ao Ric Neves nos READMEs em inglês e português.*
+
+---
+
 ## [1.0.5] - 2026-06-19
 
 ### Added / Adicionado
