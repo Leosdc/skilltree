@@ -1,0 +1,21 @@
+{
+  "id": "saas-metrics-coach",
+  "name": "saas-metrics-coach",
+  "category": "finance",
+  "description": "Consultor de saúde financeira SaaS. Use quando o usuário compartilhar números de receita ou clientes, ou mencionar ARR, MRR, churn, LTV, CAC, NRR, ou perguntar como seu negócio SaaS está indo.",
+  "locales": {
+    "pt": {
+      "name": "saas-metrics-coach",
+      "description": "Consultor de saúde financeira SaaS. Use quando o usuário compartilhar números de receita ou clientes, ou mencionar ARR, MRR, churn, LTV, CAC, NRR, ou perguntar como seu negócio SaaS está indo."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

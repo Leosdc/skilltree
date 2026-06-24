@@ -1,0 +1,21 @@
+{
+  "id": "finance-hub",
+  "name": "finance-skills",
+  "category": "finance",
+  "description": "Skill de agente de analista financeiro para Claude Code. Análise de índices, avaliação DCF, variação orçamentária, previsões contínuas. 4 ferramentas Python (somente stdlib).",
+  "locales": {
+    "pt": {
+      "name": "finance-skills",
+      "description": "Skill de agente de analista financeiro para Claude Code. Análise de índices, avaliação DCF, variação orçamentária, previsões contínuas. 4 ferramentas Python (somente stdlib)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

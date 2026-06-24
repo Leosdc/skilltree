@@ -1,0 +1,21 @@
+{
+  "id": "business-investment-advisor",
+  "name": "business-investment-advisor",
+  "category": "finance",
+  "description": "Consultor de análise de investimentos empresariais e alocação de capital. Use ao avaliar se deve investir em equipamentos, imóveis, um novo negócio, contratação, tecnologia ou qualquer despesa de capital. Também use para cálculos de ROI, TIR, VPL, período de payback, decisões de construir vs comprar, análise de leasing vs compra, avaliação de fornecedores ou para decidir onde alocar orçamento limitado para máximo retorno.",
+  "locales": {
+    "pt": {
+      "name": "business-investment-advisor",
+      "description": "Consultor de análise de investimentos empresariais e alocação de capital. Use ao avaliar se deve investir em equipamentos, imóveis, um novo negócio, contratação, tecnologia ou qualquer despesa de capital. Também use para cálculos de ROI, TIR, VPL, período de payback, decisões de construir vs comprar, análise de leasing vs compra, avaliação de fornecedores ou para decidir onde alocar orçamento limitado para máximo retorno."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

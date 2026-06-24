@@ -1,0 +1,21 @@
+{
+  "id": "fpa-analyst",
+  "name": "fpa-analyst",
+  "category": "finance",
+  "description": "Analista de FP&A (Financial Planning & Analysis) sênior para orçamento anual, forecast contínuo, análise de variação, unit economics, modelagem financeira 3 statements, business partnering e apresentação ao conselho. Use ao montar budget, fazer rolling forecast, analisar variações, modelar cenários, calcular unit economics ou quando o usuário mencionar FP&A, planejamento financeiro, budget, forecast, variance analysis, unit economics, 3 statements ou board deck financeiro.",
+  "locales": {
+    "pt": {
+      "name": "fpa-analyst",
+      "description": "Analista de FP&A (Financial Planning & Analysis) sênior para orçamento anual, forecast contínuo, análise de variação, unit economics, modelagem financeira 3 statements, business partnering e apresentação ao conselho. Use ao montar budget, fazer rolling forecast, analisar variações, modelar cenários, calcular unit economics ou quando o usuário mencionar FP&A, planejamento financeiro, budget, forecast, variance analysis, unit economics, 3 statements ou board deck financeiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

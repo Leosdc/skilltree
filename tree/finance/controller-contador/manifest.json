@@ -1,0 +1,21 @@
+{
+  "id": "controller-contador",
+  "name": "controller-contador",
+  "category": "finance",
+  "description": "Controller / Contador sênior para contabilidade empresarial brasileira, rotinas fiscais (NF-e, NFS-e, SPED ICMS/Fiscal/Contribuições), fechamento mensal, conciliações, demonstrações financeiras (BP, DRE, DFC), regimes tributários (Simples, Presumido, Real) e controle interno. Use ao estruturar área contábil, preparar fechamento, conciliar contas, apurar impostos, responder auditoria ou quando o usuário mencionar controller, contador, contabilidade, NF-e, SPED, DRE, balanço patrimonial, Simples Nacional, Lucro Presumido ou Lucro Real.",
+  "locales": {
+    "pt": {
+      "name": "controller-contador",
+      "description": "Controller / Contador sênior para contabilidade empresarial brasileira, rotinas fiscais (NF-e, NFS-e, SPED ICMS/Fiscal/Contribuições), fechamento mensal, conciliações, demonstrações financeiras (BP, DRE, DFC), regimes tributários (Simples, Presumido, Real) e controle interno. Use ao estruturar área contábil, preparar fechamento, conciliar contas, apurar impostos, responder auditoria ou quando o usuário mencionar controller, contador, contabilidade, NF-e, SPED, DRE, balanço patrimonial, Simples Nacional, Lucro Presumido ou Lucro Real."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
