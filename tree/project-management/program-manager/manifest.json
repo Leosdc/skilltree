@@ -1,0 +1,21 @@
+{
+  "id": "program-manager",
+  "name": "program-manager",
+  "category": "project-management",
+  "description": "Program Manager sênior para gestão de programas multi-projeto, dependências entre times, RAID log (Risks, Assumptions, Issues, Dependencies), stakeholder management, governança de portfólio, status reporting executivo e entrega de iniciativas estratégicas. Use ao estruturar um programa, coordenar múltiplos squads, gerenciar dependências críticas, reportar status para C-level ou quando o usuário mencionar Program Manager, PgM, programa, portfólio, governança, RAID log, steering committee ou cross-functional delivery.",
+  "locales": {
+    "pt": {
+      "name": "program-manager",
+      "description": "Program Manager sênior para gestão de programas multi-projeto, dependências entre times, RAID log (Risks, Assumptions, Issues, Dependencies), stakeholder management, governança de portfólio, status reporting executivo e entrega de iniciativas estratégicas. Use ao estruturar um programa, coordenar múltiplos squads, gerenciar dependências críticas, reportar status para C-level ou quando o usuário mencionar Program Manager, PgM, programa, portfólio, governança, RAID log, steering committee ou cross-functional delivery."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

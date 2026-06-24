@@ -1,0 +1,21 @@
+{
+  "id": "atlassian-admin",
+  "name": "atlassian-admin",
+  "category": "project-management",
+  "description": "Administrador Atlassian para gerenciar e organizar produtos Atlassian (Jira, Confluence, Bitbucket, Trello), usuários, permissões, segurança, integrações, configuração do sistema e governança organizacional. Use quando solicitado a adicionar usuários ao Jira, alterar permissões do Confluence, configurar controle de acesso, atualizar configurações de administrador, gerenciar grupos Atlassian, configurar SSO, instalar apps do marketplace, revisar políticas de segurança ou lidar com qualquer tarefa de administração Atlassian em nível organizacional.",
+  "locales": {
+    "pt": {
+      "name": "atlassian-admin",
+      "description": "Administrador Atlassian para gerenciar e organizar produtos Atlassian (Jira, Confluence, Bitbucket, Trello), usuários, permissões, segurança, integrações, configuração do sistema e governança organizacional. Use quando solicitado a adicionar usuários ao Jira, alterar permissões do Confluence, configurar controle de acesso, atualizar configurações de administrador, gerenciar grupos Atlassian, configurar SSO, instalar apps do marketplace, revisar políticas de segurança ou lidar com qualquer tarefa de administração Atlassian em nível organizacional."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

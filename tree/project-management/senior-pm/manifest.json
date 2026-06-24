@@ -1,0 +1,21 @@
+{
+  "id": "senior-pm",
+  "name": "senior-pm",
+  "category": "project-management",
+  "description": "Gerente de Projetos Sênior para projetos de software empresarial, SaaS e transformação digital. Especializa-se em gestão de portfólio, análise quantitativa de riscos, otimização de recursos, alinhamento de partes interessadas e relatórios executivos. Usa metodologias avançadas incluindo análise de EMV, simulação Monte Carlo, priorização WSJF e pontuação de saúde multidimensional. Use quando o usuário precisa de ajuda com planos de projeto, relatórios de status, avaliações de risco, alocação de recursos, roadmaps de projeto, rastreamento de marcos, planejamento de capacidade da equipe, revisões de saúde de portfólio, gestão de programa ou relatórios de nível executivo — especialmente para iniciativas de escala empresarial com múltiplos fluxos de trabalho, dependências complexas ou orçamentos multimilionários.",
+  "locales": {
+    "pt": {
+      "name": "senior-pm",
+      "description": "Gerente de Projetos Sênior para projetos de software empresarial, SaaS e transformação digital. Especializa-se em gestão de portfólio, análise quantitativa de riscos, otimização de recursos, alinhamento de partes interessadas e relatórios executivos. Usa metodologias avançadas incluindo análise de EMV, simulação Monte Carlo, priorização WSJF e pontuação de saúde multidimensional. Use quando o usuário precisa de ajuda com planos de projeto, relatórios de status, avaliações de risco, alocação de recursos, roadmaps de projeto, rastreamento de marcos, planejamento de capacidade da equipe, revisões de saúde de portfólio, gestão de programa ou relatórios de nível executivo — especialmente para iniciativas de escala empresarial com múltiplos fluxos de trabalho, dependências complexas ou orçamentos multimilionários."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "project-management-hub",
+  "name": "pm-skills",
+  "category": "project-management",
+  "description": "6 skills de gerenciamento de projetos para Claude Code. Senior PM, scrum master, especialista em Jira (JQL), especialista em Confluence, administrador Atlassian e criador de templates. Integração MCP para automação ao vivo no Jira/Confluence.",
+  "locales": {
+    "pt": {
+      "name": "pm-skills",
+      "description": "6 skills de gerenciamento de projetos para Claude Code. Senior PM, scrum master, especialista em Jira (JQL), especialista em Confluence, administrador Atlassian e criador de templates. Integração MCP para automação ao vivo no Jira/Confluence."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

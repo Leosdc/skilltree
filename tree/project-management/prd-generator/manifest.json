@@ -1,0 +1,21 @@
+{
+  "id": "prd-generator",
+  "name": "prd-generator",
+  "category": "project-management",
+  "description": "Gerador de PRD (Product Requirements Document) em portugues-BR a partir de um Product Brief. Conduz entrevista guiada com 6 perguntas-chave (Nome, Overview, Persona, Objetivo, Requisitos Funcionais, Modelo de Negocio) e gera um PRD completo em Markdown com 9 secoes (Visao Geral, Funcionalidades, Fluxos, Diagrama Mermaid, Design UI, Modelo de Dados com ER e SQL, Arquitetura, Metricas, Roadmap), salvando em .prd/prd_NOME.md para uso em Claude Code. Use SEMPRE que o usuario mencionar gerar PRD, criar PRD, Product Requirements Document, documento de requisitos, transformar brief em PRD, estruturar product brief, preparar requisitos para Lovable Bolt V0, documentar produto, ou enviar um product brief pedindo estruturacao. Trigger TAMBEM quando descrever ideia de produto ou app pedindo estruturar, documentar ou preparar para desenvolvimento. Nao use para specs tecnicas de feature isolada (use sdd-generator).",
+  "locales": {
+    "pt": {
+      "name": "prd-generator",
+      "description": "Gerador de PRD (Product Requirements Document) em portugues-BR a partir de um Product Brief. Conduz entrevista guiada com 6 perguntas-chave (Nome, Overview, Persona, Objetivo, Requisitos Funcionais, Modelo de Negocio) e gera um PRD completo em Markdown com 9 secoes (Visao Geral, Funcionalidades, Fluxos, Diagrama Mermaid, Design UI, Modelo de Dados com ER e SQL, Arquitetura, Metricas, Roadmap), salvando em .prd/prd_NOME.md para uso em Claude Code. Use SEMPRE que o usuario mencionar gerar PRD, criar PRD, Product Requirements Document, documento de requisitos, transformar brief em PRD, estruturar product brief, preparar requisitos para Lovable Bolt V0, documentar produto, ou enviar um product brief pedindo estruturacao. Trigger TAMBEM quando descrever ideia de produto ou app pedindo estruturar, documentar ou preparar para desenvolvimento. Nao use para specs tecnicas de feature isolada (use sdd-generator)."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
