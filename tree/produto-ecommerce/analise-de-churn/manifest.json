@@ -1,0 +1,21 @@
+{
+  "id": "analise-de-churn",
+  "name": "analise-de-churn",
+  "category": "produto-ecommerce",
+  "description": "Diagnóstico completo de churn para SaaS: identificação de causas, cohort analysis, health scoring de clientes, estratégias de retenção e playbooks de salvamento. Métricas e benchmarks do mercado brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "analise-de-churn",
+      "description": "Diagnóstico completo de churn para SaaS: identificação de causas, cohort analysis, health scoring de clientes, estratégias de retenção e playbooks de salvamento. Métricas e benchmarks do mercado brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

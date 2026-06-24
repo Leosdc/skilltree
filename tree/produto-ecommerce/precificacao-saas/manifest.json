@@ -1,0 +1,21 @@
+{
+  "id": "precificacao-saas",
+  "name": "precificacao-saas",
+  "category": "produto-ecommerce",
+  "description": "Precificação de SaaS brasileiro: criação de tiers, modelo anual vs. mensal, testes de preço em R$, cálculo de margem e benchmarks de mercado. Considera poder de compra, câmbio e particularidades tributárias do Brasil.",
+  "locales": {
+    "pt": {
+      "name": "precificacao-saas",
+      "description": "Precificação de SaaS brasileiro: criação de tiers, modelo anual vs. mensal, testes de preço em R$, cálculo de margem e benchmarks de mercado. Considera poder de compra, câmbio e particularidades tributárias do Brasil."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

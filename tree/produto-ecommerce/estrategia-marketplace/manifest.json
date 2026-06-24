@@ -1,0 +1,21 @@
+{
+  "id": "estrategia-marketplace",
+  "name": "estrategia-marketplace",
+  "category": "produto-ecommerce",
+  "description": "Estratégia completa para vender em marketplaces brasileiros: Mercado Livre, Amazon BR, Shopee e Magalu. Inclui precificação competitiva, otimização de listing, gestão de reputação e operação logística.",
+  "locales": {
+    "pt": {
+      "name": "estrategia-marketplace",
+      "description": "Estratégia completa para vender em marketplaces brasileiros: Mercado Livre, Amazon BR, Shopee e Magalu. Inclui precificação competitiva, otimização de listing, gestão de reputação e operação logística."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

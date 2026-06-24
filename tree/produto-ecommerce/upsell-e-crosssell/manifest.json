@@ -1,0 +1,21 @@
+{
+  "id": "upsell-e-crosssell",
+  "name": "upsell-e-crosssell",
+  "category": "produto-ecommerce",
+  "description": "Estratégias de expansão de receita na base de clientes: upsell (upgrade de plano), cross-sell (produtos complementares) e downsell (retenção com plano menor). Playbooks e scripts para contexto brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "upsell-e-crosssell",
+      "description": "Estratégias de expansão de receita na base de clientes: upsell (upgrade de plano), cross-sell (produtos complementares) e downsell (retenção com plano menor). Playbooks e scripts para contexto brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "abandono-de-carrinho",
+  "name": "abandono-de-carrinho",
+  "category": "produto-ecommerce",
+  "description": "Recuperação de carrinho abandonado para e-commerces brasileiros: sequência de email, WhatsApp e retargeting no Meta Ads e Google. Scripts de copy em PT-BR com gatilhos psicológicos adaptados ao mercado nacional.",
+  "locales": {
+    "pt": {
+      "name": "abandono-de-carrinho",
+      "description": "Recuperação de carrinho abandonado para e-commerces brasileiros: sequência de email, WhatsApp e retargeting no Meta Ads e Google. Scripts de copy em PT-BR com gatilhos psicológicos adaptados ao mercado nacional."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "estrategia-plg",
+  "name": "estrategia-plg",
+  "category": "produto-ecommerce",
+  "description": "Product-Led Growth: estratégia para produtos que se vendem sozinhos via uso. Cobre trial gratuito, freemium, expansão de receita, viralidade e loops de crescimento. Adaptado para SaaS brasileiro com métricas em R$.",
+  "locales": {
+    "pt": {
+      "name": "estrategia-plg",
+      "description": "Product-Led Growth: estratégia para produtos que se vendem sozinhos via uso. Cobre trial gratuito, freemium, expansão de receita, viralidade e loops de crescimento. Adaptado para SaaS brasileiro com métricas em R$."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

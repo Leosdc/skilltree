@@ -1,0 +1,21 @@
+{
+  "id": "roadmap-de-produto",
+  "name": "roadmap-de-produto",
+  "category": "produto-ecommerce",
+  "description": "Criação de roadmap de produto com frameworks de priorização RICE, ICE e Now/Next/Later. Inclui gestão de stakeholders, comunicação de decisões e métricas de sucesso para cada iniciativa.",
+  "locales": {
+    "pt": {
+      "name": "roadmap-de-produto",
+      "description": "Criação de roadmap de produto com frameworks de priorização RICE, ICE e Now/Next/Later. Inclui gestão de stakeholders, comunicação de decisões e métricas de sucesso para cada iniciativa."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

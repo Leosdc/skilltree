@@ -1,0 +1,21 @@
+{
+  "id": "produto-ecommerce-hub",
+  "name": "produto-ecommerce",
+  "category": "produto-ecommerce",
+  "description": "Skills para lançamento de produtos digitais, estratégias PLG, operações de e-commerce e métricas SaaS com contexto do mercado brasileiro. Use quando precisar de playbooks de lançamento, análise de churn, precificação em R$, operações de marketplace BR ou métricas de produto.",
+  "locales": {
+    "pt": {
+      "name": "produto-ecommerce",
+      "description": "Skills para lançamento de produtos digitais, estratégias PLG, operações de e-commerce e métricas SaaS com contexto do mercado brasileiro. Use quando precisar de playbooks de lançamento, análise de churn, precificação em R$, operações de marketplace BR ou métricas de produto."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

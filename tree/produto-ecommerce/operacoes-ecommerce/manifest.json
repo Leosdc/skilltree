@@ -1,0 +1,21 @@
+{
+  "id": "operacoes-ecommerce",
+  "name": "operacoes-ecommerce",
+  "category": "produto-ecommerce",
+  "description": "Operações completas de e-commerce brasileiro: catálogo de produtos, estratégia de frete, otimização de checkout, política de devoluções e gestão de estoque. Considera plataformas e regulamentações do mercado nacional.",
+  "locales": {
+    "pt": {
+      "name": "operacoes-ecommerce",
+      "description": "Operações completas de e-commerce brasileiro: catálogo de produtos, estratégia de frete, otimização de checkout, política de devoluções e gestão de estoque. Considera plataformas e regulamentações do mercado nacional."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

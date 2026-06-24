@@ -1,0 +1,21 @@
+{
+  "id": "lancamento-produto",
+  "name": "lancamento-produto",
+  "category": "produto-ecommerce",
+  "description": "Playbook completo de lançamento de produto digital: pré-lançamento (lista de espera, validação), lançamento (semana de abertura, sequência de emails) e pós-lançamento (onboarding, retenção inicial). Contexto de mercado brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "lancamento-produto",
+      "description": "Playbook completo de lançamento de produto digital: pré-lançamento (lista de espera, validação), lançamento (semana de abertura, sequência de emails) e pós-lançamento (onboarding, retenção inicial). Contexto de mercado brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
