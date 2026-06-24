@@ -137,5 +137,12 @@ Lá explicamos nosso fluxo de branches (`feature/`, `bugfix/`), commits semânti
 
 ---
 
+## 💖 Agradecimentos & Créditos
+
+Um agradecimento especial ao **[Ric Neves](https://github.com/ricardonevesbraga)** por criar e compartilhar a incrível biblioteca de skills no repositório **[flowgrammers-skills](https://github.com/ricardonevesbraga/flowgrammers-skills)**, que agora estão integradas ao ecossistema da Skill Tree.
+
+---
+
 Para documentação de integração com cada IDE, consulte [TUTORIAL.pt-BR.md](TUTORIAL.pt-BR.md).
 Para histórico de atualizações, consulte [CHANGELOG.md](CHANGELOG.md).
+

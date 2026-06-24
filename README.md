@@ -139,5 +139,12 @@ We outline our branch naming conventions (`feature/`, `bugfix/`), Conventional C
 
 ---
 
+## 💖 Acknowledgments & Credits
+
+A special thanks to **[Ric Neves](https://github.com/ricardonevesbraga)** for creating and sharing the amazing library of skills in the **[flowgrammers-skills](https://github.com/ricardonevesbraga/flowgrammers-skills)** repository, which are now integrated into the Skill Tree ecosystem.
+
+---
+
 For deep documentation on workspace integration, see [TUTORIAL.md](TUTORIAL.md).
 For project history, see [CHANGELOG.md](CHANGELOG.md).
+
