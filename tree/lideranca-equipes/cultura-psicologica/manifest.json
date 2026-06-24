@@ -1,0 +1,21 @@
+{
+  "id": "cultura-psicologica",
+  "name": "cultura-psicologica",
+  "category": "lideranca-equipes",
+  "description": "Segurança psicológica, diversidade e inclusão em equipes brasileiras",
+  "locales": {
+    "pt": {
+      "name": "cultura-psicologica",
+      "description": "Segurança psicológica, diversidade e inclusão em equipes brasileiras"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "reuniao-eficaz",
+  "name": "reuniao-eficaz",
+  "category": "lideranca-equipes",
+  "description": "Facilitação de reuniões produtivas: pré, durante e pós para times brasileiros",
+  "locales": {
+    "pt": {
+      "name": "reuniao-eficaz",
+      "description": "Facilitação de reuniões produtivas: pré, durante e pós para times brasileiros"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

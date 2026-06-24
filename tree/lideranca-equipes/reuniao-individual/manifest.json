@@ -1,0 +1,21 @@
+{
+  "id": "reuniao-individual",
+  "name": "reuniao-individual",
+  "category": "lideranca-equipes",
+  "description": "Preparação e condução de reuniões 1:1 eficazes para desenvolvimento de pessoas",
+  "locales": {
+    "pt": {
+      "name": "reuniao-individual",
+      "description": "Preparação e condução de reuniões 1:1 eficazes para desenvolvimento de pessoas"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

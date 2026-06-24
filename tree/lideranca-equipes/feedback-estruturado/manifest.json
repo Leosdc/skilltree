@@ -1,0 +1,21 @@
+{
+  "id": "feedback-estruturado",
+  "name": "feedback-estruturado",
+  "category": "lideranca-equipes",
+  "description": "Feedback 1:1 com SBI, feedforward e frameworks de desenvolvimento para líderes",
+  "locales": {
+    "pt": {
+      "name": "feedback-estruturado",
+      "description": "Feedback 1:1 com SBI, feedforward e frameworks de desenvolvimento para líderes"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

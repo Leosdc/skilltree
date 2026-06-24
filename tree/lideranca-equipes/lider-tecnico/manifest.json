@@ -1,0 +1,21 @@
+{
+  "id": "lider-tecnico",
+  "name": "lider-tecnico",
+  "category": "lideranca-equipes",
+  "description": "Transição de especialista para líder técnico ou engineering manager em startups",
+  "locales": {
+    "pt": {
+      "name": "lider-tecnico",
+      "description": "Transição de especialista para líder técnico ou engineering manager em startups"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

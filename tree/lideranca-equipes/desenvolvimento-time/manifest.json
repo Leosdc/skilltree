@@ -1,0 +1,21 @@
+{
+  "id": "desenvolvimento-time",
+  "name": "desenvolvimento-time",
+  "category": "lideranca-equipes",
+  "description": "PDIs, trilhas de desenvolvimento e planos de carreira para equipes brasileiras",
+  "locales": {
+    "pt": {
+      "name": "desenvolvimento-time",
+      "description": "PDIs, trilhas de desenvolvimento e planos de carreira para equipes brasileiras"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

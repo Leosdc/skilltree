@@ -1,0 +1,21 @@
+{
+  "id": "gestao-conflitos",
+  "name": "gestao-conflitos",
+  "category": "lideranca-equipes",
+  "description": "Resolução de conflitos e mediação em times no contexto de startups e PMEs brasileiras",
+  "locales": {
+    "pt": {
+      "name": "gestao-conflitos",
+      "description": "Resolução de conflitos e mediação em times no contexto de startups e PMEs brasileiras"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

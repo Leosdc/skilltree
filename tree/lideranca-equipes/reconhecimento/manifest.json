@@ -1,0 +1,21 @@
+{
+  "id": "reconhecimento",
+  "name": "reconhecimento",
+  "category": "lideranca-equipes",
+  "description": "Programas de reconhecimento e engajamento de colaboradores em startups e PMEs",
+  "locales": {
+    "pt": {
+      "name": "reconhecimento",
+      "description": "Programas de reconhecimento e engajamento de colaboradores em startups e PMEs"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

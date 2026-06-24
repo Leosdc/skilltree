@@ -1,0 +1,21 @@
+{
+  "id": "remoto-hibrido",
+  "name": "remoto-hibrido",
+  "category": "lideranca-equipes",
+  "description": "Gestão de times remotos e híbridos: rituais, ferramentas e cultura no Brasil",
+  "locales": {
+    "pt": {
+      "name": "remoto-hibrido",
+      "description": "Gestão de times remotos e híbridos: rituais, ferramentas e cultura no Brasil"
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
