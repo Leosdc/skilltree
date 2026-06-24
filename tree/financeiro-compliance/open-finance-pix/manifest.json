@@ -1,0 +1,21 @@
+{
+  "id": "open-finance-pix",
+  "name": "open-finance-pix",
+  "category": "financeiro-compliance",
+  "description": "Cria estratégias com PIX, Open Finance e pagamentos recorrentes para empresas\nbrasileiras. Cobre: cobrança recorrente via PIX, Open Finance para análise de\ncrédito, split de pagamentos, Pix Parcelado e integração com as principais\nfintechs e adquirentes do mercado brasileiro.",
+  "locales": {
+    "pt": {
+      "name": "open-finance-pix",
+      "description": "Cria estratégias com PIX, Open Finance e pagamentos recorrentes para empresas\nbrasileiras. Cobre: cobrança recorrente via PIX, Open Finance para análise de\ncrédito, split de pagamentos, Pix Parcelado e integração com as principais\nfintechs e adquirentes do mercado brasileiro."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

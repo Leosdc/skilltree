@@ -1,0 +1,21 @@
+{
+  "id": "gestao-riscos",
+  "name": "gestao-riscos",
+  "category": "financeiro-compliance",
+  "description": "Cria mapas de riscos, matrizes de probabilidade × impacto e planos de mitigação\npara empresas brasileiras. Cobre riscos operacionais, financeiros, regulatórios,\nde pessoal e tecnológicos com contexto do ambiente de negócios no Brasil.",
+  "locales": {
+    "pt": {
+      "name": "gestao-riscos",
+      "description": "Cria mapas de riscos, matrizes de probabilidade × impacto e planos de mitigação\npara empresas brasileiras. Cobre riscos operacionais, financeiros, regulatórios,\nde pessoal e tecnológicos com contexto do ambiente de negócios no Brasil."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

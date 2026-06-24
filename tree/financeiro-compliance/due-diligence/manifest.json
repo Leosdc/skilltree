@@ -1,0 +1,21 @@
+{
+  "id": "due-diligence",
+  "name": "due-diligence",
+  "category": "financeiro-compliance",
+  "description": "Cria checklists de due diligence para M&A, rodadas de investimento e parcerias\nestratégicas no mercado brasileiro. Cobre análise financeira, jurídica, tributária,\ntrabalhista e de propriedade intelectual com contexto da legislação brasileira.",
+  "locales": {
+    "pt": {
+      "name": "due-diligence",
+      "description": "Cria checklists de due diligence para M&A, rodadas de investimento e parcerias\nestratégicas no mercado brasileiro. Cobre análise financeira, jurídica, tributária,\ntrabalhista e de propriedade intelectual com contexto da legislação brasileira."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

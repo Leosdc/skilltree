@@ -1,0 +1,21 @@
+{
+  "id": "kpis-financeiros",
+  "name": "kpis-financeiros",
+  "category": "financeiro-compliance",
+  "description": "Calcula e analisa KPIs financeiros para empresas brasileiras: LTV, CAC, MRR,\nARR, churn, payback, margem, ROI e NRR. Compara com benchmarks do mercado\nbrasileiro por setor e apresenta em dashboards e relatórios executivos.",
+  "locales": {
+    "pt": {
+      "name": "kpis-financeiros",
+      "description": "Calcula e analisa KPIs financeiros para empresas brasileiras: LTV, CAC, MRR,\nARR, churn, payback, margem, ROI e NRR. Compara com benchmarks do mercado\nbrasileiro por setor e apresenta em dashboards e relatórios executivos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

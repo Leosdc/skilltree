@@ -1,0 +1,21 @@
+{
+  "id": "fluxo-caixa",
+  "name": "fluxo-caixa",
+  "category": "financeiro-compliance",
+  "description": "Modela fluxo de caixa, projeções financeiras e gestão de capital de giro para\nempresas brasileiras. Inclui análise de runway, ponto de equilíbrio, sazonalidade\nBR e cenários otimista/realista/pessimista em R$.",
+  "locales": {
+    "pt": {
+      "name": "fluxo-caixa",
+      "description": "Modela fluxo de caixa, projeções financeiras e gestão de capital de giro para\nempresas brasileiras. Inclui análise de runway, ponto de equilíbrio, sazonalidade\nBR e cenários otimista/realista/pessimista em R$."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

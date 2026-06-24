@@ -1,0 +1,21 @@
+{
+  "id": "contratos-br",
+  "name": "contratos-br",
+  "category": "financeiro-compliance",
+  "description": "Elabora e revisa contratos conforme a legislação brasileira: Código Civil para\nrelações B2B, CDC para relações com consumidores, e CLT/contratos PJ para\nrelações de trabalho. Identifica cláusulas abusivas e riscos jurídicos.",
+  "locales": {
+    "pt": {
+      "name": "contratos-br",
+      "description": "Elabora e revisa contratos conforme a legislação brasileira: Código Civil para\nrelações B2B, CDC para relações com consumidores, e CLT/contratos PJ para\nrelações de trabalho. Identifica cláusulas abusivas e riscos jurídicos."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

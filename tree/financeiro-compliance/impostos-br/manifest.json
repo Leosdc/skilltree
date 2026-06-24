@@ -1,0 +1,21 @@
+{
+  "id": "impostos-br",
+  "name": "impostos-br",
+  "category": "financeiro-compliance",
+  "description": "Orienta sobre o sistema tributário brasileiro para empresas e empreendedores:\nMEI, Simples Nacional (todos os anexos), Lucro Presumido e Lucro Real. Calcula\ncarga tributária estimada e apoia decisões de enquadramento tributário.",
+  "locales": {
+    "pt": {
+      "name": "impostos-br",
+      "description": "Orienta sobre o sistema tributário brasileiro para empresas e empreendedores:\nMEI, Simples Nacional (todos os anexos), Lucro Presumido e Lucro Real. Calcula\ncarga tributária estimada e apoia decisões de enquadramento tributário."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

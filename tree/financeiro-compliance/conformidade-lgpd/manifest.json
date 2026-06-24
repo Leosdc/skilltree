@@ -1,0 +1,21 @@
+{
+  "id": "conformidade-lgpd",
+  "name": "conformidade-lgpd",
+  "category": "financeiro-compliance",
+  "description": "Implementa compliance com a LGPD (Lei 13.709/2018) para empresas brasileiras.\nCria DPIA, políticas de privacidade, contratos de tratamento de dados, orientação\nsobre bases legais e procedimentos de resposta a solicitações de titulares.",
+  "locales": {
+    "pt": {
+      "name": "conformidade-lgpd",
+      "description": "Implementa compliance com a LGPD (Lei 13.709/2018) para empresas brasileiras.\nCria DPIA, políticas de privacidade, contratos de tratamento de dados, orientação\nsobre bases legais e procedimentos de resposta a solicitações de titulares."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

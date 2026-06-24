@@ -1,0 +1,21 @@
+{
+  "id": "dre-balanco",
+  "name": "dre-balanco",
+  "category": "financeiro-compliance",
+  "description": "Analisa e elabora DRE (Demonstração do Resultado do Exercício) e balanço\npatrimonial no padrão contábil brasileiro (CPC/IFRS). Identifica tendências,\ncalcula indicadores-chave e explica os resultados em linguagem acessível.",
+  "locales": {
+    "pt": {
+      "name": "dre-balanco",
+      "description": "Analisa e elabora DRE (Demonstração do Resultado do Exercício) e balanço\npatrimonial no padrão contábil brasileiro (CPC/IFRS). Identifica tendências,\ncalcula indicadores-chave e explica os resultados em linguagem acessível."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

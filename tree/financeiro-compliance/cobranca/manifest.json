@@ -1,0 +1,21 @@
+{
+  "id": "cobranca",
+  "name": "cobranca",
+  "category": "financeiro-compliance",
+  "description": "Cria scripts e estratégias de cobrança de inadimplência respeitando o CDC e a\nLei 8.078/90. Inclui régua de cobrança, scripts por canal (email, WhatsApp, SMS,\ntelefone) e orientação sobre protesto, SPC/Serasa e cobrança judicial no Brasil.",
+  "locales": {
+    "pt": {
+      "name": "cobranca",
+      "description": "Cria scripts e estratégias de cobrança de inadimplência respeitando o CDC e a\nLei 8.078/90. Inclui régua de cobrança, scripts por canal (email, WhatsApp, SMS,\ntelefone) e orientação sobre protesto, SPC/Serasa e cobrança judicial no Brasil."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}

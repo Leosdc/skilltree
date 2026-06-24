@@ -1,0 +1,21 @@
+{
+  "id": "financeiro-compliance-hub",
+  "name": "financeiro-compliance",
+  "category": "financeiro-compliance",
+  "description": "Skills para gestão financeira, conformidade regulatória brasileira (LGPD, Receita\nFederal), contratos e análise de riscos. Cobre Simples Nacional, MEI, LGPD, DRE,\nfluxo de caixa e contratos conforme o Código Civil e CDC brasileiros.",
+  "locales": {
+    "pt": {
+      "name": "financeiro-compliance",
+      "description": "Skills para gestão financeira, conformidade regulatória brasileira (LGPD, Receita\nFederal), contratos e análise de riscos. Cobre Simples Nacional, MEI, LGPD, DRE,\nfluxo de caixa e contratos conforme o Código Civil e CDC brasileiros."
+    }
+  },
+  "compatibility": {
+    "cursor": true,
+    "claude": true,
+    "antigravity": true
+  },
+  "triggers": {
+    "files": [],
+    "dependencies": []
+  }
+}
